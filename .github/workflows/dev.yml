@@ -21,7 +21,7 @@ jobs:
         gem install --no-document dev_orbit
     - name: Check for New Comments for a DEV Organization
       run: |
-        dev_orbit --check-organization-comments --historical-import
+        dev_orbit --check-organization-comments
       env:
         DEV_API_KEY: ${{ secrets.DEV_API_KEY }}
         DEV_ORGANIZATION: ${{ secrets.DEV_ORGANIZATION }}
