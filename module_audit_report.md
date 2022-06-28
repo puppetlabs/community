@@ -1,268 +1,270 @@
+# Module Repository Housekeeping Audit
 
 
-
-The following GitHub repositories should have topics clarifying which support tier they fall into:
-    * https://github.com/puppetlabs/puppetlabs-sshkeys
-    * https://github.com/puppetlabs/netdev_stdlib
-    * https://github.com/puppetlabs/ps-sox
-    * https://github.com/puppetlabs/pltraining-userprefs
-    * https://github.com/puppetlabs/pltraining-bootstrap
-    * https://github.com/puppetlabs/pltraining-localrepo
-    * https://github.com/puppetlabs/pltraining-learning
-    * https://github.com/puppetlabs/pltraining-dockeragent
-    * https://github.com/puppetlabs/puppetlabs-wordpress_app
-    * https://github.com/puppetlabs/puppetlabs-app_modeling
-    * https://github.com/puppetlabs/puppetlabs-rgbank
-    * https://github.com/puppetlabs/puppetlabs-cloudshop
-    * https://github.com/puppetlabs/cisco-network-puppet-module
-    * https://github.com/puppetlabs/puppetlabs-windows_puppet_certificates
-    * https://github.com/puppetlabs/vmware-vcenter
-    * https://github.com/puppetlabs/puppetlabs-mailalias_core
-    * https://github.com/puppetlabs/encrypted_backup
-    * https://github.com/puppetlabs/prtg_push
-    * https://github.com/puppetlabs/puppetlabs-maillist_core
-    * https://github.com/puppetlabs/puppetlabs-azure_arm
-    * https://github.com/puppetlabs/puppetlabs-bolt_proxy
-    * https://github.com/puppetlabs/pe_support_kb_task_templates
-    * https://github.com/puppetlabs/puppetlabs-nagios_core
-    * https://github.com/puppetlabs/puppet-vra_puppet_plugin_prep
-    * https://github.com/puppetlabs/puppetlabs-k5login_core
-    * https://github.com/puppetlabs/puppetlabs-cd4pe_tests
-    * https://github.com/puppetlabs/puppetlabs-amazon_aws
-    * https://github.com/puppetlabs/pe_tech_check
-    * https://github.com/puppetlabs/puppetlabs-qe
-    * https://github.com/puppetlabs/puppetlabs-test_device
-    * https://github.com/puppetlabs/puppetlabs-powershell_task_helper
-    * https://github.com/puppetlabs/puppetlabs-hue
-    * https://github.com/puppetlabs/puppet_ciamohe
-    * https://github.com/puppetlabs/puppet-macdefaults
-    * https://github.com/puppetlabs/puppetlabs-cd4pe_deployments
-    * https://github.com/puppetlabs/puppetlabs-ruby_plugin_helper
-    * https://github.com/puppetlabs/puppetlabs-lidar
-    * https://github.com/puppetlabs/puppetlabs-pecdm
-    * https://github.com/puppetlabs/preupgrade_check
-    * https://github.com/puppetlabs/puppetlabs-minimum_version
-    * https://github.com/puppetlabs/puppetlabs-env_plugin
-    * https://github.com/puppetlabs/servicenow_tasks
-    * https://github.com/puppetlabs/puppetlabs-servicenow_cmdb_integration
-    * https://github.com/puppetlabs/winrm_security
-    * https://github.com/puppetlabs/pe_tune
-    * https://github.com/puppetlabs/puppetlabs-pe_quick_data
-    * https://github.com/puppetlabs/se_secteam_cis
-    * https://github.com/puppetlabs/se_appteam_basichttp
-    * https://github.com/puppetlabs/puppetlabs-servicenow_reporting_integration
-    * https://github.com/puppetlabs/puppetlabs-servicenow_change_requests
-    * https://github.com/puppetlabs/pltraining-apache
-    * https://github.com/puppetlabs/puppetlabs-http_request
-    * https://github.com/puppetlabs/dellemc-powerstore
-    * https://github.com/puppetlabs/puppetlabs-relay
-    * https://github.com/puppetlabs/RSAN
-    * https://github.com/puppetlabs/puppetlabs-change_window
-    * https://github.com/puppetlabs/opv
-    * https://github.com/puppetlabs/puppetlabs-sccm
-    * https://github.com/puppetlabs/fortinet_facts
-    * https://github.com/puppetlabs/puppetlabs-hdp
-    * https://github.com/puppetlabs/puppetlabs-pam_firewall
-    * https://github.com/puppetlabs/se_appteam_webserver
-    * https://github.com/puppetlabs/puppetlabs-pam_tools
-    * https://github.com/puppetlabs/influxdb
-    * https://github.com/puppetlabs/puppetlabs-data-entitlement
-    * https://github.com/puppetlabs/bolt_aws_kms
-    * https://github.com/puppetlabs/puppet_operational_dashboards
-    * https://github.com/puppetlabs/puppet-jenkins
-    * https://github.com/puppetlabs/kmo-501-nginx
-
-
-The following GitHub repositories appear to be missing the support tier README note:
-    * https://github.com/puppetlabs/puppetlabs-sshkeys
-    * https://github.com/puppetlabs/puppetlabs-rsync
-    * https://github.com/puppetlabs/puppetlabs-xinetd
-    * https://github.com/puppetlabs/puppetlabs-puppetdb
-    * https://github.com/puppetlabs/netdev_stdlib
-    * https://github.com/puppetlabs/puppetlabs-awsdemo_profiles
-    * https://github.com/puppetlabs/puppetlabs-hocon
-    * https://github.com/puppetlabs/puppetlabs-transition
-    * https://github.com/puppetlabs/ps-sox
-    * https://github.com/puppetlabs/pltraining-userprefs
-    * https://github.com/puppetlabs/pltraining-bootstrap
-    * https://github.com/puppetlabs/pltraining-localrepo
-    * https://github.com/puppetlabs/pltraining-learning
-    * https://github.com/puppetlabs/pltraining-dockeragent
-    * https://github.com/puppetlabs/puppetlabs-wordpress_app
-    * https://github.com/puppetlabs/puppetlabs-app_modeling
-    * https://github.com/puppetlabs/puppetlabs-rgbank
-    * https://github.com/puppetlabs/puppetlabs-cloudshop
-    * https://github.com/puppetlabs/puppetlabs-puppetdb_gc
-    * https://github.com/puppetlabs/puppetlabs-grafanadash
-    * https://github.com/puppetlabs/cisco-network-puppet-module
-    * https://github.com/puppetlabs/puppetlabs-windows_puppet_certificates
-    * https://github.com/puppetlabs/vmware-vcenter
-    * https://github.com/puppetlabs/puppetlabs-resource_api
-    * https://github.com/puppetlabs/puppetlabs-mailalias_core
-    * https://github.com/puppetlabs/prtg_push
-    * https://github.com/puppetlabs/puppetlabs-maillist_core
-    * https://github.com/puppetlabs/puppetlabs-azure_arm
-    * https://github.com/puppetlabs/puppetlabs-bolt_proxy
-    * https://github.com/puppetlabs/pe_support_kb_task_templates
-    * https://github.com/puppetlabs/puppetlabs-nagios_core
-    * https://github.com/puppetlabs/puppet-vra_puppet_plugin_prep
-    * https://github.com/puppetlabs/puppetlabs-k5login_core
-    * https://github.com/puppetlabs/puppetlabs-cd4pe_tests
-    * https://github.com/puppetlabs/puppetlabs-amazon_aws
-    * https://github.com/puppetlabs/pe_tech_check
-    * https://github.com/puppetlabs/puppetlabs-qe
-    * https://github.com/puppetlabs/puppetlabs-test_device
-    * https://github.com/puppetlabs/puppetlabs-powershell_task_helper
-    * https://github.com/puppetlabs/puppetlabs-hue
-    * https://github.com/puppetlabs/puppet_ciamohe
-    * https://github.com/puppetlabs/puppet-macdefaults
-    * https://github.com/puppetlabs/puppetlabs-cd4pe_deployments
-    * https://github.com/puppetlabs/puppetlabs-ruby_plugin_helper
-    * https://github.com/puppetlabs/puppetlabs-lidar
-    * https://github.com/puppetlabs/puppetlabs-pecdm
-    * https://github.com/puppetlabs/preupgrade_check
-    * https://github.com/puppetlabs/puppetlabs-minimum_version
-    * https://github.com/puppetlabs/puppetlabs-env_plugin
-    * https://github.com/puppetlabs/servicenow_tasks
-    * https://github.com/puppetlabs/puppetlabs-servicenow_cmdb_integration
-    * https://github.com/puppetlabs/winrm_security
-    * https://github.com/puppetlabs/pe_tune
-    * https://github.com/puppetlabs/puppetlabs-pe_quick_data
-    * https://github.com/puppetlabs/se_secteam_cis
-    * https://github.com/puppetlabs/se_appteam_basichttp
-    * https://github.com/puppetlabs/puppetlabs-servicenow_reporting_integration
-    * https://github.com/puppetlabs/puppetlabs-servicenow_change_requests
-    * https://github.com/puppetlabs/puppetlabs-patching_as_code
-    * https://github.com/puppetlabs/pltraining-apache
-    * https://github.com/puppetlabs/puppetlabs-http_request
-    * https://github.com/puppetlabs/dellemc-powerstore
-    * https://github.com/puppetlabs/puppetlabs-relay
-    * https://github.com/puppetlabs/RSAN
-    * https://github.com/puppetlabs/puppetlabs-change_window
-    * https://github.com/puppetlabs/opv
-    * https://github.com/puppetlabs/puppetlabs-sccm
-    * https://github.com/puppetlabs/fortinet_facts
-    * https://github.com/puppetlabs/puppetlabs-hdp
-    * https://github.com/puppetlabs/puppetlabs-pam_firewall
-    * https://github.com/puppetlabs/se_appteam_webserver
-    * https://github.com/puppetlabs/puppetlabs-pam_tools
-    * https://github.com/puppetlabs/influxdb
-    * https://github.com/puppetlabs/puppetlabs-puppet_data_service
-    * https://github.com/puppetlabs/puppetlabs-data-entitlement
-    * https://github.com/puppetlabs/bolt_aws_kms
-    * https://github.com/puppetlabs/puppet_operational_dashboards
-    * https://github.com/puppetlabs/puppet-jenkins
-    * https://github.com/puppetlabs/kmo-501-nginx
+## The following GitHub repositories should have topics clarifying which support tier they fall into:
+* [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
+* [puppetlabs/netdev_stdlib](https://github.com/puppetlabs/netdev_stdlib)
+* [puppetlabs/ps-sox](https://github.com/puppetlabs/ps-sox)
+* [puppetlabs/pltraining-userprefs](https://github.com/puppetlabs/pltraining-userprefs)
+* [puppetlabs/pltraining-bootstrap](https://github.com/puppetlabs/pltraining-bootstrap)
+* [puppetlabs/pltraining-localrepo](https://github.com/puppetlabs/pltraining-localrepo)
+* [puppetlabs/pltraining-learning](https://github.com/puppetlabs/pltraining-learning)
+* [puppetlabs/pltraining-dockeragent](https://github.com/puppetlabs/pltraining-dockeragent)
+* [puppetlabs/puppetlabs-wordpress_app](https://github.com/puppetlabs/puppetlabs-wordpress_app)
+* [puppetlabs/puppetlabs-app_modeling](https://github.com/puppetlabs/puppetlabs-app_modeling)
+* [puppetlabs/puppetlabs-rgbank](https://github.com/puppetlabs/puppetlabs-rgbank)
+* [puppetlabs/puppetlabs-cloudshop](https://github.com/puppetlabs/puppetlabs-cloudshop)
+* [puppetlabs/cisco-network-puppet-module](https://github.com/puppetlabs/cisco-network-puppet-module)
+* [puppetlabs/puppetlabs-windows_puppet_certificates](https://github.com/puppetlabs/puppetlabs-windows_puppet_certificates)
+* [puppetlabs/vmware-vcenter](https://github.com/puppetlabs/vmware-vcenter)
+* [puppetlabs/puppetlabs-mailalias_core](https://github.com/puppetlabs/puppetlabs-mailalias_core)
+* [puppetlabs/encrypted_backup](https://github.com/puppetlabs/encrypted_backup)
+* [puppetlabs/prtg_push](https://github.com/puppetlabs/prtg_push)
+* [puppetlabs/puppetlabs-maillist_core](https://github.com/puppetlabs/puppetlabs-maillist_core)
+* [puppetlabs/puppetlabs-azure_arm](https://github.com/puppetlabs/puppetlabs-azure_arm)
+* [puppetlabs/puppetlabs-bolt_proxy](https://github.com/puppetlabs/puppetlabs-bolt_proxy)
+* [puppetlabs/pe_support_kb_task_templates](https://github.com/puppetlabs/pe_support_kb_task_templates)
+* [puppetlabs/puppetlabs-nagios_core](https://github.com/puppetlabs/puppetlabs-nagios_core)
+* [puppetlabs/puppet-vra_puppet_plugin_prep](https://github.com/puppetlabs/puppet-vra_puppet_plugin_prep)
+* [puppetlabs/puppetlabs-k5login_core](https://github.com/puppetlabs/puppetlabs-k5login_core)
+* [puppetlabs/puppetlabs-cd4pe_tests](https://github.com/puppetlabs/puppetlabs-cd4pe_tests)
+* [puppetlabs/puppetlabs-amazon_aws](https://github.com/puppetlabs/puppetlabs-amazon_aws)
+* [puppetlabs/pe_tech_check](https://github.com/puppetlabs/pe_tech_check)
+* [puppetlabs/puppetlabs-qe](https://github.com/puppetlabs/puppetlabs-qe)
+* [puppetlabs/puppetlabs-test_device](https://github.com/puppetlabs/puppetlabs-test_device)
+* [puppetlabs/puppetlabs-powershell_task_helper](https://github.com/puppetlabs/puppetlabs-powershell_task_helper)
+* [puppetlabs/puppetlabs-hue](https://github.com/puppetlabs/puppetlabs-hue)
+* [puppetlabs/puppet_ciamohe](https://github.com/puppetlabs/puppet_ciamohe)
+* [puppetlabs/puppet-macdefaults](https://github.com/puppetlabs/puppet-macdefaults)
+* [puppetlabs/puppetlabs-cd4pe_deployments](https://github.com/puppetlabs/puppetlabs-cd4pe_deployments)
+* [puppetlabs/puppetlabs-ruby_plugin_helper](https://github.com/puppetlabs/puppetlabs-ruby_plugin_helper)
+* [puppetlabs/puppetlabs-lidar](https://github.com/puppetlabs/puppetlabs-lidar)
+* [puppetlabs/puppetlabs-pecdm](https://github.com/puppetlabs/puppetlabs-pecdm)
+* [puppetlabs/preupgrade_check](https://github.com/puppetlabs/preupgrade_check)
+* [puppetlabs/puppetlabs-minimum_version](https://github.com/puppetlabs/puppetlabs-minimum_version)
+* [puppetlabs/puppetlabs-env_plugin](https://github.com/puppetlabs/puppetlabs-env_plugin)
+* [puppetlabs/servicenow_tasks](https://github.com/puppetlabs/servicenow_tasks)
+* [puppetlabs/puppetlabs-servicenow_cmdb_integration](https://github.com/puppetlabs/puppetlabs-servicenow_cmdb_integration)
+* [puppetlabs/winrm_security](https://github.com/puppetlabs/winrm_security)
+* [puppetlabs/pe_tune](https://github.com/puppetlabs/pe_tune)
+* [puppetlabs/puppetlabs-pe_quick_data](https://github.com/puppetlabs/puppetlabs-pe_quick_data)
+* [puppetlabs/se_secteam_cis](https://github.com/puppetlabs/se_secteam_cis)
+* [puppetlabs/se_appteam_basichttp](https://github.com/puppetlabs/se_appteam_basichttp)
+* [puppetlabs/puppetlabs-servicenow_reporting_integration](https://github.com/puppetlabs/puppetlabs-servicenow_reporting_integration)
+* [puppetlabs/puppetlabs-servicenow_change_requests](https://github.com/puppetlabs/puppetlabs-servicenow_change_requests)
+* [puppetlabs/pltraining-apache](https://github.com/puppetlabs/pltraining-apache)
+* [puppetlabs/puppetlabs-http_request](https://github.com/puppetlabs/puppetlabs-http_request)
+* [puppetlabs/dellemc-powerstore](https://github.com/puppetlabs/dellemc-powerstore)
+* [puppetlabs/puppetlabs-relay](https://github.com/puppetlabs/puppetlabs-relay)
+* [puppetlabs/RSAN](https://github.com/puppetlabs/RSAN)
+* [puppetlabs/puppetlabs-change_window](https://github.com/puppetlabs/puppetlabs-change_window)
+* [puppetlabs/opv](https://github.com/puppetlabs/opv)
+* [puppetlabs/puppetlabs-sccm](https://github.com/puppetlabs/puppetlabs-sccm)
+* [puppetlabs/fortinet_facts](https://github.com/puppetlabs/fortinet_facts)
+* [puppetlabs/puppetlabs-hdp](https://github.com/puppetlabs/puppetlabs-hdp)
+* [puppetlabs/puppetlabs-pam_firewall](https://github.com/puppetlabs/puppetlabs-pam_firewall)
+* [puppetlabs/se_appteam_webserver](https://github.com/puppetlabs/se_appteam_webserver)
+* [puppetlabs/puppetlabs-pam_tools](https://github.com/puppetlabs/puppetlabs-pam_tools)
+* [puppetlabs/influxdb](https://github.com/puppetlabs/influxdb)
+* [puppetlabs/puppetlabs-data-entitlement](https://github.com/puppetlabs/puppetlabs-data-entitlement)
+* [puppetlabs/bolt_aws_kms](https://github.com/puppetlabs/bolt_aws_kms)
+* [puppetlabs/puppet_operational_dashboards](https://github.com/puppetlabs/puppet_operational_dashboards)
+* [puppetlabs/puppet-jenkins](https://github.com/puppetlabs/puppet-jenkins)
+* [puppetlabs/kmo-501-nginx](https://github.com/puppetlabs/kmo-501-nginx)
 
 
-The following Forge modules should be badged as Supported:
-    * https://forge.puppet.com/puppetlabs/exec
-    * https://forge.puppet.com/puppetlabs/yaml
-    * https://forge.puppet.com/puppetlabs/bolt_shim
-    * https://forge.puppet.com/puppetlabs/azure_inventory
-    * https://forge.puppet.com/puppetlabs/aws_inventory
-    * https://forge.puppet.com/puppetlabs/terraform
-    * https://forge.puppet.com/puppetlabs/vault
-    * https://forge.puppet.com/puppetlabs/gcloud_inventory
-    * https://forge.puppet.com/puppetlabs/pkcs7
-    * https://forge.puppet.com/puppetlabs/apply_helpers
-    * https://forge.puppet.com/puppetlabs/secure_env_vars
+## The following GitHub repositories appear to be missing the support tier README note:
+* [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
+* [puppetlabs/puppetlabs-rsync](https://github.com/puppetlabs/puppetlabs-rsync)
+* [puppetlabs/puppetlabs-xinetd](https://github.com/puppetlabs/puppetlabs-xinetd)
+* [puppetlabs/puppetlabs-puppetdb](https://github.com/puppetlabs/puppetlabs-puppetdb)
+* [puppetlabs/netdev_stdlib](https://github.com/puppetlabs/netdev_stdlib)
+* [puppetlabs/puppetlabs-awsdemo_profiles](https://github.com/puppetlabs/puppetlabs-awsdemo_profiles)
+* [puppetlabs/puppetlabs-hocon](https://github.com/puppetlabs/puppetlabs-hocon)
+* [puppetlabs/puppetlabs-transition](https://github.com/puppetlabs/puppetlabs-transition)
+* [puppetlabs/ps-sox](https://github.com/puppetlabs/ps-sox)
+* [puppetlabs/pltraining-userprefs](https://github.com/puppetlabs/pltraining-userprefs)
+* [puppetlabs/pltraining-bootstrap](https://github.com/puppetlabs/pltraining-bootstrap)
+* [puppetlabs/pltraining-localrepo](https://github.com/puppetlabs/pltraining-localrepo)
+* [puppetlabs/pltraining-learning](https://github.com/puppetlabs/pltraining-learning)
+* [puppetlabs/pltraining-dockeragent](https://github.com/puppetlabs/pltraining-dockeragent)
+* [puppetlabs/puppetlabs-wordpress_app](https://github.com/puppetlabs/puppetlabs-wordpress_app)
+* [puppetlabs/puppetlabs-app_modeling](https://github.com/puppetlabs/puppetlabs-app_modeling)
+* [puppetlabs/puppetlabs-rgbank](https://github.com/puppetlabs/puppetlabs-rgbank)
+* [puppetlabs/puppetlabs-cloudshop](https://github.com/puppetlabs/puppetlabs-cloudshop)
+* [puppetlabs/puppetlabs-puppetdb_gc](https://github.com/puppetlabs/puppetlabs-puppetdb_gc)
+* [puppetlabs/puppetlabs-grafanadash](https://github.com/puppetlabs/puppetlabs-grafanadash)
+* [puppetlabs/cisco-network-puppet-module](https://github.com/puppetlabs/cisco-network-puppet-module)
+* [puppetlabs/puppetlabs-windows_puppet_certificates](https://github.com/puppetlabs/puppetlabs-windows_puppet_certificates)
+* [puppetlabs/vmware-vcenter](https://github.com/puppetlabs/vmware-vcenter)
+* [puppetlabs/puppetlabs-resource_api](https://github.com/puppetlabs/puppetlabs-resource_api)
+* [puppetlabs/puppetlabs-mailalias_core](https://github.com/puppetlabs/puppetlabs-mailalias_core)
+* [puppetlabs/prtg_push](https://github.com/puppetlabs/prtg_push)
+* [puppetlabs/puppetlabs-maillist_core](https://github.com/puppetlabs/puppetlabs-maillist_core)
+* [puppetlabs/puppetlabs-azure_arm](https://github.com/puppetlabs/puppetlabs-azure_arm)
+* [puppetlabs/puppetlabs-bolt_proxy](https://github.com/puppetlabs/puppetlabs-bolt_proxy)
+* [puppetlabs/pe_support_kb_task_templates](https://github.com/puppetlabs/pe_support_kb_task_templates)
+* [puppetlabs/puppetlabs-nagios_core](https://github.com/puppetlabs/puppetlabs-nagios_core)
+* [puppetlabs/puppet-vra_puppet_plugin_prep](https://github.com/puppetlabs/puppet-vra_puppet_plugin_prep)
+* [puppetlabs/puppetlabs-k5login_core](https://github.com/puppetlabs/puppetlabs-k5login_core)
+* [puppetlabs/puppetlabs-cd4pe_tests](https://github.com/puppetlabs/puppetlabs-cd4pe_tests)
+* [puppetlabs/puppetlabs-amazon_aws](https://github.com/puppetlabs/puppetlabs-amazon_aws)
+* [puppetlabs/pe_tech_check](https://github.com/puppetlabs/pe_tech_check)
+* [puppetlabs/puppetlabs-qe](https://github.com/puppetlabs/puppetlabs-qe)
+* [puppetlabs/puppetlabs-test_device](https://github.com/puppetlabs/puppetlabs-test_device)
+* [puppetlabs/puppetlabs-powershell_task_helper](https://github.com/puppetlabs/puppetlabs-powershell_task_helper)
+* [puppetlabs/puppetlabs-hue](https://github.com/puppetlabs/puppetlabs-hue)
+* [puppetlabs/puppet_ciamohe](https://github.com/puppetlabs/puppet_ciamohe)
+* [puppetlabs/puppet-macdefaults](https://github.com/puppetlabs/puppet-macdefaults)
+* [puppetlabs/puppetlabs-cd4pe_deployments](https://github.com/puppetlabs/puppetlabs-cd4pe_deployments)
+* [puppetlabs/puppetlabs-ruby_plugin_helper](https://github.com/puppetlabs/puppetlabs-ruby_plugin_helper)
+* [puppetlabs/puppetlabs-lidar](https://github.com/puppetlabs/puppetlabs-lidar)
+* [puppetlabs/puppetlabs-pecdm](https://github.com/puppetlabs/puppetlabs-pecdm)
+* [puppetlabs/preupgrade_check](https://github.com/puppetlabs/preupgrade_check)
+* [puppetlabs/puppetlabs-minimum_version](https://github.com/puppetlabs/puppetlabs-minimum_version)
+* [puppetlabs/puppetlabs-env_plugin](https://github.com/puppetlabs/puppetlabs-env_plugin)
+* [puppetlabs/servicenow_tasks](https://github.com/puppetlabs/servicenow_tasks)
+* [puppetlabs/puppetlabs-servicenow_cmdb_integration](https://github.com/puppetlabs/puppetlabs-servicenow_cmdb_integration)
+* [puppetlabs/winrm_security](https://github.com/puppetlabs/winrm_security)
+* [puppetlabs/pe_tune](https://github.com/puppetlabs/pe_tune)
+* [puppetlabs/puppetlabs-pe_quick_data](https://github.com/puppetlabs/puppetlabs-pe_quick_data)
+* [puppetlabs/se_secteam_cis](https://github.com/puppetlabs/se_secteam_cis)
+* [puppetlabs/se_appteam_basichttp](https://github.com/puppetlabs/se_appteam_basichttp)
+* [puppetlabs/puppetlabs-servicenow_reporting_integration](https://github.com/puppetlabs/puppetlabs-servicenow_reporting_integration)
+* [puppetlabs/puppetlabs-servicenow_change_requests](https://github.com/puppetlabs/puppetlabs-servicenow_change_requests)
+* [puppetlabs/puppetlabs-patching_as_code](https://github.com/puppetlabs/puppetlabs-patching_as_code)
+* [puppetlabs/pltraining-apache](https://github.com/puppetlabs/pltraining-apache)
+* [puppetlabs/puppetlabs-http_request](https://github.com/puppetlabs/puppetlabs-http_request)
+* [puppetlabs/dellemc-powerstore](https://github.com/puppetlabs/dellemc-powerstore)
+* [puppetlabs/puppetlabs-relay](https://github.com/puppetlabs/puppetlabs-relay)
+* [puppetlabs/RSAN](https://github.com/puppetlabs/RSAN)
+* [puppetlabs/puppetlabs-change_window](https://github.com/puppetlabs/puppetlabs-change_window)
+* [puppetlabs/opv](https://github.com/puppetlabs/opv)
+* [puppetlabs/puppetlabs-sccm](https://github.com/puppetlabs/puppetlabs-sccm)
+* [puppetlabs/fortinet_facts](https://github.com/puppetlabs/fortinet_facts)
+* [puppetlabs/puppetlabs-hdp](https://github.com/puppetlabs/puppetlabs-hdp)
+* [puppetlabs/puppetlabs-pam_firewall](https://github.com/puppetlabs/puppetlabs-pam_firewall)
+* [puppetlabs/se_appteam_webserver](https://github.com/puppetlabs/se_appteam_webserver)
+* [puppetlabs/puppetlabs-pam_tools](https://github.com/puppetlabs/puppetlabs-pam_tools)
+* [puppetlabs/influxdb](https://github.com/puppetlabs/influxdb)
+* [puppetlabs/puppetlabs-puppet_data_service](https://github.com/puppetlabs/puppetlabs-puppet_data_service)
+* [puppetlabs/puppetlabs-data-entitlement](https://github.com/puppetlabs/puppetlabs-data-entitlement)
+* [puppetlabs/bolt_aws_kms](https://github.com/puppetlabs/bolt_aws_kms)
+* [puppetlabs/puppet_operational_dashboards](https://github.com/puppetlabs/puppet_operational_dashboards)
+* [puppetlabs/puppet-jenkins](https://github.com/puppetlabs/puppet-jenkins)
+* [puppetlabs/kmo-501-nginx](https://github.com/puppetlabs/kmo-501-nginx)
 
 
-The following Forge modules should have the Supported badge removed:
-    * https://forge.puppet.com/puppetlabs/influxdb
-    * https://forge.puppet.com/puppetlabs/puppet_operational_dashboards
+## The following Forge modules should be badged as Supported:
+* [exec](https://forge.puppet.com/puppetlabs/exec)
+* [yaml](https://forge.puppet.com/puppetlabs/yaml)
+* [bolt_shim](https://forge.puppet.com/puppetlabs/bolt_shim)
+* [azure_inventory](https://forge.puppet.com/puppetlabs/azure_inventory)
+* [aws_inventory](https://forge.puppet.com/puppetlabs/aws_inventory)
+* [terraform](https://forge.puppet.com/puppetlabs/terraform)
+* [vault](https://forge.puppet.com/puppetlabs/vault)
+* [gcloud_inventory](https://forge.puppet.com/puppetlabs/gcloud_inventory)
+* [pkcs7](https://forge.puppet.com/puppetlabs/pkcs7)
+* [apply_helpers](https://forge.puppet.com/puppetlabs/apply_helpers)
+* [secure_env_vars](https://forge.puppet.com/puppetlabs/secure_env_vars)
 
 
-The following Forge modules have a problem with their source field. Either
-the field could not be parsed, or it does not point to a valid public repo:
-    * https://forge.puppet.com/puppetlabs/ruby
-    * https://forge.puppet.com/puppetlabs/nodejs
-    * https://forge.puppet.com/puppetlabs/translate
-    * https://forge.puppet.com/puppetlabs/puppetserver_gem
-    * https://forge.puppet.com/puppetlabs/git
-    * https://forge.puppet.com/puppetlabs/rabbitmq
-    * https://forge.puppet.com/puppetlabs/pe_gem
-    * https://forge.puppet.com/puppetlabs/gcc
-    * https://forge.puppet.com/puppetlabs/tftp
-    * https://forge.puppet.com/puppetlabs/strings
-    * https://forge.puppet.com/puppetlabs/dism
-    * https://forge.puppet.com/puppetlabs/limits
-    * https://forge.puppet.com/puppetlabs/mongodb
-    * https://forge.puppet.com/puppetlabs/mount_providers
-    * https://forge.puppet.com/puppetlabs/activemq
-    * https://forge.puppet.com/puppetlabs/aws
-    * https://forge.puppet.com/puppetlabs/passenger
-    * https://forge.puppet.com/puppetlabs/mssql
-    * https://forge.puppet.com/puppetlabs/docker_platform
-    * https://forge.puppet.com/puppetlabs/windows
-    * https://forge.puppet.com/puppetlabs/denyhosts
-    * https://forge.puppet.com/puppetlabs/certregen
-    * https://forge.puppet.com/puppetlabs/catalog_preview
-    * https://forge.puppet.com/puppetlabs/razor
-    * https://forge.puppet.com/puppetlabs/dhcp
-    * https://forge.puppet.com/puppetlabs/corosync
-    * https://forge.puppet.com/puppetlabs/mcollective
-    * https://forge.puppet.com/puppetlabs/pe_puppetserver_gem
-    * https://forge.puppet.com/puppetlabs/sqlite
-    * https://forge.puppet.com/puppetlabs/cd4pe
-    * https://forge.puppet.com/puppetlabs/mount_iso
-    * https://forge.puppet.com/puppetlabs/splunk
-    * https://forge.puppet.com/puppetlabs/mrepo
-    * https://forge.puppet.com/puppetlabs/ciscopuppet
-    * https://forge.puppet.com/puppetlabs/cloudformation
-    * https://forge.puppet.com/puppetlabs/nginx
-    * https://forge.puppet.com/puppetlabs/azure
-    * https://forge.puppet.com/puppetlabs/inventory
-    * https://forge.puppet.com/puppetlabs/openstack
-    * https://forge.puppet.com/puppetlabs/cd4pe_jobs
-    * https://forge.puppet.com/puppetlabs/dummy_service
-    * https://forge.puppet.com/puppetlabs/apk
-    * https://forge.puppet.com/puppetlabs/resource
-    * https://forge.puppet.com/puppetlabs/stunnel
-    * https://forge.puppet.com/puppetlabs/image_build
-    * https://forge.puppet.com/puppetlabs/dashboard
-    * https://forge.puppet.com/puppetlabs/cloud_provisioner
-    * https://forge.puppet.com/puppetlabs/apply
-    * https://forge.puppet.com/puppetlabs/netapp
-    * https://forge.puppet.com/puppetlabs/pipelines
-    * https://forge.puppet.com/puppetlabs/gce_compute
-    * https://forge.puppet.com/puppetlabs/boundary
-    * https://forge.puppet.com/puppetlabs/netscaler
-    * https://forge.puppet.com/puppetlabs/bacula
-    * https://forge.puppet.com/puppetlabs/logentries
-    * https://forge.puppet.com/puppetlabs/win_desktop_shortcut
-    * https://forge.puppet.com/puppetlabs/node_openstack
-    * https://forge.puppet.com/puppetlabs/vcenter
-    * https://forge.puppet.com/puppetlabs/drbd
-    * https://forge.puppet.com/puppetlabs/rancher
-    * https://forge.puppet.com/puppetlabs/pe_upgrade
-    * https://forge.puppet.com/puppetlabs/node_gce
-    * https://forge.puppet.com/puppetlabs/appdirector
-    * https://forge.puppet.com/puppetlabs/package_updates
-    * https://forge.puppet.com/puppetlabs/opennebula
-    * https://forge.puppet.com/puppetlabs/lib_puppet
-    * https://forge.puppet.com/puppetlabs/policy_engine
-    * https://forge.puppet.com/puppetlabs/kwalify
-    * https://forge.puppet.com/puppetlabs/docker_ucp
-    * https://forge.puppet.com/puppetlabs/vcli_rsyslog
-    * https://forge.puppet.com/puppetlabs/rkt
-    * https://forge.puppet.com/puppetlabs/detect_wannacry
-    * https://forge.puppet.com/puppetlabs/docker_ddc
-    * https://forge.puppet.com/puppetlabs/pe_bulk_agent_install
-    * https://forge.puppet.com/puppetlabs/azure_agent
-    * https://forge.puppet.com/puppetlabs/pdb_3323_workaround
-    * https://forge.puppet.com/puppetlabs/distelli_agent
-    * https://forge.puppet.com/puppetlabs/mco_rpc
-    * https://forge.puppet.com/puppetlabs/lumogon
-    * https://forge.puppet.com/puppetlabs/servicenow_change_requests
-    * https://forge.puppet.com/puppetlabs/macdslocal_core
-    * https://forge.puppet.com/puppetlabs/healthcheck_lite
-    * https://forge.puppet.com/puppetlabs/minimum_version
-    * https://forge.puppet.com/puppetlabs/puppetdb_gc
-    * https://forge.puppet.com/puppetlabs/pe_event_forwarding
-    * https://forge.puppet.com/puppetlabs/cem_linux
-    * https://forge.puppet.com/puppetlabs/sccm
-    * https://forge.puppet.com/puppetlabs/cem_windows
-    * https://forge.puppet.com/puppetlabs/change_window
-    * https://forge.puppet.com/puppetlabs/self_service
+## The following Forge modules should have the Supported badge removed:
+* [influxdb](https://forge.puppet.com/puppetlabs/influxdb)
+* [puppet_operational_dashboards](https://forge.puppet.com/puppetlabs/puppet_operational_dashboards)
+
+
+## The following Forge modules have a problem with their source field:
+
+Either the field could not be parsed, or it does not point to a valid public repo
+within the org. Often this indicates that the repo has been archived into the Toy Chest.
+* [ruby](https://forge.puppet.com/puppetlabs/ruby)
+* [nodejs](https://forge.puppet.com/puppetlabs/nodejs)
+* [translate](https://forge.puppet.com/puppetlabs/translate)
+* [puppetserver_gem](https://forge.puppet.com/puppetlabs/puppetserver_gem)
+* [git](https://forge.puppet.com/puppetlabs/git)
+* [rabbitmq](https://forge.puppet.com/puppetlabs/rabbitmq)
+* [pe_gem](https://forge.puppet.com/puppetlabs/pe_gem)
+* [gcc](https://forge.puppet.com/puppetlabs/gcc)
+* [tftp](https://forge.puppet.com/puppetlabs/tftp)
+* [strings](https://forge.puppet.com/puppetlabs/strings)
+* [dism](https://forge.puppet.com/puppetlabs/dism)
+* [limits](https://forge.puppet.com/puppetlabs/limits)
+* [mongodb](https://forge.puppet.com/puppetlabs/mongodb)
+* [mount_providers](https://forge.puppet.com/puppetlabs/mount_providers)
+* [activemq](https://forge.puppet.com/puppetlabs/activemq)
+* [aws](https://forge.puppet.com/puppetlabs/aws)
+* [passenger](https://forge.puppet.com/puppetlabs/passenger)
+* [mssql](https://forge.puppet.com/puppetlabs/mssql)
+* [docker_platform](https://forge.puppet.com/puppetlabs/docker_platform)
+* [windows](https://forge.puppet.com/puppetlabs/windows)
+* [denyhosts](https://forge.puppet.com/puppetlabs/denyhosts)
+* [certregen](https://forge.puppet.com/puppetlabs/certregen)
+* [catalog_preview](https://forge.puppet.com/puppetlabs/catalog_preview)
+* [razor](https://forge.puppet.com/puppetlabs/razor)
+* [dhcp](https://forge.puppet.com/puppetlabs/dhcp)
+* [corosync](https://forge.puppet.com/puppetlabs/corosync)
+* [mcollective](https://forge.puppet.com/puppetlabs/mcollective)
+* [pe_puppetserver_gem](https://forge.puppet.com/puppetlabs/pe_puppetserver_gem)
+* [sqlite](https://forge.puppet.com/puppetlabs/sqlite)
+* [cd4pe](https://forge.puppet.com/puppetlabs/cd4pe)
+* [mount_iso](https://forge.puppet.com/puppetlabs/mount_iso)
+* [splunk](https://forge.puppet.com/puppetlabs/splunk)
+* [mrepo](https://forge.puppet.com/puppetlabs/mrepo)
+* [ciscopuppet](https://forge.puppet.com/puppetlabs/ciscopuppet)
+* [cloudformation](https://forge.puppet.com/puppetlabs/cloudformation)
+* [nginx](https://forge.puppet.com/puppetlabs/nginx)
+* [azure](https://forge.puppet.com/puppetlabs/azure)
+* [inventory](https://forge.puppet.com/puppetlabs/inventory)
+* [openstack](https://forge.puppet.com/puppetlabs/openstack)
+* [cd4pe_jobs](https://forge.puppet.com/puppetlabs/cd4pe_jobs)
+* [dummy_service](https://forge.puppet.com/puppetlabs/dummy_service)
+* [apk](https://forge.puppet.com/puppetlabs/apk)
+* [resource](https://forge.puppet.com/puppetlabs/resource)
+* [stunnel](https://forge.puppet.com/puppetlabs/stunnel)
+* [image_build](https://forge.puppet.com/puppetlabs/image_build)
+* [dashboard](https://forge.puppet.com/puppetlabs/dashboard)
+* [cloud_provisioner](https://forge.puppet.com/puppetlabs/cloud_provisioner)
+* [apply](https://forge.puppet.com/puppetlabs/apply)
+* [netapp](https://forge.puppet.com/puppetlabs/netapp)
+* [pipelines](https://forge.puppet.com/puppetlabs/pipelines)
+* [gce_compute](https://forge.puppet.com/puppetlabs/gce_compute)
+* [boundary](https://forge.puppet.com/puppetlabs/boundary)
+* [netscaler](https://forge.puppet.com/puppetlabs/netscaler)
+* [bacula](https://forge.puppet.com/puppetlabs/bacula)
+* [logentries](https://forge.puppet.com/puppetlabs/logentries)
+* [win_desktop_shortcut](https://forge.puppet.com/puppetlabs/win_desktop_shortcut)
+* [node_openstack](https://forge.puppet.com/puppetlabs/node_openstack)
+* [vcenter](https://forge.puppet.com/puppetlabs/vcenter)
+* [drbd](https://forge.puppet.com/puppetlabs/drbd)
+* [rancher](https://forge.puppet.com/puppetlabs/rancher)
+* [pe_upgrade](https://forge.puppet.com/puppetlabs/pe_upgrade)
+* [node_gce](https://forge.puppet.com/puppetlabs/node_gce)
+* [appdirector](https://forge.puppet.com/puppetlabs/appdirector)
+* [package_updates](https://forge.puppet.com/puppetlabs/package_updates)
+* [opennebula](https://forge.puppet.com/puppetlabs/opennebula)
+* [lib_puppet](https://forge.puppet.com/puppetlabs/lib_puppet)
+* [policy_engine](https://forge.puppet.com/puppetlabs/policy_engine)
+* [kwalify](https://forge.puppet.com/puppetlabs/kwalify)
+* [docker_ucp](https://forge.puppet.com/puppetlabs/docker_ucp)
+* [vcli_rsyslog](https://forge.puppet.com/puppetlabs/vcli_rsyslog)
+* [rkt](https://forge.puppet.com/puppetlabs/rkt)
+* [detect_wannacry](https://forge.puppet.com/puppetlabs/detect_wannacry)
+* [docker_ddc](https://forge.puppet.com/puppetlabs/docker_ddc)
+* [pe_bulk_agent_install](https://forge.puppet.com/puppetlabs/pe_bulk_agent_install)
+* [azure_agent](https://forge.puppet.com/puppetlabs/azure_agent)
+* [pdb_3323_workaround](https://forge.puppet.com/puppetlabs/pdb_3323_workaround)
+* [distelli_agent](https://forge.puppet.com/puppetlabs/distelli_agent)
+* [mco_rpc](https://forge.puppet.com/puppetlabs/mco_rpc)
+* [lumogon](https://forge.puppet.com/puppetlabs/lumogon)
+* [servicenow_change_requests](https://forge.puppet.com/puppetlabs/servicenow_change_requests)
+* [macdslocal_core](https://forge.puppet.com/puppetlabs/macdslocal_core)
+* [healthcheck_lite](https://forge.puppet.com/puppetlabs/healthcheck_lite)
+* [minimum_version](https://forge.puppet.com/puppetlabs/minimum_version)
+* [puppetdb_gc](https://forge.puppet.com/puppetlabs/puppetdb_gc)
+* [pe_event_forwarding](https://forge.puppet.com/puppetlabs/pe_event_forwarding)
+* [cem_linux](https://forge.puppet.com/puppetlabs/cem_linux)
+* [sccm](https://forge.puppet.com/puppetlabs/sccm)
+* [cem_windows](https://forge.puppet.com/puppetlabs/cem_windows)
+* [change_window](https://forge.puppet.com/puppetlabs/change_window)
+* [self_service](https://forge.puppet.com/puppetlabs/self_service)
