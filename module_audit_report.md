@@ -1,5 +1,7 @@
 # Module Repository Housekeeping Audit
 
+Quick Links:* [Missing support tier topic](#missing-support-tier-topic)* [Missing README preamble](#missing-readme-preamble)* [Add Supported badge](#add-supported-badge)* [Remove Supported badge](#remove-supported-badge)* [Source field problem](#source-field-problem)----
+
 
 ## Missing support tier topic:
 
@@ -152,7 +154,6 @@ explaining what kind of support a user can expect from a module.
 * [puppetlabs/se_appteam_webserver](https://github.com/puppetlabs/se_appteam_webserver)
 * [puppetlabs/puppetlabs-pam_tools](https://github.com/puppetlabs/puppetlabs-pam_tools)
 * [puppetlabs/influxdb](https://github.com/puppetlabs/influxdb)
-* [puppetlabs/puppetlabs-puppet_data_service](https://github.com/puppetlabs/puppetlabs-puppet_data_service)
 * [puppetlabs/puppetlabs-data-entitlement](https://github.com/puppetlabs/puppetlabs-data-entitlement)
 * [puppetlabs/bolt_aws_kms](https://github.com/puppetlabs/bolt_aws_kms)
 * [puppetlabs/puppet_operational_dashboards](https://github.com/puppetlabs/puppet_operational_dashboards)
@@ -160,7 +161,9 @@ explaining what kind of support a user can expect from a module.
 * [puppetlabs/kmo-501-nginx](https://github.com/puppetlabs/kmo-501-nginx)
 
 
-## The following Forge modules should be badged as Supported:
+## Add Supported badge
+
+The following Forge modules should be badged as Supported:
 * [puppetlabs-exec](https://forge.puppet.com/puppetlabs/exec)
 * [puppetlabs-yaml](https://forge.puppet.com/puppetlabs/yaml)
 * [puppetlabs-bolt_shim](https://forge.puppet.com/puppetlabs/bolt_shim)
@@ -174,96 +177,45 @@ explaining what kind of support a user can expect from a module.
 * [puppetlabs-secure_env_vars](https://forge.puppet.com/puppetlabs/secure_env_vars)
 
 
-## The following Forge modules should have the Supported badge removed:
+## Remove Supported badge
+
+The following Forge modules should have the Supported badge removed:
 * [puppetlabs-influxdb](https://forge.puppet.com/puppetlabs/influxdb)
 * [puppetlabs-puppet_operational_dashboards](https://forge.puppet.com/puppetlabs/puppet_operational_dashboards)
 
 
-## The following Forge modules have a problem with their source field:
+## Source field problem
 
-Either the field could not be parsed, or it does not point to a valid public repo
-within the org. Often this indicates that the repo has been archived into the Toy Chest.
-* [puppetlabs-ruby](https://forge.puppet.com/puppetlabs/ruby)
+The following Forge modules have a problem with their source field. Either the
+field could not be parsed, or it does not point to a valid public repo within the org.
 * [puppetlabs-nodejs](https://forge.puppet.com/puppetlabs/nodejs)
-* [puppetlabs-translate](https://forge.puppet.com/puppetlabs/translate)
-* [puppetlabs-puppetserver_gem](https://forge.puppet.com/puppetlabs/puppetserver_gem)
-* [puppetlabs-git](https://forge.puppet.com/puppetlabs/git)
 * [puppetlabs-rabbitmq](https://forge.puppet.com/puppetlabs/rabbitmq)
 * [puppetlabs-pe_gem](https://forge.puppet.com/puppetlabs/pe_gem)
 * [puppetlabs-gcc](https://forge.puppet.com/puppetlabs/gcc)
-* [puppetlabs-tftp](https://forge.puppet.com/puppetlabs/tftp)
 * [puppetlabs-strings](https://forge.puppet.com/puppetlabs/strings)
-* [puppetlabs-dism](https://forge.puppet.com/puppetlabs/dism)
-* [puppetlabs-limits](https://forge.puppet.com/puppetlabs/limits)
 * [puppetlabs-mongodb](https://forge.puppet.com/puppetlabs/mongodb)
-* [puppetlabs-mount_providers](https://forge.puppet.com/puppetlabs/mount_providers)
-* [puppetlabs-activemq](https://forge.puppet.com/puppetlabs/activemq)
-* [puppetlabs-aws](https://forge.puppet.com/puppetlabs/aws)
-* [puppetlabs-passenger](https://forge.puppet.com/puppetlabs/passenger)
 * [puppetlabs-mssql](https://forge.puppet.com/puppetlabs/mssql)
 * [puppetlabs-docker_platform](https://forge.puppet.com/puppetlabs/docker_platform)
 * [puppetlabs-windows](https://forge.puppet.com/puppetlabs/windows)
-* [puppetlabs-denyhosts](https://forge.puppet.com/puppetlabs/denyhosts)
-* [puppetlabs-certregen](https://forge.puppet.com/puppetlabs/certregen)
-* [puppetlabs-catalog_preview](https://forge.puppet.com/puppetlabs/catalog_preview)
-* [puppetlabs-razor](https://forge.puppet.com/puppetlabs/razor)
 * [puppetlabs-dhcp](https://forge.puppet.com/puppetlabs/dhcp)
 * [puppetlabs-corosync](https://forge.puppet.com/puppetlabs/corosync)
 * [puppetlabs-mcollective](https://forge.puppet.com/puppetlabs/mcollective)
 * [puppetlabs-pe_puppetserver_gem](https://forge.puppet.com/puppetlabs/pe_puppetserver_gem)
-* [puppetlabs-sqlite](https://forge.puppet.com/puppetlabs/sqlite)
-* [puppetlabs-cd4pe](https://forge.puppet.com/puppetlabs/cd4pe)
-* [puppetlabs-mount_iso](https://forge.puppet.com/puppetlabs/mount_iso)
 * [puppetlabs-splunk](https://forge.puppet.com/puppetlabs/splunk)
 * [puppetlabs-mrepo](https://forge.puppet.com/puppetlabs/mrepo)
 * [puppetlabs-ciscopuppet](https://forge.puppet.com/puppetlabs/ciscopuppet)
-* [puppetlabs-cloudformation](https://forge.puppet.com/puppetlabs/cloudformation)
 * [puppetlabs-nginx](https://forge.puppet.com/puppetlabs/nginx)
-* [puppetlabs-azure](https://forge.puppet.com/puppetlabs/azure)
-* [puppetlabs-inventory](https://forge.puppet.com/puppetlabs/inventory)
-* [puppetlabs-openstack](https://forge.puppet.com/puppetlabs/openstack)
 * [puppetlabs-cd4pe_jobs](https://forge.puppet.com/puppetlabs/cd4pe_jobs)
-* [puppetlabs-dummy_service](https://forge.puppet.com/puppetlabs/dummy_service)
-* [puppetlabs-apk](https://forge.puppet.com/puppetlabs/apk)
-* [puppetlabs-resource](https://forge.puppet.com/puppetlabs/resource)
-* [puppetlabs-stunnel](https://forge.puppet.com/puppetlabs/stunnel)
-* [puppetlabs-image_build](https://forge.puppet.com/puppetlabs/image_build)
 * [puppetlabs-dashboard](https://forge.puppet.com/puppetlabs/dashboard)
-* [puppetlabs-cloud_provisioner](https://forge.puppet.com/puppetlabs/cloud_provisioner)
-* [puppetlabs-apply](https://forge.puppet.com/puppetlabs/apply)
-* [puppetlabs-netapp](https://forge.puppet.com/puppetlabs/netapp)
-* [puppetlabs-pipelines](https://forge.puppet.com/puppetlabs/pipelines)
-* [puppetlabs-gce_compute](https://forge.puppet.com/puppetlabs/gce_compute)
 * [puppetlabs-boundary](https://forge.puppet.com/puppetlabs/boundary)
-* [puppetlabs-netscaler](https://forge.puppet.com/puppetlabs/netscaler)
 * [puppetlabs-bacula](https://forge.puppet.com/puppetlabs/bacula)
-* [puppetlabs-logentries](https://forge.puppet.com/puppetlabs/logentries)
-* [puppetlabs-win_desktop_shortcut](https://forge.puppet.com/puppetlabs/win_desktop_shortcut)
-* [puppetlabs-node_openstack](https://forge.puppet.com/puppetlabs/node_openstack)
-* [puppetlabs-vcenter](https://forge.puppet.com/puppetlabs/vcenter)
 * [puppetlabs-drbd](https://forge.puppet.com/puppetlabs/drbd)
-* [puppetlabs-rancher](https://forge.puppet.com/puppetlabs/rancher)
 * [puppetlabs-pe_upgrade](https://forge.puppet.com/puppetlabs/pe_upgrade)
 * [puppetlabs-node_gce](https://forge.puppet.com/puppetlabs/node_gce)
 * [puppetlabs-appdirector](https://forge.puppet.com/puppetlabs/appdirector)
-* [puppetlabs-package_updates](https://forge.puppet.com/puppetlabs/package_updates)
-* [puppetlabs-opennebula](https://forge.puppet.com/puppetlabs/opennebula)
 * [puppetlabs-lib_puppet](https://forge.puppet.com/puppetlabs/lib_puppet)
-* [puppetlabs-policy_engine](https://forge.puppet.com/puppetlabs/policy_engine)
 * [puppetlabs-kwalify](https://forge.puppet.com/puppetlabs/kwalify)
-* [puppetlabs-docker_ucp](https://forge.puppet.com/puppetlabs/docker_ucp)
 * [puppetlabs-vcli_rsyslog](https://forge.puppet.com/puppetlabs/vcli_rsyslog)
-* [puppetlabs-rkt](https://forge.puppet.com/puppetlabs/rkt)
-* [puppetlabs-detect_wannacry](https://forge.puppet.com/puppetlabs/detect_wannacry)
-* [puppetlabs-docker_ddc](https://forge.puppet.com/puppetlabs/docker_ddc)
-* [puppetlabs-pe_bulk_agent_install](https://forge.puppet.com/puppetlabs/pe_bulk_agent_install)
-* [puppetlabs-azure_agent](https://forge.puppet.com/puppetlabs/azure_agent)
-* [puppetlabs-pdb_3323_workaround](https://forge.puppet.com/puppetlabs/pdb_3323_workaround)
-* [puppetlabs-distelli_agent](https://forge.puppet.com/puppetlabs/distelli_agent)
-* [puppetlabs-mco_rpc](https://forge.puppet.com/puppetlabs/mco_rpc)
-* [puppetlabs-lumogon](https://forge.puppet.com/puppetlabs/lumogon)
-* [puppetlabs-servicenow_change_requests](https://forge.puppet.com/puppetlabs/servicenow_change_requests)
-* [puppetlabs-macdslocal_core](https://forge.puppet.com/puppetlabs/macdslocal_core)
 * [puppetlabs-healthcheck_lite](https://forge.puppet.com/puppetlabs/healthcheck_lite)
 * [puppetlabs-minimum_version](https://forge.puppet.com/puppetlabs/minimum_version)
 * [puppetlabs-puppetdb_gc](https://forge.puppet.com/puppetlabs/puppetdb_gc)
