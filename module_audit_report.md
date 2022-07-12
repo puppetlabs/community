@@ -1,6 +1,11 @@
 # Module Repository Housekeeping Audit
 
-Quick Links:* [Missing support tier topic](#missing-support-tier-topic)* [Missing README preamble](#missing-readme-preamble)* [Add Supported badge](#add-supported-badge)* [Remove Supported badge](#remove-supported-badge)* [Source field problem](#source-field-problem)----
+The following modules are out of compliance with our module support policy. Each
+repository should have a topic and a `README` note describing its support tier and
+should have a `CODEOWNERS` file identifying the engineering team responsible for it.
+See <not yet published> for details.
+
+----
 
 
 ## Missing support tier topic:
