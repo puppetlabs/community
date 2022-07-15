@@ -8,23 +8,31 @@ See <not yet published> for details.
 ----
 
 
-## Missing support tier topic:
+## GitHub: Missing support tier topic:
 
 The following GitHub repositories should have topics clarifying which support tier they fall into.
 * [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
 * [puppetlabs/netdev_stdlib](https://github.com/puppetlabs/netdev_stdlib)
+* [puppetlabs/puppetlabs-vsphere](https://github.com/puppetlabs/puppetlabs-vsphere)
 * [puppetlabs/ps-sox](https://github.com/puppetlabs/ps-sox)
+* [puppetlabs/puppetlabs-ibm_installation_manager](https://github.com/puppetlabs/puppetlabs-ibm_installation_manager)
+* [puppetlabs/puppetlabs-tagmail](https://github.com/puppetlabs/puppetlabs-tagmail)
 * [puppetlabs/pltraining-userprefs](https://github.com/puppetlabs/pltraining-userprefs)
 * [puppetlabs/pltraining-bootstrap](https://github.com/puppetlabs/pltraining-bootstrap)
 * [puppetlabs/pltraining-localrepo](https://github.com/puppetlabs/pltraining-localrepo)
 * [puppetlabs/pltraining-learning](https://github.com/puppetlabs/pltraining-learning)
+* [puppetlabs/puppetlabs-websphere_application_server](https://github.com/puppetlabs/puppetlabs-websphere_application_server)
 * [puppetlabs/pltraining-dockeragent](https://github.com/puppetlabs/pltraining-dockeragent)
 * [puppetlabs/puppetlabs-wordpress_app](https://github.com/puppetlabs/puppetlabs-wordpress_app)
 * [puppetlabs/puppetlabs-app_modeling](https://github.com/puppetlabs/puppetlabs-app_modeling)
 * [puppetlabs/puppetlabs-rgbank](https://github.com/puppetlabs/puppetlabs-rgbank)
 * [puppetlabs/puppetlabs-cloudshop](https://github.com/puppetlabs/puppetlabs-cloudshop)
+* [puppetlabs/puppetlabs-helm](https://github.com/puppetlabs/puppetlabs-helm)
 * [puppetlabs/cisco-network-puppet-module](https://github.com/puppetlabs/cisco-network-puppet-module)
+* [puppetlabs/puppetlabs-bootstrap](https://github.com/puppetlabs/puppetlabs-bootstrap)
 * [puppetlabs/puppetlabs-windows_puppet_certificates](https://github.com/puppetlabs/puppetlabs-windows_puppet_certificates)
+* [puppetlabs/puppetlabs-rook](https://github.com/puppetlabs/puppetlabs-rook)
+* [puppetlabs/cisco_ios](https://github.com/puppetlabs/cisco_ios)
 * [puppetlabs/vmware-vcenter](https://github.com/puppetlabs/vmware-vcenter)
 * [puppetlabs/puppetlabs-mailalias_core](https://github.com/puppetlabs/puppetlabs-mailalias_core)
 * [puppetlabs/encrypted_backup](https://github.com/puppetlabs/encrypted_backup)
@@ -35,6 +43,7 @@ The following GitHub repositories should have topics clarifying which support ti
 * [puppetlabs/pe_support_kb_task_templates](https://github.com/puppetlabs/pe_support_kb_task_templates)
 * [puppetlabs/puppetlabs-nagios_core](https://github.com/puppetlabs/puppetlabs-nagios_core)
 * [puppetlabs/puppet-vra_puppet_plugin_prep](https://github.com/puppetlabs/puppet-vra_puppet_plugin_prep)
+* [puppetlabs/puppetlabs-panos](https://github.com/puppetlabs/puppetlabs-panos)
 * [puppetlabs/puppetlabs-k5login_core](https://github.com/puppetlabs/puppetlabs-k5login_core)
 * [puppetlabs/puppetlabs-cd4pe_tests](https://github.com/puppetlabs/puppetlabs-cd4pe_tests)
 * [puppetlabs/puppetlabs-amazon_aws](https://github.com/puppetlabs/puppetlabs-amazon_aws)
@@ -75,14 +84,14 @@ The following GitHub repositories should have topics clarifying which support ti
 * [puppetlabs/se_appteam_webserver](https://github.com/puppetlabs/se_appteam_webserver)
 * [puppetlabs/puppetlabs-pam_tools](https://github.com/puppetlabs/puppetlabs-pam_tools)
 * [puppetlabs/influxdb](https://github.com/puppetlabs/influxdb)
+* [puppetlabs/log4jscanner](https://github.com/puppetlabs/log4jscanner)
 * [puppetlabs/puppetlabs-data-entitlement](https://github.com/puppetlabs/puppetlabs-data-entitlement)
 * [puppetlabs/bolt_aws_kms](https://github.com/puppetlabs/bolt_aws_kms)
 * [puppetlabs/puppet_operational_dashboards](https://github.com/puppetlabs/puppet_operational_dashboards)
 * [puppetlabs/puppet-jenkins](https://github.com/puppetlabs/puppet-jenkins)
-* [puppetlabs/kmo-501-nginx](https://github.com/puppetlabs/kmo-501-nginx)
 
 
-## Missing README preamble:
+## GitHub: Missing README preamble:
 
 The following GitHub repositories do not have a properly formatted README preamble
 explaining what kind of support a user can expect from a module.
@@ -94,20 +103,27 @@ explaining what kind of support a user can expect from a module.
 * [puppetlabs/puppetlabs-awsdemo_profiles](https://github.com/puppetlabs/puppetlabs-awsdemo_profiles)
 * [puppetlabs/puppetlabs-hocon](https://github.com/puppetlabs/puppetlabs-hocon)
 * [puppetlabs/puppetlabs-transition](https://github.com/puppetlabs/puppetlabs-transition)
+* [puppetlabs/puppetlabs-vsphere](https://github.com/puppetlabs/puppetlabs-vsphere)
 * [puppetlabs/ps-sox](https://github.com/puppetlabs/ps-sox)
+* [puppetlabs/puppetlabs-ibm_installation_manager](https://github.com/puppetlabs/puppetlabs-ibm_installation_manager)
+* [puppetlabs/puppetlabs-tagmail](https://github.com/puppetlabs/puppetlabs-tagmail)
 * [puppetlabs/pltraining-userprefs](https://github.com/puppetlabs/pltraining-userprefs)
 * [puppetlabs/pltraining-bootstrap](https://github.com/puppetlabs/pltraining-bootstrap)
 * [puppetlabs/pltraining-localrepo](https://github.com/puppetlabs/pltraining-localrepo)
 * [puppetlabs/pltraining-learning](https://github.com/puppetlabs/pltraining-learning)
+* [puppetlabs/puppetlabs-websphere_application_server](https://github.com/puppetlabs/puppetlabs-websphere_application_server)
 * [puppetlabs/pltraining-dockeragent](https://github.com/puppetlabs/pltraining-dockeragent)
 * [puppetlabs/puppetlabs-wordpress_app](https://github.com/puppetlabs/puppetlabs-wordpress_app)
 * [puppetlabs/puppetlabs-app_modeling](https://github.com/puppetlabs/puppetlabs-app_modeling)
 * [puppetlabs/puppetlabs-rgbank](https://github.com/puppetlabs/puppetlabs-rgbank)
 * [puppetlabs/puppetlabs-cloudshop](https://github.com/puppetlabs/puppetlabs-cloudshop)
 * [puppetlabs/puppetlabs-puppetdb_gc](https://github.com/puppetlabs/puppetlabs-puppetdb_gc)
+* [puppetlabs/puppetlabs-helm](https://github.com/puppetlabs/puppetlabs-helm)
 * [puppetlabs/puppetlabs-grafanadash](https://github.com/puppetlabs/puppetlabs-grafanadash)
 * [puppetlabs/cisco-network-puppet-module](https://github.com/puppetlabs/cisco-network-puppet-module)
 * [puppetlabs/puppetlabs-windows_puppet_certificates](https://github.com/puppetlabs/puppetlabs-windows_puppet_certificates)
+* [puppetlabs/puppetlabs-rook](https://github.com/puppetlabs/puppetlabs-rook)
+* [puppetlabs/cisco_ios](https://github.com/puppetlabs/cisco_ios)
 * [puppetlabs/vmware-vcenter](https://github.com/puppetlabs/vmware-vcenter)
 * [puppetlabs/puppetlabs-resource_api](https://github.com/puppetlabs/puppetlabs-resource_api)
 * [puppetlabs/puppetlabs-mailalias_core](https://github.com/puppetlabs/puppetlabs-mailalias_core)
@@ -118,6 +134,7 @@ explaining what kind of support a user can expect from a module.
 * [puppetlabs/pe_support_kb_task_templates](https://github.com/puppetlabs/pe_support_kb_task_templates)
 * [puppetlabs/puppetlabs-nagios_core](https://github.com/puppetlabs/puppetlabs-nagios_core)
 * [puppetlabs/puppet-vra_puppet_plugin_prep](https://github.com/puppetlabs/puppet-vra_puppet_plugin_prep)
+* [puppetlabs/puppetlabs-panos](https://github.com/puppetlabs/puppetlabs-panos)
 * [puppetlabs/puppetlabs-k5login_core](https://github.com/puppetlabs/puppetlabs-k5login_core)
 * [puppetlabs/puppetlabs-cd4pe_tests](https://github.com/puppetlabs/puppetlabs-cd4pe_tests)
 * [puppetlabs/puppetlabs-amazon_aws](https://github.com/puppetlabs/puppetlabs-amazon_aws)
@@ -166,7 +183,7 @@ explaining what kind of support a user can expect from a module.
 * [puppetlabs/kmo-501-nginx](https://github.com/puppetlabs/kmo-501-nginx)
 
 
-## Add Supported badge
+## Forge: Add Supported badge
 
 The following Forge modules should be badged as Supported:
 * [puppetlabs-exec](https://forge.puppet.com/puppetlabs/exec)
@@ -182,14 +199,14 @@ The following Forge modules should be badged as Supported:
 * [puppetlabs-secure_env_vars](https://forge.puppet.com/puppetlabs/secure_env_vars)
 
 
-## Remove Supported badge
+## Forge: Remove Supported badge
 
 The following Forge modules should have the Supported badge removed:
 * [puppetlabs-influxdb](https://forge.puppet.com/puppetlabs/influxdb)
 * [puppetlabs-puppet_operational_dashboards](https://forge.puppet.com/puppetlabs/puppet_operational_dashboards)
 
 
-## Add Adoptable badge
+## Forge: Add Adoptable badge
 
 The repositories for these modules have been archived into the Toy Chest and
 should be badged as Adoptable:
@@ -238,7 +255,7 @@ should be badged as Adoptable:
 * [puppetlabs-macdslocal_core](https://forge.puppet.com/puppetlabs/macdslocal_core)
 
 
-## Source field problem
+## Forge: Source field problem
 
 The following Forge modules have a problem with their source field. Either the
 field could not be parsed, or it does not point to a valid public repo within the org.
