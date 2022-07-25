@@ -1,16 +1,33 @@
-# Module Repository Housekeeping Audit
+# Open Source Housekeeping Audit
 
-The following modules are out of compliance with our module support policy. Each
-repository should have a topic and a `README` note describing its support tier and
-should have a `CODEOWNERS` file identifying the engineering team responsible for it.
-See <not yet published> for details.
+Puppet's Open Source Stewards group conducts a regular audit of our public GitHub
+namespace and our Puppet Forge namespace for modules and repositories that do not
+meet our standards and policies. This report contains content which is out of
+compliance and should be either removed or corrected.
+
+Expand each section to find a list of repositories that failed each check,
+information about the check itself, and suggestions for remediating it.
+
+If the repository is no longer useful, then use these heuristics to decide what
+to do with it:
+
+* If anyone else might find practical use or learning opportunities, then bin
+  the repository into the [Toy Chest](http://github.com/puppetlabs-toy-chest/)
+  to mark it as adoptable.
+* If the repository has no use to anyone, then simply delete it.
+
+See `{not yet published}` for details about our housekeeping standards.
 
 ----
+<details>
+<summary>
+## GitHub: Module repositories missing support tier topic:
+</summary>
 
-
-## GitHub: Missing support tier topic:
-
-The following GitHub repositories should have topics clarifying which support tier they fall into.
+Modules in the Puppetlabs namespace have different support expectations. Each module
+repository should have a topic identifying which support tier it falls into. The
+following GitHub repositories are missing their support tier topics and should
+have them added.
 * [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
 * [puppetlabs/netdev_stdlib](https://github.com/puppetlabs/netdev_stdlib)
 * [puppetlabs/puppetlabs-vsphere](https://github.com/puppetlabs/puppetlabs-vsphere)
@@ -25,7 +42,6 @@ The following GitHub repositories should have topics clarifying which support ti
 * [puppetlabs/pltraining-dockeragent](https://github.com/puppetlabs/pltraining-dockeragent)
 * [puppetlabs/puppetlabs-wordpress_app](https://github.com/puppetlabs/puppetlabs-wordpress_app)
 * [puppetlabs/puppetlabs-app_modeling](https://github.com/puppetlabs/puppetlabs-app_modeling)
-* [puppetlabs/puppetlabs-rgbank](https://github.com/puppetlabs/puppetlabs-rgbank)
 * [puppetlabs/puppetlabs-cloudshop](https://github.com/puppetlabs/puppetlabs-cloudshop)
 * [puppetlabs/puppetlabs-helm](https://github.com/puppetlabs/puppetlabs-helm)
 * [puppetlabs/cisco-network-puppet-module](https://github.com/puppetlabs/cisco-network-puppet-module)
@@ -89,12 +105,17 @@ The following GitHub repositories should have topics clarifying which support ti
 * [puppetlabs/bolt_aws_kms](https://github.com/puppetlabs/bolt_aws_kms)
 * [puppetlabs/puppet_operational_dashboards](https://github.com/puppetlabs/puppet_operational_dashboards)
 * [puppetlabs/puppet-jenkins](https://github.com/puppetlabs/puppet-jenkins)
+</details>
+<details>
+<summary>
+## GitHub: Module repositories missing README preamble:
+</summary>
 
+Modules in the Puppetlabs namespace have different support expectations. Each module
+should have a properly formatted `README` preamble explaining what kind of support
+a user can expect when using that module.
 
-## GitHub: Missing README preamble:
-
-The following GitHub repositories do not have a properly formatted README preamble
-explaining what kind of support a user can expect from a module.
+The following GitHub repositories should have a preamble added to their `README`.
 * [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
 * [puppetlabs/puppetlabs-rsync](https://github.com/puppetlabs/puppetlabs-rsync)
 * [puppetlabs/puppetlabs-xinetd](https://github.com/puppetlabs/puppetlabs-xinetd)
@@ -173,107 +194,20 @@ explaining what kind of support a user can expect from a module.
 * [puppetlabs/puppet_operational_dashboards](https://github.com/puppetlabs/puppet_operational_dashboards)
 * [puppetlabs/puppet-jenkins](https://github.com/puppetlabs/puppet-jenkins)
 * [puppetlabs/kmo-501-nginx](https://github.com/puppetlabs/kmo-501-nginx)
+</details>
+<details>
+<summary>
+## GitHub: Invalid CODEOWNERS files
+</summary>
 
+All public repositories in the `puppetlabs` namespace should have valid `CODEOWNERS`
+clearly showing ownership and responsibilities. This allows us to automatically
+assign pull request reviews and makes it easier to identify teams responsible for
+a project.
 
-## Forge: Add Supported badge
-
-The following Forge modules should be badged as Supported:
-* [puppetlabs-exec](https://forge.puppet.com/puppetlabs/exec)
-* [puppetlabs-yaml](https://forge.puppet.com/puppetlabs/yaml)
-* [puppetlabs-bolt_shim](https://forge.puppet.com/puppetlabs/bolt_shim)
-* [puppetlabs-azure_inventory](https://forge.puppet.com/puppetlabs/azure_inventory)
-* [puppetlabs-aws_inventory](https://forge.puppet.com/puppetlabs/aws_inventory)
-* [puppetlabs-terraform](https://forge.puppet.com/puppetlabs/terraform)
-* [puppetlabs-vault](https://forge.puppet.com/puppetlabs/vault)
-* [puppetlabs-gcloud_inventory](https://forge.puppet.com/puppetlabs/gcloud_inventory)
-* [puppetlabs-pkcs7](https://forge.puppet.com/puppetlabs/pkcs7)
-* [puppetlabs-apply_helpers](https://forge.puppet.com/puppetlabs/apply_helpers)
-* [puppetlabs-secure_env_vars](https://forge.puppet.com/puppetlabs/secure_env_vars)
-
-
-## Forge: Remove Supported badge
-
-The following Forge modules should have the Supported badge removed:
-* [puppetlabs-influxdb](https://forge.puppet.com/puppetlabs/influxdb)
-* [puppetlabs-puppet_operational_dashboards](https://forge.puppet.com/puppetlabs/puppet_operational_dashboards)
-
-
-## Forge: Add Adoptable badge
-
-The repositories for these modules have been archived into the Toy Chest and
-should be badged as Adoptable:
-* [puppetlabs-puppetserver_gem](https://forge.puppet.com/puppetlabs/puppetserver_gem)
-* [puppetlabs-git](https://forge.puppet.com/puppetlabs/git)
-* [puppetlabs-tftp](https://forge.puppet.com/puppetlabs/tftp)
-* [puppetlabs-dism](https://forge.puppet.com/puppetlabs/dism)
-* [puppetlabs-mount_providers](https://forge.puppet.com/puppetlabs/mount_providers)
-* [puppetlabs-activemq](https://forge.puppet.com/puppetlabs/activemq)
-* [puppetlabs-aws](https://forge.puppet.com/puppetlabs/aws)
-* [puppetlabs-passenger](https://forge.puppet.com/puppetlabs/passenger)
-* [puppetlabs-denyhosts](https://forge.puppet.com/puppetlabs/denyhosts)
-* [puppetlabs-catalog_preview](https://forge.puppet.com/puppetlabs/catalog_preview)
-* [puppetlabs-razor](https://forge.puppet.com/puppetlabs/razor)
-* [puppetlabs-sqlite](https://forge.puppet.com/puppetlabs/sqlite)
-* [puppetlabs-cd4pe](https://forge.puppet.com/puppetlabs/cd4pe)
-* [puppetlabs-mount_iso](https://forge.puppet.com/puppetlabs/mount_iso)
-* [puppetlabs-inventory](https://forge.puppet.com/puppetlabs/inventory)
-* [puppetlabs-openstack](https://forge.puppet.com/puppetlabs/openstack)
-* [puppetlabs-dummy_service](https://forge.puppet.com/puppetlabs/dummy_service)
-* [puppetlabs-apk](https://forge.puppet.com/puppetlabs/apk)
-* [puppetlabs-stunnel](https://forge.puppet.com/puppetlabs/stunnel)
-* [puppetlabs-image_build](https://forge.puppet.com/puppetlabs/image_build)
-* [puppetlabs-apply](https://forge.puppet.com/puppetlabs/apply)
-* [puppetlabs-netapp](https://forge.puppet.com/puppetlabs/netapp)
-* [puppetlabs-pipelines](https://forge.puppet.com/puppetlabs/pipelines)
-* [puppetlabs-netscaler](https://forge.puppet.com/puppetlabs/netscaler)
-* [puppetlabs-logentries](https://forge.puppet.com/puppetlabs/logentries)
-* [puppetlabs-node_openstack](https://forge.puppet.com/puppetlabs/node_openstack)
-* [puppetlabs-win_desktop_shortcut](https://forge.puppet.com/puppetlabs/win_desktop_shortcut)
-* [puppetlabs-vcenter](https://forge.puppet.com/puppetlabs/vcenter)
-* [puppetlabs-rancher](https://forge.puppet.com/puppetlabs/rancher)
-* [puppetlabs-package_updates](https://forge.puppet.com/puppetlabs/package_updates)
-* [puppetlabs-opennebula](https://forge.puppet.com/puppetlabs/opennebula)
-* [puppetlabs-policy_engine](https://forge.puppet.com/puppetlabs/policy_engine)
-* [puppetlabs-docker_ucp](https://forge.puppet.com/puppetlabs/docker_ucp)
-* [puppetlabs-rkt](https://forge.puppet.com/puppetlabs/rkt)
-* [puppetlabs-detect_wannacry](https://forge.puppet.com/puppetlabs/detect_wannacry)
-* [puppetlabs-docker_ddc](https://forge.puppet.com/puppetlabs/docker_ddc)
-* [puppetlabs-pe_bulk_agent_install](https://forge.puppet.com/puppetlabs/pe_bulk_agent_install)
-* [puppetlabs-azure_agent](https://forge.puppet.com/puppetlabs/azure_agent)
-* [puppetlabs-pdb_3323_workaround](https://forge.puppet.com/puppetlabs/pdb_3323_workaround)
-* [puppetlabs-mco_rpc](https://forge.puppet.com/puppetlabs/mco_rpc)
-* [puppetlabs-lumogon](https://forge.puppet.com/puppetlabs/lumogon)
-* [puppetlabs-servicenow_change_requests](https://forge.puppet.com/puppetlabs/servicenow_change_requests)
-* [puppetlabs-macdslocal_core](https://forge.puppet.com/puppetlabs/macdslocal_core)
-
-
-## Forge: Source field problem
-
-The following Forge modules have a problem with their source field. Either the
-field could not be parsed, or it does not point to a valid public repo within the org.
-* [puppetlabs-ciscopuppet](https://forge.puppet.com/puppetlabs/ciscopuppet)
-* [puppetlabs-cd4pe_jobs](https://forge.puppet.com/puppetlabs/cd4pe_jobs)
-* [puppetlabs-dashboard](https://forge.puppet.com/puppetlabs/dashboard)
-* [puppetlabs-boundary](https://forge.puppet.com/puppetlabs/boundary)
-* [puppetlabs-bacula](https://forge.puppet.com/puppetlabs/bacula)
-* [puppetlabs-pe_upgrade](https://forge.puppet.com/puppetlabs/pe_upgrade)
-* [puppetlabs-appdirector](https://forge.puppet.com/puppetlabs/appdirector)
-* [puppetlabs-lib_puppet](https://forge.puppet.com/puppetlabs/lib_puppet)
-* [puppetlabs-kwalify](https://forge.puppet.com/puppetlabs/kwalify)
-* [puppetlabs-vcli_rsyslog](https://forge.puppet.com/puppetlabs/vcli_rsyslog)
-* [puppetlabs-minimum_version](https://forge.puppet.com/puppetlabs/minimum_version)
-* [puppetlabs-puppetdb_gc](https://forge.puppet.com/puppetlabs/puppetdb_gc)
-* [puppetlabs-pe_event_forwarding](https://forge.puppet.com/puppetlabs/pe_event_forwarding)
-* [puppetlabs-cem_linux](https://forge.puppet.com/puppetlabs/cem_linux)
-* [puppetlabs-sccm](https://forge.puppet.com/puppetlabs/sccm)
-* [puppetlabs-cem_windows](https://forge.puppet.com/puppetlabs/cem_windows)
-* [puppetlabs-change_window](https://forge.puppet.com/puppetlabs/change_window)
-
-
-## GitHub: Repositories without valid CODEOWNERS
-
-The following GitHub repositories have problems with their CODEOWNERS files. Click
-through to inspect the errors using GitHub's interface:
+The following GitHub repositories have problems with their `CODEOWNERS` files. Click
+through to inspect the errors using GitHub's interface and it will offer suggestions
+on how to resolve problems.
 * [puppetlabs-puppet](https://github.com/puppetlabs/puppet)
 * [puppetlabs-education-builds](https://github.com/puppetlabs/education-builds)
 * [puppetlabs-puppetlabs-rsync](https://github.com/puppetlabs/puppetlabs-rsync)
@@ -391,4 +325,114 @@ through to inspect the errors using GitHub's interface:
 * [puppetlabs-setup-step-cli](https://github.com/puppetlabs/setup-step-cli)
 * [puppetlabs-kubernetes-plugin](https://github.com/puppetlabs/kubernetes-plugin)
 * [puppetlabs-pds-integration-control-repo](https://github.com/puppetlabs/pds-integration-control-repo)
-* [puppetlabs-repo_housekeeper](https://github.com/puppetlabs/repo_housekeeper)
+</details>
+<details>
+<summary>
+## Forge: Add Supported badge
+</summary>
+
+Forge module pages should match the topics on their corresponding repositories.
+The following Forge modules should be badged as Supported.
+* [puppetlabs-exec](https://forge.puppet.com/puppetlabs/exec)
+* [puppetlabs-yaml](https://forge.puppet.com/puppetlabs/yaml)
+* [puppetlabs-bolt_shim](https://forge.puppet.com/puppetlabs/bolt_shim)
+* [puppetlabs-azure_inventory](https://forge.puppet.com/puppetlabs/azure_inventory)
+* [puppetlabs-aws_inventory](https://forge.puppet.com/puppetlabs/aws_inventory)
+* [puppetlabs-terraform](https://forge.puppet.com/puppetlabs/terraform)
+* [puppetlabs-vault](https://forge.puppet.com/puppetlabs/vault)
+* [puppetlabs-gcloud_inventory](https://forge.puppet.com/puppetlabs/gcloud_inventory)
+* [puppetlabs-pkcs7](https://forge.puppet.com/puppetlabs/pkcs7)
+* [puppetlabs-apply_helpers](https://forge.puppet.com/puppetlabs/apply_helpers)
+* [puppetlabs-secure_env_vars](https://forge.puppet.com/puppetlabs/secure_env_vars)
+</details>
+<details>
+<summary>
+## Forge: Remove Supported badge
+</summary>
+
+Forge module pages should match the topics on their corresponding repositories.
+The following Forge modules should have the Supported badge removed.
+* [puppetlabs-influxdb](https://forge.puppet.com/puppetlabs/influxdb)
+* [puppetlabs-puppet_operational_dashboards](https://forge.puppet.com/puppetlabs/puppet_operational_dashboards)
+</details>
+<details>
+<summary>
+## Forge: Add Adoptable badge
+</summary>
+
+The repositories for these modules have been archived into the Toy Chest, so their
+Forge pages should be badged as `Adoptable`.
+* [puppetlabs-puppetserver_gem](https://forge.puppet.com/puppetlabs/puppetserver_gem)
+* [puppetlabs-git](https://forge.puppet.com/puppetlabs/git)
+* [puppetlabs-tftp](https://forge.puppet.com/puppetlabs/tftp)
+* [puppetlabs-dism](https://forge.puppet.com/puppetlabs/dism)
+* [puppetlabs-mount_providers](https://forge.puppet.com/puppetlabs/mount_providers)
+* [puppetlabs-activemq](https://forge.puppet.com/puppetlabs/activemq)
+* [puppetlabs-aws](https://forge.puppet.com/puppetlabs/aws)
+* [puppetlabs-passenger](https://forge.puppet.com/puppetlabs/passenger)
+* [puppetlabs-denyhosts](https://forge.puppet.com/puppetlabs/denyhosts)
+* [puppetlabs-razor](https://forge.puppet.com/puppetlabs/razor)
+* [puppetlabs-sqlite](https://forge.puppet.com/puppetlabs/sqlite)
+* [puppetlabs-cd4pe](https://forge.puppet.com/puppetlabs/cd4pe)
+* [puppetlabs-mount_iso](https://forge.puppet.com/puppetlabs/mount_iso)
+* [puppetlabs-inventory](https://forge.puppet.com/puppetlabs/inventory)
+* [puppetlabs-openstack](https://forge.puppet.com/puppetlabs/openstack)
+* [puppetlabs-dummy_service](https://forge.puppet.com/puppetlabs/dummy_service)
+* [puppetlabs-apk](https://forge.puppet.com/puppetlabs/apk)
+* [puppetlabs-stunnel](https://forge.puppet.com/puppetlabs/stunnel)
+* [puppetlabs-image_build](https://forge.puppet.com/puppetlabs/image_build)
+* [puppetlabs-apply](https://forge.puppet.com/puppetlabs/apply)
+* [puppetlabs-netapp](https://forge.puppet.com/puppetlabs/netapp)
+* [puppetlabs-pipelines](https://forge.puppet.com/puppetlabs/pipelines)
+* [puppetlabs-netscaler](https://forge.puppet.com/puppetlabs/netscaler)
+* [puppetlabs-logentries](https://forge.puppet.com/puppetlabs/logentries)
+* [puppetlabs-node_openstack](https://forge.puppet.com/puppetlabs/node_openstack)
+* [puppetlabs-win_desktop_shortcut](https://forge.puppet.com/puppetlabs/win_desktop_shortcut)
+* [puppetlabs-vcenter](https://forge.puppet.com/puppetlabs/vcenter)
+* [puppetlabs-rancher](https://forge.puppet.com/puppetlabs/rancher)
+* [puppetlabs-package_updates](https://forge.puppet.com/puppetlabs/package_updates)
+* [puppetlabs-opennebula](https://forge.puppet.com/puppetlabs/opennebula)
+* [puppetlabs-policy_engine](https://forge.puppet.com/puppetlabs/policy_engine)
+* [puppetlabs-docker_ucp](https://forge.puppet.com/puppetlabs/docker_ucp)
+* [puppetlabs-rkt](https://forge.puppet.com/puppetlabs/rkt)
+* [puppetlabs-detect_wannacry](https://forge.puppet.com/puppetlabs/detect_wannacry)
+* [puppetlabs-docker_ddc](https://forge.puppet.com/puppetlabs/docker_ddc)
+* [puppetlabs-pe_bulk_agent_install](https://forge.puppet.com/puppetlabs/pe_bulk_agent_install)
+* [puppetlabs-azure_agent](https://forge.puppet.com/puppetlabs/azure_agent)
+* [puppetlabs-pdb_3323_workaround](https://forge.puppet.com/puppetlabs/pdb_3323_workaround)
+* [puppetlabs-mco_rpc](https://forge.puppet.com/puppetlabs/mco_rpc)
+* [puppetlabs-lumogon](https://forge.puppet.com/puppetlabs/lumogon)
+* [puppetlabs-servicenow_change_requests](https://forge.puppet.com/puppetlabs/servicenow_change_requests)
+* [puppetlabs-macdslocal_core](https://forge.puppet.com/puppetlabs/macdslocal_core)
+</details>
+<details>
+<summary>
+## Forge: Source field problem
+</summary>
+
+Our standards for the `source` key in `metadata.json` is to point to the HTML url
+of the GitHub repository containing module source. The following Forge modules do
+not match that expectation. Either the field could not be parsed, or it does not
+point to a valid public repo within the org. Sometimes this happens when another
+developer takes ownership of a module and the Forge page isn't updated to match.
+
+Correct the field for any modules we own, and deprecate as appropriate any modules
+we no longer own.
+* [puppetlabs-ciscopuppet](https://forge.puppet.com/puppetlabs/ciscopuppet)
+* [puppetlabs-cd4pe_jobs](https://forge.puppet.com/puppetlabs/cd4pe_jobs)
+* [puppetlabs-dashboard](https://forge.puppet.com/puppetlabs/dashboard)
+* [puppetlabs-boundary](https://forge.puppet.com/puppetlabs/boundary)
+* [puppetlabs-bacula](https://forge.puppet.com/puppetlabs/bacula)
+* [puppetlabs-pe_upgrade](https://forge.puppet.com/puppetlabs/pe_upgrade)
+* [puppetlabs-appdirector](https://forge.puppet.com/puppetlabs/appdirector)
+* [puppetlabs-lib_puppet](https://forge.puppet.com/puppetlabs/lib_puppet)
+* [puppetlabs-kwalify](https://forge.puppet.com/puppetlabs/kwalify)
+* [puppetlabs-vcli_rsyslog](https://forge.puppet.com/puppetlabs/vcli_rsyslog)
+* [puppetlabs-minimum_version](https://forge.puppet.com/puppetlabs/minimum_version)
+* [puppetlabs-puppetdb_gc](https://forge.puppet.com/puppetlabs/puppetdb_gc)
+* [puppetlabs-pe_event_forwarding](https://forge.puppet.com/puppetlabs/pe_event_forwarding)
+* [puppetlabs-cem_linux](https://forge.puppet.com/puppetlabs/cem_linux)
+* [puppetlabs-sccm](https://forge.puppet.com/puppetlabs/sccm)
+* [puppetlabs-cem_windows](https://forge.puppet.com/puppetlabs/cem_windows)
+* [puppetlabs-change_window](https://forge.puppet.com/puppetlabs/change_window)
+</details>
