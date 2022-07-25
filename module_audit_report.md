@@ -19,6 +19,7 @@ compliant.
 See `{not yet published}` for details about our housekeeping standards.
 
 ----
+
 ## GitHub: Module repositories missing support tier topic
 
 <details>
@@ -28,6 +29,7 @@ repository should have a topic identifying which support tier it falls into. The
 following GitHub repositories are missing their support tier topics and should
 have them added.
 </summary>
+  
 * [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
 * [puppetlabs/netdev_stdlib](https://github.com/puppetlabs/netdev_stdlib)
 * [puppetlabs/puppetlabs-vsphere](https://github.com/puppetlabs/puppetlabs-vsphere)
@@ -106,6 +108,7 @@ have them added.
 * [puppetlabs/puppet_operational_dashboards](https://github.com/puppetlabs/puppet_operational_dashboards)
 * [puppetlabs/puppet-jenkins](https://github.com/puppetlabs/puppet-jenkins)
 </details>
+
 ## GitHub: Module repositories missing README preamble
 
 <details>
@@ -116,6 +119,7 @@ a user can expect when using that module.
 
 The following GitHub repositories should have a preamble added to their `README`.
 </summary>
+  
 * [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
 * [puppetlabs/puppetlabs-rsync](https://github.com/puppetlabs/puppetlabs-rsync)
 * [puppetlabs/puppetlabs-xinetd](https://github.com/puppetlabs/puppetlabs-xinetd)
@@ -195,6 +199,7 @@ The following GitHub repositories should have a preamble added to their `README`
 * [puppetlabs/puppet-jenkins](https://github.com/puppetlabs/puppet-jenkins)
 * [puppetlabs/kmo-501-nginx](https://github.com/puppetlabs/kmo-501-nginx)
 </details>
+
 ## GitHub: Invalid CODEOWNERS files
 
 <details>
@@ -208,6 +213,7 @@ The following GitHub repositories have problems with their `CODEOWNERS` files. C
 through to inspect the errors using GitHub's interface and it will offer suggestions
 on how to resolve problems.
 </summary>
+  
 * [puppetlabs-puppet](https://github.com/puppetlabs/puppet/blob/-/CODEOWNERS)
 * [puppetlabs-puppetlabs-rsync](https://github.com/puppetlabs/puppetlabs-rsync/blob/-/CODEOWNERS)
 * [puppetlabs-showoff](https://github.com/puppetlabs/showoff/blob/-/CODEOWNERS)
@@ -325,6 +331,7 @@ on how to resolve problems.
 * [puppetlabs-kubernetes-plugin](https://github.com/puppetlabs/kubernetes-plugin/blob/-/CODEOWNERS)
 * [puppetlabs-pds-integration-control-repo](https://github.com/puppetlabs/pds-integration-control-repo/blob/-/CODEOWNERS)
 </details>
+
 ## Forge: Add Supported badge
 
 <details>
@@ -332,6 +339,7 @@ on how to resolve problems.
 Forge module pages should match the topics on their corresponding repositories.
 The following Forge modules should be badged as Supported.
 </summary>
+  
 * [puppetlabs-exec](https://forge.puppet.com/puppetlabs/exec)
 * [puppetlabs-yaml](https://forge.puppet.com/puppetlabs/yaml)
 * [puppetlabs-bolt_shim](https://forge.puppet.com/puppetlabs/bolt_shim)
@@ -344,6 +352,7 @@ The following Forge modules should be badged as Supported.
 * [puppetlabs-apply_helpers](https://forge.puppet.com/puppetlabs/apply_helpers)
 * [puppetlabs-secure_env_vars](https://forge.puppet.com/puppetlabs/secure_env_vars)
 </details>
+
 ## Forge: Remove Supported badge
 
 <details>
@@ -351,15 +360,19 @@ The following Forge modules should be badged as Supported.
 Forge module pages should match the topics on their corresponding repositories.
 The following Forge modules should have the Supported badge removed.
 </summary>
+  
 * [puppetlabs-influxdb](https://forge.puppet.com/puppetlabs/influxdb)
 * [puppetlabs-puppet_operational_dashboards](https://forge.puppet.com/puppetlabs/puppet_operational_dashboards)
 </details>
+
 ## Forge: Add Adoptable badge
+
 <details>
 <summary>
 The repositories for these modules have been archived into the Toy Chest, so their
 Forge pages should be badged as `Adoptable`.
 </summary>
+  
 * [puppetlabs-puppetserver_gem](https://forge.puppet.com/puppetlabs/puppetserver_gem)
 * [puppetlabs-git](https://forge.puppet.com/puppetlabs/git)
 * [puppetlabs-tftp](https://forge.puppet.com/puppetlabs/tftp)
@@ -403,6 +416,7 @@ Forge pages should be badged as `Adoptable`.
 * [puppetlabs-servicenow_change_requests](https://forge.puppet.com/puppetlabs/servicenow_change_requests)
 * [puppetlabs-macdslocal_core](https://forge.puppet.com/puppetlabs/macdslocal_core)
 </details>
+
 ## Forge: Source field problem
 
 <details>
@@ -416,6 +430,7 @@ developer takes ownership of a module and the Forge page isn't updated to match.
 Correct the field for any modules we own, and deprecate as appropriate any modules
 we no longer own.
 </summary>
+  
 * [puppetlabs-ciscopuppet](https://forge.puppet.com/puppetlabs/ciscopuppet)
 * [puppetlabs-cd4pe_jobs](https://forge.puppet.com/puppetlabs/cd4pe_jobs)
 * [puppetlabs-dashboard](https://forge.puppet.com/puppetlabs/dashboard)
