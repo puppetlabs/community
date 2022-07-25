@@ -209,7 +209,6 @@ The following GitHub repositories have problems with their `CODEOWNERS` files. C
 through to inspect the errors using GitHub's interface and it will offer suggestions
 on how to resolve problems.
 * [puppetlabs-puppet](https://github.com/puppetlabs/puppet)
-* [puppetlabs-education-builds](https://github.com/puppetlabs/education-builds)
 * [puppetlabs-puppetlabs-rsync](https://github.com/puppetlabs/puppetlabs-rsync)
 * [puppetlabs-showoff](https://github.com/puppetlabs/showoff)
 * [puppetlabs-puppet-rfc](https://github.com/puppetlabs/puppet-rfc)
