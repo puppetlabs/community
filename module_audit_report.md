@@ -5,11 +5,11 @@ namespace and our Puppet Forge namespace for modules and repositories that do no
 meet our standards and policies. This report contains content which is out of
 compliance and should be either removed or corrected.
 
-Expand each section to find a list of repositories that failed each check,
-information about the check itself, and suggestions for remediating it.
+Each section below describes expectations for a check and suggestions for remediating
+the failure. Expand the list to see all the content that failed the check.
 
-If the repository is no longer useful, then use these heuristics to decide what
-to do with it:
+If a repository is no longer useful then remove it rather than working to make it
+compliant.
 
 * If anyone else might find practical use or learning opportunities, then bin
   the repository into the [Toy Chest](http://github.com/puppetlabs-toy-chest/)
@@ -19,15 +19,15 @@ to do with it:
 See `{not yet published}` for details about our housekeeping standards.
 
 ----
+## GitHub: Module repositories missing support tier topic
+
 <details>
 <summary>
-## GitHub: Module repositories missing support tier topic:
-</summary>
-
 Modules in the Puppetlabs namespace have different support expectations. Each module
 repository should have a topic identifying which support tier it falls into. The
 following GitHub repositories are missing their support tier topics and should
 have them added.
+</summary>
 * [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
 * [puppetlabs/netdev_stdlib](https://github.com/puppetlabs/netdev_stdlib)
 * [puppetlabs/puppetlabs-vsphere](https://github.com/puppetlabs/puppetlabs-vsphere)
@@ -106,16 +106,16 @@ have them added.
 * [puppetlabs/puppet_operational_dashboards](https://github.com/puppetlabs/puppet_operational_dashboards)
 * [puppetlabs/puppet-jenkins](https://github.com/puppetlabs/puppet-jenkins)
 </details>
+## GitHub: Module repositories missing README preamble
+
 <details>
 <summary>
-## GitHub: Module repositories missing README preamble:
-</summary>
-
 Modules in the Puppetlabs namespace have different support expectations. Each module
 should have a properly formatted `README` preamble explaining what kind of support
 a user can expect when using that module.
 
 The following GitHub repositories should have a preamble added to their `README`.
+</summary>
 * [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
 * [puppetlabs/puppetlabs-rsync](https://github.com/puppetlabs/puppetlabs-rsync)
 * [puppetlabs/puppetlabs-xinetd](https://github.com/puppetlabs/puppetlabs-xinetd)
@@ -195,11 +195,10 @@ The following GitHub repositories should have a preamble added to their `README`
 * [puppetlabs/puppet-jenkins](https://github.com/puppetlabs/puppet-jenkins)
 * [puppetlabs/kmo-501-nginx](https://github.com/puppetlabs/kmo-501-nginx)
 </details>
+## GitHub: Invalid CODEOWNERS files
+
 <details>
 <summary>
-## GitHub: Invalid CODEOWNERS files
-</summary>
-
 All public repositories in the `puppetlabs` namespace should have valid `CODEOWNERS`
 clearly showing ownership and responsibilities. This allows us to automatically
 assign pull request reviews and makes it easier to identify teams responsible for
@@ -208,130 +207,131 @@ a project.
 The following GitHub repositories have problems with their `CODEOWNERS` files. Click
 through to inspect the errors using GitHub's interface and it will offer suggestions
 on how to resolve problems.
-* [puppetlabs-puppet](https://github.com/puppetlabs/puppet)
-* [puppetlabs-puppetlabs-rsync](https://github.com/puppetlabs/puppetlabs-rsync)
-* [puppetlabs-showoff](https://github.com/puppetlabs/showoff)
-* [puppetlabs-puppet-rfc](https://github.com/puppetlabs/puppet-rfc)
-* [puppetlabs-netdev_stdlib](https://github.com/puppetlabs/netdev_stdlib)
-* [puppetlabs-gatling-puppet-load-test](https://github.com/puppetlabs/gatling-puppet-load-test)
-* [puppetlabs-semantic_puppet](https://github.com/puppetlabs/semantic_puppet)
-* [puppetlabs-puppet-specifications](https://github.com/puppetlabs/puppet-specifications)
-* [puppetlabs-icfp-2014](https://github.com/puppetlabs/icfp-2014)
-* [puppetlabs-clj-schema-tools](https://github.com/puppetlabs/clj-schema-tools)
-* [puppetlabs-clamps](https://github.com/puppetlabs/clamps)
-* [puppetlabs-net_http_unix](https://github.com/puppetlabs/net_http_unix)
-* [puppetlabs-puppetfactory](https://github.com/puppetlabs/puppetfactory)
-* [puppetlabs-pltraining-userprefs](https://github.com/puppetlabs/pltraining-userprefs)
-* [puppetlabs-pltraining-bootstrap](https://github.com/puppetlabs/pltraining-bootstrap)
-* [puppetlabs-pltraining-localrepo](https://github.com/puppetlabs/pltraining-localrepo)
-* [puppetlabs-pltraining-learning](https://github.com/puppetlabs/pltraining-learning)
-* [puppetlabs-pltraining-rbac](https://github.com/puppetlabs/pltraining-rbac)
-* [puppetlabs-master_manipulator](https://github.com/puppetlabs/master_manipulator)
-* [puppetlabs-pltraining-dirtree](https://github.com/puppetlabs/pltraining-dirtree)
-* [puppetlabs-cpp-hocon](https://github.com/puppetlabs/cpp-hocon)
-* [puppetlabs-quest](https://github.com/puppetlabs/quest)
-* [puppetlabs-pltraining-dockeragent](https://github.com/puppetlabs/pltraining-dockeragent)
-* [puppetlabs-learndot_api](https://github.com/puppetlabs/learndot_api)
-* [puppetlabs-puppetdb-cli](https://github.com/puppetlabs/puppetdb-cli)
-* [puppetlabs-puppet-quest-guide](https://github.com/puppetlabs/puppet-quest-guide)
-* [puppetlabs-lein-release-4digit-version](https://github.com/puppetlabs/lein-release-4digit-version)
-* [puppetlabs-puppet-validator](https://github.com/puppetlabs/puppet-validator)
-* [puppetlabs-hierademo](https://github.com/puppetlabs/hierademo)
-* [puppetlabs-beaker-pe](https://github.com/puppetlabs/beaker-pe)
-* [puppetlabs-prosvc-preview_report](https://github.com/puppetlabs/prosvc-preview_report)
-* [puppetlabs-orchestrator_client-ruby](https://github.com/puppetlabs/orchestrator_client-ruby)
-* [puppetlabs-pl-build-tools-vanagon](https://github.com/puppetlabs/pl-build-tools-vanagon)
-* [puppetlabs-pltraining-pasture](https://github.com/puppetlabs/pltraining-pasture)
-* [puppetlabs-puppet-vscode](https://github.com/puppetlabs/puppet-vscode)
-* [puppetlabs-best-practices](https://github.com/puppetlabs/best-practices)
-* [puppetlabs-ultipro-soap-python](https://github.com/puppetlabs/ultipro-soap-python)
-* [puppetlabs-aws_resource_reaper](https://github.com/puppetlabs/aws_resource_reaper)
-* [puppetlabs-beaker-vmpooler](https://github.com/puppetlabs/beaker-vmpooler)
-* [puppetlabs-puppet-agent-bootstrap](https://github.com/puppetlabs/puppet-agent-bootstrap)
-* [puppetlabs-puppet-lint-i18n](https://github.com/puppetlabs/puppet-lint-i18n)
-* [puppetlabs-puppet-classroom-manager](https://github.com/puppetlabs/puppet-classroom-manager)
-* [puppetlabs-rubocop-i18n](https://github.com/puppetlabs/rubocop-i18n)
-* [puppetlabs-nssm](https://github.com/puppetlabs/nssm)
-* [puppetlabs-puppet-runtime](https://github.com/puppetlabs/puppet-runtime)
-* [puppetlabs-puppet-bigquery](https://github.com/puppetlabs/puppet-bigquery)
-* [puppetlabs-kream](https://github.com/puppetlabs/kream)
-* [puppetlabs-task-modules](https://github.com/puppetlabs/task-modules)
-* [puppetlabs-slackin](https://github.com/puppetlabs/slackin)
-* [puppetlabs-puppet-chocolatey-packages](https://github.com/puppetlabs/puppet-chocolatey-packages)
-* [puppetlabs-puppetlabs-resource_api](https://github.com/puppetlabs/puppetlabs-resource_api)
-* [puppetlabs-puppet-editor-syntax](https://github.com/puppetlabs/puppet-editor-syntax)
-* [puppetlabs-gem_of](https://github.com/puppetlabs/gem_of)
-* [puppetlabs-infracore-ami](https://github.com/puppetlabs/infracore-ami)
-* [puppetlabs-puppet-editor-services](https://github.com/puppetlabs/puppet-editor-services)
-* [puppetlabs-ref_arch_setup](https://github.com/puppetlabs/ref_arch_setup)
-* [puppetlabs-encrypted_backup](https://github.com/puppetlabs/encrypted_backup)
-* [puppetlabs-prtg_push](https://github.com/puppetlabs/prtg_push)
-* [puppetlabs-cvelist](https://github.com/puppetlabs/cvelist)
-* [puppetlabs-kreamlet](https://github.com/puppetlabs/kreamlet)
-* [puppetlabs-homebrew-puppet](https://github.com/puppetlabs/homebrew-puppet)
-* [puppetlabs-puppet_metrics_dashboard](https://github.com/puppetlabs/puppet_metrics_dashboard)
-* [puppetlabs-puppet-community-mvp](https://github.com/puppetlabs/puppet-community-mvp)
-* [puppetlabs-courseware-lms-gswp-cr](https://github.com/puppetlabs/courseware-lms-gswp-cr)
-* [puppetlabs-contributor-summit-project](https://github.com/puppetlabs/contributor-summit-project)
-* [puppetlabs-pe_tech_check](https://github.com/puppetlabs/pe_tech_check)
-* [puppetlabs-puppet-community-rangefinder](https://github.com/puppetlabs/puppet-community-rangefinder)
-* [puppetlabs-puppetlabs-test_device](https://github.com/puppetlabs/puppetlabs-test_device)
-* [puppetlabs-puppet-community-rangefinder-webhook](https://github.com/puppetlabs/puppet-community-rangefinder-webhook)
-* [puppetlabs-tig-demo](https://github.com/puppetlabs/tig-demo)
-* [puppetlabs-beerboard](https://github.com/puppetlabs/beerboard)
-* [puppetlabs-puppet-release_manager](https://github.com/puppetlabs/puppet-release_manager)
-* [puppetlabs-bolt-project](https://github.com/puppetlabs/bolt-project)
-* [puppetlabs-puppetlabs-hue](https://github.com/puppetlabs/puppetlabs-hue)
-* [puppetlabs-posh-bolt](https://github.com/puppetlabs/posh-bolt)
-* [puppetlabs-facter-ng](https://github.com/puppetlabs/facter-ng)
-* [puppetlabs-puppetserver-helm-chart](https://github.com/puppetlabs/puppetserver-helm-chart)
-* [puppetlabs-beaker-gke](https://github.com/puppetlabs/beaker-gke)
-* [puppetlabs-puppetlabs-ruby_plugin_helper](https://github.com/puppetlabs/puppetlabs-ruby_plugin_helper)
-* [puppetlabs-pmc_miller](https://github.com/puppetlabs/pmc_miller)
-* [puppetlabs-puppetlabs-minimum_version](https://github.com/puppetlabs/puppetlabs-minimum_version)
-* [puppetlabs-puppetlabs-env_plugin](https://github.com/puppetlabs/puppetlabs-env_plugin)
-* [puppetlabs-go-pe-client](https://github.com/puppetlabs/go-pe-client)
-* [puppetlabs-winrm_security](https://github.com/puppetlabs/winrm_security)
-* [puppetlabs-litmus](https://github.com/puppetlabs/litmus)
-* [puppetlabs-se_control_2020](https://github.com/puppetlabs/se_control_2020)
-* [puppetlabs-puppetlabs-servicenow_change_requests](https://github.com/puppetlabs/puppetlabs-servicenow_change_requests)
-* [puppetlabs-scavenger-hunt-instructions](https://github.com/puppetlabs/scavenger-hunt-instructions)
-* [puppetlabs-education-control-repo](https://github.com/puppetlabs/education-control-repo)
-* [puppetlabs-bolt-examples](https://github.com/puppetlabs/bolt-examples)
-* [puppetlabs-pltraining-apache](https://github.com/puppetlabs/pltraining-apache)
-* [puppetlabs-courseware-lms-lab-downloads](https://github.com/puppetlabs/courseware-lms-lab-downloads)
-* [puppetlabs-oauth2-proxy](https://github.com/puppetlabs/oauth2-proxy)
-* [puppetlabs-puppetlabs-relay](https://github.com/puppetlabs/puppetlabs-relay)
-* [puppetlabs-bolt-waypoint-plugin](https://github.com/puppetlabs/bolt-waypoint-plugin)
-* [puppetlabs-go-libs](https://github.com/puppetlabs/go-libs)
-* [puppetlabs-RSAN](https://github.com/puppetlabs/RSAN)
-* [puppetlabs-pe-sdk-go](https://github.com/puppetlabs/pe-sdk-go)
-* [puppetlabs-opv](https://github.com/puppetlabs/opv)
-* [puppetlabs-knative-sandbox-net-istio](https://github.com/puppetlabs/knative-sandbox-net-istio)
-* [puppetlabs-knative-sandbox-net-contour](https://github.com/puppetlabs/knative-sandbox-net-contour)
-* [puppetlabs-puppetlabs-sccm](https://github.com/puppetlabs/puppetlabs-sccm)
-* [puppetlabs-hashicorp-vault](https://github.com/puppetlabs/hashicorp-vault)
-* [puppetlabs-aws-hol-repo](https://github.com/puppetlabs/aws-hol-repo)
-* [puppetlabs-puppetlabs-hdp](https://github.com/puppetlabs/puppetlabs-hdp)
-* [puppetlabs-install-puppet](https://github.com/puppetlabs/install-puppet)
-* [puppetlabs-learn-to-be-a-puppet-engineer](https://github.com/puppetlabs/learn-to-be-a-puppet-engineer)
-* [puppetlabs-openapi-generator](https://github.com/puppetlabs/openapi-generator)
-* [puppetlabs-prm-test-tool-01](https://github.com/puppetlabs/prm-test-tool-01)
-* [puppetlabs-prm-test-tool-02](https://github.com/puppetlabs/prm-test-tool-02)
-* [puppetlabs-kmo-4-6-meta-repo](https://github.com/puppetlabs/kmo-4-6-meta-repo)
-* [puppetlabs-terraform-provider-auth0](https://github.com/puppetlabs/terraform-provider-auth0)
-* [puppetlabs-go-auth0](https://github.com/puppetlabs/go-auth0)
-* [puppetlabs-setup-step-cli](https://github.com/puppetlabs/setup-step-cli)
-* [puppetlabs-kubernetes-plugin](https://github.com/puppetlabs/kubernetes-plugin)
-* [puppetlabs-pds-integration-control-repo](https://github.com/puppetlabs/pds-integration-control-repo)
+</summary>
+* [puppetlabs-puppet](https://github.com/puppetlabs/puppet/blob/-/CODEOWNERS)
+* [puppetlabs-puppetlabs-rsync](https://github.com/puppetlabs/puppetlabs-rsync/blob/-/CODEOWNERS)
+* [puppetlabs-showoff](https://github.com/puppetlabs/showoff/blob/-/CODEOWNERS)
+* [puppetlabs-puppet-rfc](https://github.com/puppetlabs/puppet-rfc/blob/-/CODEOWNERS)
+* [puppetlabs-netdev_stdlib](https://github.com/puppetlabs/netdev_stdlib/blob/-/CODEOWNERS)
+* [puppetlabs-gatling-puppet-load-test](https://github.com/puppetlabs/gatling-puppet-load-test/blob/-/CODEOWNERS)
+* [puppetlabs-semantic_puppet](https://github.com/puppetlabs/semantic_puppet/blob/-/CODEOWNERS)
+* [puppetlabs-puppet-specifications](https://github.com/puppetlabs/puppet-specifications/blob/-/CODEOWNERS)
+* [puppetlabs-icfp-2014](https://github.com/puppetlabs/icfp-2014/blob/-/CODEOWNERS)
+* [puppetlabs-clj-schema-tools](https://github.com/puppetlabs/clj-schema-tools/blob/-/CODEOWNERS)
+* [puppetlabs-clamps](https://github.com/puppetlabs/clamps/blob/-/CODEOWNERS)
+* [puppetlabs-net_http_unix](https://github.com/puppetlabs/net_http_unix/blob/-/CODEOWNERS)
+* [puppetlabs-puppetfactory](https://github.com/puppetlabs/puppetfactory/blob/-/CODEOWNERS)
+* [puppetlabs-pltraining-userprefs](https://github.com/puppetlabs/pltraining-userprefs/blob/-/CODEOWNERS)
+* [puppetlabs-pltraining-bootstrap](https://github.com/puppetlabs/pltraining-bootstrap/blob/-/CODEOWNERS)
+* [puppetlabs-pltraining-localrepo](https://github.com/puppetlabs/pltraining-localrepo/blob/-/CODEOWNERS)
+* [puppetlabs-pltraining-learning](https://github.com/puppetlabs/pltraining-learning/blob/-/CODEOWNERS)
+* [puppetlabs-pltraining-rbac](https://github.com/puppetlabs/pltraining-rbac/blob/-/CODEOWNERS)
+* [puppetlabs-master_manipulator](https://github.com/puppetlabs/master_manipulator/blob/-/CODEOWNERS)
+* [puppetlabs-pltraining-dirtree](https://github.com/puppetlabs/pltraining-dirtree/blob/-/CODEOWNERS)
+* [puppetlabs-cpp-hocon](https://github.com/puppetlabs/cpp-hocon/blob/-/CODEOWNERS)
+* [puppetlabs-quest](https://github.com/puppetlabs/quest/blob/-/CODEOWNERS)
+* [puppetlabs-pltraining-dockeragent](https://github.com/puppetlabs/pltraining-dockeragent/blob/-/CODEOWNERS)
+* [puppetlabs-learndot_api](https://github.com/puppetlabs/learndot_api/blob/-/CODEOWNERS)
+* [puppetlabs-puppetdb-cli](https://github.com/puppetlabs/puppetdb-cli/blob/-/CODEOWNERS)
+* [puppetlabs-puppet-quest-guide](https://github.com/puppetlabs/puppet-quest-guide/blob/-/CODEOWNERS)
+* [puppetlabs-lein-release-4digit-version](https://github.com/puppetlabs/lein-release-4digit-version/blob/-/CODEOWNERS)
+* [puppetlabs-puppet-validator](https://github.com/puppetlabs/puppet-validator/blob/-/CODEOWNERS)
+* [puppetlabs-hierademo](https://github.com/puppetlabs/hierademo/blob/-/CODEOWNERS)
+* [puppetlabs-beaker-pe](https://github.com/puppetlabs/beaker-pe/blob/-/CODEOWNERS)
+* [puppetlabs-prosvc-preview_report](https://github.com/puppetlabs/prosvc-preview_report/blob/-/CODEOWNERS)
+* [puppetlabs-orchestrator_client-ruby](https://github.com/puppetlabs/orchestrator_client-ruby/blob/-/CODEOWNERS)
+* [puppetlabs-pl-build-tools-vanagon](https://github.com/puppetlabs/pl-build-tools-vanagon/blob/-/CODEOWNERS)
+* [puppetlabs-pltraining-pasture](https://github.com/puppetlabs/pltraining-pasture/blob/-/CODEOWNERS)
+* [puppetlabs-puppet-vscode](https://github.com/puppetlabs/puppet-vscode/blob/-/CODEOWNERS)
+* [puppetlabs-best-practices](https://github.com/puppetlabs/best-practices/blob/-/CODEOWNERS)
+* [puppetlabs-ultipro-soap-python](https://github.com/puppetlabs/ultipro-soap-python/blob/-/CODEOWNERS)
+* [puppetlabs-aws_resource_reaper](https://github.com/puppetlabs/aws_resource_reaper/blob/-/CODEOWNERS)
+* [puppetlabs-beaker-vmpooler](https://github.com/puppetlabs/beaker-vmpooler/blob/-/CODEOWNERS)
+* [puppetlabs-puppet-agent-bootstrap](https://github.com/puppetlabs/puppet-agent-bootstrap/blob/-/CODEOWNERS)
+* [puppetlabs-puppet-lint-i18n](https://github.com/puppetlabs/puppet-lint-i18n/blob/-/CODEOWNERS)
+* [puppetlabs-puppet-classroom-manager](https://github.com/puppetlabs/puppet-classroom-manager/blob/-/CODEOWNERS)
+* [puppetlabs-rubocop-i18n](https://github.com/puppetlabs/rubocop-i18n/blob/-/CODEOWNERS)
+* [puppetlabs-nssm](https://github.com/puppetlabs/nssm/blob/-/CODEOWNERS)
+* [puppetlabs-puppet-runtime](https://github.com/puppetlabs/puppet-runtime/blob/-/CODEOWNERS)
+* [puppetlabs-puppet-bigquery](https://github.com/puppetlabs/puppet-bigquery/blob/-/CODEOWNERS)
+* [puppetlabs-kream](https://github.com/puppetlabs/kream/blob/-/CODEOWNERS)
+* [puppetlabs-task-modules](https://github.com/puppetlabs/task-modules/blob/-/CODEOWNERS)
+* [puppetlabs-slackin](https://github.com/puppetlabs/slackin/blob/-/CODEOWNERS)
+* [puppetlabs-puppet-chocolatey-packages](https://github.com/puppetlabs/puppet-chocolatey-packages/blob/-/CODEOWNERS)
+* [puppetlabs-puppetlabs-resource_api](https://github.com/puppetlabs/puppetlabs-resource_api/blob/-/CODEOWNERS)
+* [puppetlabs-puppet-editor-syntax](https://github.com/puppetlabs/puppet-editor-syntax/blob/-/CODEOWNERS)
+* [puppetlabs-gem_of](https://github.com/puppetlabs/gem_of/blob/-/CODEOWNERS)
+* [puppetlabs-infracore-ami](https://github.com/puppetlabs/infracore-ami/blob/-/CODEOWNERS)
+* [puppetlabs-puppet-editor-services](https://github.com/puppetlabs/puppet-editor-services/blob/-/CODEOWNERS)
+* [puppetlabs-ref_arch_setup](https://github.com/puppetlabs/ref_arch_setup/blob/-/CODEOWNERS)
+* [puppetlabs-encrypted_backup](https://github.com/puppetlabs/encrypted_backup/blob/-/CODEOWNERS)
+* [puppetlabs-prtg_push](https://github.com/puppetlabs/prtg_push/blob/-/CODEOWNERS)
+* [puppetlabs-cvelist](https://github.com/puppetlabs/cvelist/blob/-/CODEOWNERS)
+* [puppetlabs-kreamlet](https://github.com/puppetlabs/kreamlet/blob/-/CODEOWNERS)
+* [puppetlabs-homebrew-puppet](https://github.com/puppetlabs/homebrew-puppet/blob/-/CODEOWNERS)
+* [puppetlabs-puppet_metrics_dashboard](https://github.com/puppetlabs/puppet_metrics_dashboard/blob/-/CODEOWNERS)
+* [puppetlabs-puppet-community-mvp](https://github.com/puppetlabs/puppet-community-mvp/blob/-/CODEOWNERS)
+* [puppetlabs-courseware-lms-gswp-cr](https://github.com/puppetlabs/courseware-lms-gswp-cr/blob/-/CODEOWNERS)
+* [puppetlabs-contributor-summit-project](https://github.com/puppetlabs/contributor-summit-project/blob/-/CODEOWNERS)
+* [puppetlabs-pe_tech_check](https://github.com/puppetlabs/pe_tech_check/blob/-/CODEOWNERS)
+* [puppetlabs-puppet-community-rangefinder](https://github.com/puppetlabs/puppet-community-rangefinder/blob/-/CODEOWNERS)
+* [puppetlabs-puppetlabs-test_device](https://github.com/puppetlabs/puppetlabs-test_device/blob/-/CODEOWNERS)
+* [puppetlabs-puppet-community-rangefinder-webhook](https://github.com/puppetlabs/puppet-community-rangefinder-webhook/blob/-/CODEOWNERS)
+* [puppetlabs-tig-demo](https://github.com/puppetlabs/tig-demo/blob/-/CODEOWNERS)
+* [puppetlabs-beerboard](https://github.com/puppetlabs/beerboard/blob/-/CODEOWNERS)
+* [puppetlabs-puppet-release_manager](https://github.com/puppetlabs/puppet-release_manager/blob/-/CODEOWNERS)
+* [puppetlabs-bolt-project](https://github.com/puppetlabs/bolt-project/blob/-/CODEOWNERS)
+* [puppetlabs-puppetlabs-hue](https://github.com/puppetlabs/puppetlabs-hue/blob/-/CODEOWNERS)
+* [puppetlabs-posh-bolt](https://github.com/puppetlabs/posh-bolt/blob/-/CODEOWNERS)
+* [puppetlabs-facter-ng](https://github.com/puppetlabs/facter-ng/blob/-/CODEOWNERS)
+* [puppetlabs-puppetserver-helm-chart](https://github.com/puppetlabs/puppetserver-helm-chart/blob/-/CODEOWNERS)
+* [puppetlabs-beaker-gke](https://github.com/puppetlabs/beaker-gke/blob/-/CODEOWNERS)
+* [puppetlabs-puppetlabs-ruby_plugin_helper](https://github.com/puppetlabs/puppetlabs-ruby_plugin_helper/blob/-/CODEOWNERS)
+* [puppetlabs-pmc_miller](https://github.com/puppetlabs/pmc_miller/blob/-/CODEOWNERS)
+* [puppetlabs-puppetlabs-minimum_version](https://github.com/puppetlabs/puppetlabs-minimum_version/blob/-/CODEOWNERS)
+* [puppetlabs-puppetlabs-env_plugin](https://github.com/puppetlabs/puppetlabs-env_plugin/blob/-/CODEOWNERS)
+* [puppetlabs-go-pe-client](https://github.com/puppetlabs/go-pe-client/blob/-/CODEOWNERS)
+* [puppetlabs-winrm_security](https://github.com/puppetlabs/winrm_security/blob/-/CODEOWNERS)
+* [puppetlabs-litmus](https://github.com/puppetlabs/litmus/blob/-/CODEOWNERS)
+* [puppetlabs-se_control_2020](https://github.com/puppetlabs/se_control_2020/blob/-/CODEOWNERS)
+* [puppetlabs-puppetlabs-servicenow_change_requests](https://github.com/puppetlabs/puppetlabs-servicenow_change_requests/blob/-/CODEOWNERS)
+* [puppetlabs-scavenger-hunt-instructions](https://github.com/puppetlabs/scavenger-hunt-instructions/blob/-/CODEOWNERS)
+* [puppetlabs-education-control-repo](https://github.com/puppetlabs/education-control-repo/blob/-/CODEOWNERS)
+* [puppetlabs-bolt-examples](https://github.com/puppetlabs/bolt-examples/blob/-/CODEOWNERS)
+* [puppetlabs-pltraining-apache](https://github.com/puppetlabs/pltraining-apache/blob/-/CODEOWNERS)
+* [puppetlabs-courseware-lms-lab-downloads](https://github.com/puppetlabs/courseware-lms-lab-downloads/blob/-/CODEOWNERS)
+* [puppetlabs-oauth2-proxy](https://github.com/puppetlabs/oauth2-proxy/blob/-/CODEOWNERS)
+* [puppetlabs-puppetlabs-relay](https://github.com/puppetlabs/puppetlabs-relay/blob/-/CODEOWNERS)
+* [puppetlabs-bolt-waypoint-plugin](https://github.com/puppetlabs/bolt-waypoint-plugin/blob/-/CODEOWNERS)
+* [puppetlabs-go-libs](https://github.com/puppetlabs/go-libs/blob/-/CODEOWNERS)
+* [puppetlabs-RSAN](https://github.com/puppetlabs/RSAN/blob/-/CODEOWNERS)
+* [puppetlabs-pe-sdk-go](https://github.com/puppetlabs/pe-sdk-go/blob/-/CODEOWNERS)
+* [puppetlabs-opv](https://github.com/puppetlabs/opv/blob/-/CODEOWNERS)
+* [puppetlabs-knative-sandbox-net-istio](https://github.com/puppetlabs/knative-sandbox-net-istio/blob/-/CODEOWNERS)
+* [puppetlabs-knative-sandbox-net-contour](https://github.com/puppetlabs/knative-sandbox-net-contour/blob/-/CODEOWNERS)
+* [puppetlabs-puppetlabs-sccm](https://github.com/puppetlabs/puppetlabs-sccm/blob/-/CODEOWNERS)
+* [puppetlabs-hashicorp-vault](https://github.com/puppetlabs/hashicorp-vault/blob/-/CODEOWNERS)
+* [puppetlabs-aws-hol-repo](https://github.com/puppetlabs/aws-hol-repo/blob/-/CODEOWNERS)
+* [puppetlabs-puppetlabs-hdp](https://github.com/puppetlabs/puppetlabs-hdp/blob/-/CODEOWNERS)
+* [puppetlabs-install-puppet](https://github.com/puppetlabs/install-puppet/blob/-/CODEOWNERS)
+* [puppetlabs-learn-to-be-a-puppet-engineer](https://github.com/puppetlabs/learn-to-be-a-puppet-engineer/blob/-/CODEOWNERS)
+* [puppetlabs-openapi-generator](https://github.com/puppetlabs/openapi-generator/blob/-/CODEOWNERS)
+* [puppetlabs-prm-test-tool-01](https://github.com/puppetlabs/prm-test-tool-01/blob/-/CODEOWNERS)
+* [puppetlabs-prm-test-tool-02](https://github.com/puppetlabs/prm-test-tool-02/blob/-/CODEOWNERS)
+* [puppetlabs-kmo-4-6-meta-repo](https://github.com/puppetlabs/kmo-4-6-meta-repo/blob/-/CODEOWNERS)
+* [puppetlabs-terraform-provider-auth0](https://github.com/puppetlabs/terraform-provider-auth0/blob/-/CODEOWNERS)
+* [puppetlabs-go-auth0](https://github.com/puppetlabs/go-auth0/blob/-/CODEOWNERS)
+* [puppetlabs-setup-step-cli](https://github.com/puppetlabs/setup-step-cli/blob/-/CODEOWNERS)
+* [puppetlabs-kubernetes-plugin](https://github.com/puppetlabs/kubernetes-plugin/blob/-/CODEOWNERS)
+* [puppetlabs-pds-integration-control-repo](https://github.com/puppetlabs/pds-integration-control-repo/blob/-/CODEOWNERS)
 </details>
+## Forge: Add Supported badge
+
 <details>
 <summary>
-## Forge: Add Supported badge
-</summary>
-
 Forge module pages should match the topics on their corresponding repositories.
 The following Forge modules should be badged as Supported.
+</summary>
 * [puppetlabs-exec](https://forge.puppet.com/puppetlabs/exec)
 * [puppetlabs-yaml](https://forge.puppet.com/puppetlabs/yaml)
 * [puppetlabs-bolt_shim](https://forge.puppet.com/puppetlabs/bolt_shim)
@@ -344,23 +344,22 @@ The following Forge modules should be badged as Supported.
 * [puppetlabs-apply_helpers](https://forge.puppet.com/puppetlabs/apply_helpers)
 * [puppetlabs-secure_env_vars](https://forge.puppet.com/puppetlabs/secure_env_vars)
 </details>
+## Forge: Remove Supported badge
+
 <details>
 <summary>
-## Forge: Remove Supported badge
-</summary>
-
 Forge module pages should match the topics on their corresponding repositories.
 The following Forge modules should have the Supported badge removed.
+</summary>
 * [puppetlabs-influxdb](https://forge.puppet.com/puppetlabs/influxdb)
 * [puppetlabs-puppet_operational_dashboards](https://forge.puppet.com/puppetlabs/puppet_operational_dashboards)
 </details>
+## Forge: Add Adoptable badge
 <details>
 <summary>
-## Forge: Add Adoptable badge
-</summary>
-
 The repositories for these modules have been archived into the Toy Chest, so their
 Forge pages should be badged as `Adoptable`.
+</summary>
 * [puppetlabs-puppetserver_gem](https://forge.puppet.com/puppetlabs/puppetserver_gem)
 * [puppetlabs-git](https://forge.puppet.com/puppetlabs/git)
 * [puppetlabs-tftp](https://forge.puppet.com/puppetlabs/tftp)
@@ -404,11 +403,10 @@ Forge pages should be badged as `Adoptable`.
 * [puppetlabs-servicenow_change_requests](https://forge.puppet.com/puppetlabs/servicenow_change_requests)
 * [puppetlabs-macdslocal_core](https://forge.puppet.com/puppetlabs/macdslocal_core)
 </details>
+## Forge: Source field problem
+
 <details>
 <summary>
-## Forge: Source field problem
-</summary>
-
 Our standards for the `source` key in `metadata.json` is to point to the HTML url
 of the GitHub repository containing module source. The following Forge modules do
 not match that expectation. Either the field could not be parsed, or it does not
@@ -417,6 +415,7 @@ developer takes ownership of a module and the Forge page isn't updated to match.
 
 Correct the field for any modules we own, and deprecate as appropriate any modules
 we no longer own.
+</summary>
 * [puppetlabs-ciscopuppet](https://forge.puppet.com/puppetlabs/ciscopuppet)
 * [puppetlabs-cd4pe_jobs](https://forge.puppet.com/puppetlabs/cd4pe_jobs)
 * [puppetlabs-dashboard](https://forge.puppet.com/puppetlabs/dashboard)
