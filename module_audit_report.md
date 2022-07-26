@@ -41,6 +41,7 @@ have them added.
 
 <details>
 <summary>
+  
 Modules in the Puppetlabs namespace have different support expectations. Each module
 should have a properly formatted `README` preamble explaining what kind of support
 a user can expect when using that module.
