@@ -243,7 +243,6 @@ on how to resolve problems.
 * [puppetlabs-pltraining-learning](https://github.com/puppetlabs/pltraining-learning/blob/-/CODEOWNERS)
 * [puppetlabs-pltraining-rbac](https://github.com/puppetlabs/pltraining-rbac/blob/-/CODEOWNERS)
 * [puppetlabs-master_manipulator](https://github.com/puppetlabs/master_manipulator/blob/-/CODEOWNERS)
-* [puppetlabs-pltraining-dirtree](https://github.com/puppetlabs/pltraining-dirtree/blob/-/CODEOWNERS)
 * [puppetlabs-cpp-hocon](https://github.com/puppetlabs/cpp-hocon/blob/-/CODEOWNERS)
 * [puppetlabs-quest](https://github.com/puppetlabs/quest/blob/-/CODEOWNERS)
 * [puppetlabs-pltraining-dockeragent](https://github.com/puppetlabs/pltraining-dockeragent/blob/-/CODEOWNERS)
