@@ -36,25 +36,16 @@ have them added.
 
 * [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
 * [puppetlabs/netdev_stdlib](https://github.com/puppetlabs/netdev_stdlib)
-* [puppetlabs/puppetlabs-vsphere](https://github.com/puppetlabs/puppetlabs-vsphere)
 * [puppetlabs/ps-sox](https://github.com/puppetlabs/ps-sox)
-* [puppetlabs/puppetlabs-ibm_installation_manager](https://github.com/puppetlabs/puppetlabs-ibm_installation_manager)
-* [puppetlabs/puppetlabs-tagmail](https://github.com/puppetlabs/puppetlabs-tagmail)
 * [puppetlabs/pltraining-userprefs](https://github.com/puppetlabs/pltraining-userprefs)
 * [puppetlabs/pltraining-bootstrap](https://github.com/puppetlabs/pltraining-bootstrap)
 * [puppetlabs/pltraining-localrepo](https://github.com/puppetlabs/pltraining-localrepo)
 * [puppetlabs/pltraining-learning](https://github.com/puppetlabs/pltraining-learning)
-* [puppetlabs/puppetlabs-websphere_application_server](https://github.com/puppetlabs/puppetlabs-websphere_application_server)
 * [puppetlabs/pltraining-dockeragent](https://github.com/puppetlabs/pltraining-dockeragent)
 * [puppetlabs/puppetlabs-wordpress_app](https://github.com/puppetlabs/puppetlabs-wordpress_app)
 * [puppetlabs/puppetlabs-app_modeling](https://github.com/puppetlabs/puppetlabs-app_modeling)
-* [puppetlabs/puppetlabs-cloudshop](https://github.com/puppetlabs/puppetlabs-cloudshop)
-* [puppetlabs/puppetlabs-helm](https://github.com/puppetlabs/puppetlabs-helm)
 * [puppetlabs/cisco-network-puppet-module](https://github.com/puppetlabs/cisco-network-puppet-module)
-* [puppetlabs/puppetlabs-bootstrap](https://github.com/puppetlabs/puppetlabs-bootstrap)
 * [puppetlabs/puppetlabs-windows_puppet_certificates](https://github.com/puppetlabs/puppetlabs-windows_puppet_certificates)
-* [puppetlabs/puppetlabs-rook](https://github.com/puppetlabs/puppetlabs-rook)
-* [puppetlabs/cisco_ios](https://github.com/puppetlabs/cisco_ios)
 * [puppetlabs/vmware-vcenter](https://github.com/puppetlabs/vmware-vcenter)
 * [puppetlabs/puppetlabs-mailalias_core](https://github.com/puppetlabs/puppetlabs-mailalias_core)
 * [puppetlabs/encrypted_backup](https://github.com/puppetlabs/encrypted_backup)
@@ -65,7 +56,6 @@ have them added.
 * [puppetlabs/pe_support_kb_task_templates](https://github.com/puppetlabs/pe_support_kb_task_templates)
 * [puppetlabs/puppetlabs-nagios_core](https://github.com/puppetlabs/puppetlabs-nagios_core)
 * [puppetlabs/puppet-vra_puppet_plugin_prep](https://github.com/puppetlabs/puppet-vra_puppet_plugin_prep)
-* [puppetlabs/puppetlabs-panos](https://github.com/puppetlabs/puppetlabs-panos)
 * [puppetlabs/puppetlabs-k5login_core](https://github.com/puppetlabs/puppetlabs-k5login_core)
 * [puppetlabs/puppetlabs-cd4pe_tests](https://github.com/puppetlabs/puppetlabs-cd4pe_tests)
 * [puppetlabs/puppetlabs-amazon_aws](https://github.com/puppetlabs/puppetlabs-amazon_aws)
@@ -105,11 +95,8 @@ have them added.
 * [puppetlabs/puppetlabs-pam_firewall](https://github.com/puppetlabs/puppetlabs-pam_firewall)
 * [puppetlabs/se_appteam_webserver](https://github.com/puppetlabs/se_appteam_webserver)
 * [puppetlabs/puppetlabs-pam_tools](https://github.com/puppetlabs/puppetlabs-pam_tools)
-* [puppetlabs/influxdb](https://github.com/puppetlabs/influxdb)
-* [puppetlabs/log4jscanner](https://github.com/puppetlabs/log4jscanner)
 * [puppetlabs/puppetlabs-data-entitlement](https://github.com/puppetlabs/puppetlabs-data-entitlement)
 * [puppetlabs/bolt_aws_kms](https://github.com/puppetlabs/bolt_aws_kms)
-* [puppetlabs/puppet_operational_dashboards](https://github.com/puppetlabs/puppet_operational_dashboards)
 * [puppetlabs/puppet-jenkins](https://github.com/puppetlabs/puppet-jenkins)
 
 </details>
@@ -143,8 +130,6 @@ The following GitHub repositories should have a preamble added to their `README`
 * [puppetlabs/pltraining-dockeragent](https://github.com/puppetlabs/pltraining-dockeragent)
 * [puppetlabs/puppetlabs-wordpress_app](https://github.com/puppetlabs/puppetlabs-wordpress_app)
 * [puppetlabs/puppetlabs-app_modeling](https://github.com/puppetlabs/puppetlabs-app_modeling)
-* [puppetlabs/puppetlabs-rgbank](https://github.com/puppetlabs/puppetlabs-rgbank)
-* [puppetlabs/puppetlabs-cloudshop](https://github.com/puppetlabs/puppetlabs-cloudshop)
 * [puppetlabs/puppetlabs-puppetdb_gc](https://github.com/puppetlabs/puppetlabs-puppetdb_gc)
 * [puppetlabs/puppetlabs-grafanadash](https://github.com/puppetlabs/puppetlabs-grafanadash)
 * [puppetlabs/cisco-network-puppet-module](https://github.com/puppetlabs/cisco-network-puppet-module)
@@ -199,10 +184,8 @@ The following GitHub repositories should have a preamble added to their `README`
 * [puppetlabs/puppetlabs-pam_firewall](https://github.com/puppetlabs/puppetlabs-pam_firewall)
 * [puppetlabs/se_appteam_webserver](https://github.com/puppetlabs/se_appteam_webserver)
 * [puppetlabs/puppetlabs-pam_tools](https://github.com/puppetlabs/puppetlabs-pam_tools)
-* [puppetlabs/influxdb](https://github.com/puppetlabs/influxdb)
 * [puppetlabs/puppetlabs-data-entitlement](https://github.com/puppetlabs/puppetlabs-data-entitlement)
 * [puppetlabs/bolt_aws_kms](https://github.com/puppetlabs/bolt_aws_kms)
-* [puppetlabs/puppet_operational_dashboards](https://github.com/puppetlabs/puppet_operational_dashboards)
 * [puppetlabs/puppet-jenkins](https://github.com/puppetlabs/puppet-jenkins)
 * [puppetlabs/kmo-501-nginx](https://github.com/puppetlabs/kmo-501-nginx)
 
@@ -251,7 +234,6 @@ on how to resolve problems.
 * [puppetlabs-puppet-quest-guide](https://github.com/puppetlabs/puppet-quest-guide/blob/-/CODEOWNERS)
 * [puppetlabs-lein-release-4digit-version](https://github.com/puppetlabs/lein-release-4digit-version/blob/-/CODEOWNERS)
 * [puppetlabs-puppet-validator](https://github.com/puppetlabs/puppet-validator/blob/-/CODEOWNERS)
-* [puppetlabs-hierademo](https://github.com/puppetlabs/hierademo/blob/-/CODEOWNERS)
 * [puppetlabs-beaker-pe](https://github.com/puppetlabs/beaker-pe/blob/-/CODEOWNERS)
 * [puppetlabs-prosvc-preview_report](https://github.com/puppetlabs/prosvc-preview_report/blob/-/CODEOWNERS)
 * [puppetlabs-orchestrator_client-ruby](https://github.com/puppetlabs/orchestrator_client-ruby/blob/-/CODEOWNERS)
@@ -268,7 +250,6 @@ on how to resolve problems.
 * [puppetlabs-rubocop-i18n](https://github.com/puppetlabs/rubocop-i18n/blob/-/CODEOWNERS)
 * [puppetlabs-nssm](https://github.com/puppetlabs/nssm/blob/-/CODEOWNERS)
 * [puppetlabs-puppet-runtime](https://github.com/puppetlabs/puppet-runtime/blob/-/CODEOWNERS)
-* [puppetlabs-puppet-bigquery](https://github.com/puppetlabs/puppet-bigquery/blob/-/CODEOWNERS)
 * [puppetlabs-kream](https://github.com/puppetlabs/kream/blob/-/CODEOWNERS)
 * [puppetlabs-task-modules](https://github.com/puppetlabs/task-modules/blob/-/CODEOWNERS)
 * [puppetlabs-slackin](https://github.com/puppetlabs/slackin/blob/-/CODEOWNERS)
@@ -285,13 +266,9 @@ on how to resolve problems.
 * [puppetlabs-kreamlet](https://github.com/puppetlabs/kreamlet/blob/-/CODEOWNERS)
 * [puppetlabs-homebrew-puppet](https://github.com/puppetlabs/homebrew-puppet/blob/-/CODEOWNERS)
 * [puppetlabs-puppet_metrics_dashboard](https://github.com/puppetlabs/puppet_metrics_dashboard/blob/-/CODEOWNERS)
-* [puppetlabs-puppet-community-mvp](https://github.com/puppetlabs/puppet-community-mvp/blob/-/CODEOWNERS)
 * [puppetlabs-courseware-lms-gswp-cr](https://github.com/puppetlabs/courseware-lms-gswp-cr/blob/-/CODEOWNERS)
-* [puppetlabs-contributor-summit-project](https://github.com/puppetlabs/contributor-summit-project/blob/-/CODEOWNERS)
 * [puppetlabs-pe_tech_check](https://github.com/puppetlabs/pe_tech_check/blob/-/CODEOWNERS)
-* [puppetlabs-puppet-community-rangefinder](https://github.com/puppetlabs/puppet-community-rangefinder/blob/-/CODEOWNERS)
 * [puppetlabs-puppetlabs-test_device](https://github.com/puppetlabs/puppetlabs-test_device/blob/-/CODEOWNERS)
-* [puppetlabs-puppet-community-rangefinder-webhook](https://github.com/puppetlabs/puppet-community-rangefinder-webhook/blob/-/CODEOWNERS)
 * [puppetlabs-tig-demo](https://github.com/puppetlabs/tig-demo/blob/-/CODEOWNERS)
 * [puppetlabs-beerboard](https://github.com/puppetlabs/beerboard/blob/-/CODEOWNERS)
 * [puppetlabs-puppet-release_manager](https://github.com/puppetlabs/puppet-release_manager/blob/-/CODEOWNERS)
@@ -310,7 +287,6 @@ on how to resolve problems.
 * [puppetlabs-litmus](https://github.com/puppetlabs/litmus/blob/-/CODEOWNERS)
 * [puppetlabs-se_control_2020](https://github.com/puppetlabs/se_control_2020/blob/-/CODEOWNERS)
 * [puppetlabs-puppetlabs-servicenow_change_requests](https://github.com/puppetlabs/puppetlabs-servicenow_change_requests/blob/-/CODEOWNERS)
-* [puppetlabs-scavenger-hunt-instructions](https://github.com/puppetlabs/scavenger-hunt-instructions/blob/-/CODEOWNERS)
 * [puppetlabs-education-control-repo](https://github.com/puppetlabs/education-control-repo/blob/-/CODEOWNERS)
 * [puppetlabs-bolt-examples](https://github.com/puppetlabs/bolt-examples/blob/-/CODEOWNERS)
 * [puppetlabs-pltraining-apache](https://github.com/puppetlabs/pltraining-apache/blob/-/CODEOWNERS)
@@ -369,19 +345,6 @@ The following Forge modules should be badged as Supported.
 
 
 
-
-## Forge: Remove Supported badge
-
-<details>
-<summary>
-Forge module pages should match the topics on their corresponding repositories.
-The following Forge modules should have the Supported badge removed.
-</summary>
-
-* [puppetlabs-influxdb](https://forge.puppet.com/puppetlabs/influxdb)
-* [puppetlabs-puppet_operational_dashboards](https://forge.puppet.com/puppetlabs/puppet_operational_dashboards)
-
-</details>
 
 
 
