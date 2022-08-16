@@ -430,8 +430,8 @@ we no longer own.
 * [puppetlabs-minimum_version](https://forge.puppet.com/puppetlabs/minimum_version)
 * [puppetlabs-pe_event_forwarding](https://forge.puppet.com/puppetlabs/pe_event_forwarding)
 * [puppetlabs-cem_linux](https://forge.puppet.com/puppetlabs/cem_linux)
-* [puppetlabs-sccm](https://forge.puppet.com/puppetlabs/sccm)
 * [puppetlabs-cem_windows](https://forge.puppet.com/puppetlabs/cem_windows)
+* [puppetlabs-sccm](https://forge.puppet.com/puppetlabs/sccm)
 * [puppetlabs-change_window](https://forge.puppet.com/puppetlabs/change_window)
 
 </details>
