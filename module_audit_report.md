@@ -301,6 +301,7 @@ on how to resolve problems.
 * [puppetlabs-setup-step-cli](https://github.com/puppetlabs/setup-step-cli/blob/-/CODEOWNERS)
 * [puppetlabs-kubernetes-plugin](https://github.com/puppetlabs/kubernetes-plugin/blob/-/CODEOWNERS)
 * [puppetlabs-pds-integration-control-repo](https://github.com/puppetlabs/pds-integration-control-repo/blob/-/CODEOWNERS)
+* [puppetlabs-security-mend-vanagon-action](https://github.com/puppetlabs/security-mend-vanagon-action/blob/-/CODEOWNERS)
 
 </details>
 
