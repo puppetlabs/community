@@ -43,13 +43,14 @@ end
 desc 'Sychronize dashboard with all open Hacktoberfest pull requests'
 task :hacktoberfest do
   github_client.auto_paginate = true
-  start_date = "#{Time.new.year-1}-09-01"
+  start_date = "#{Time.new.year}-09-01"
   outfile = ENV['OUTPUT'] || 'hacktoberfest_dashboard.md'
   template = ENV['TEMPLATE'] || <<~EOF
     # Open Hacktoberfest Pull Requests
 
     The following projects are participating in [Hacktoberfest](http://hacktoberfest.com).
-    Puppet employees: if you'd like to add a project to this list, just add the
+
+    *Puppet employees*: if you'd like to add a project to this list, just add the
     `hacktoberfest` topic to your repository.
 
     <% all_pull_requests.each do |repo, pulls| -%>
