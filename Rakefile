@@ -43,7 +43,7 @@ end
 desc 'Sychronize dashboard with all open Hacktoberfest pull requests'
 task :hacktoberfest do
   github_client.auto_paginate = true
-  start_date = "#{Time.new.year}-09-01"
+  start_date = "#{Time.new.year}-10-01"
   outfile = ENV['OUTPUT'] || 'hacktoberfest_dashboard.md'
   template = ENV['TEMPLATE'] || <<~EOF
     # Open Hacktoberfest Pull Requests
