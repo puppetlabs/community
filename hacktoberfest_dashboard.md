@@ -7,6 +7,5 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
 
 * # [puppetlabs/design-system](https://github.com/puppetlabs/design-system)
 * # [puppetlabs/dropsonde](https://github.com/puppetlabs/dropsonde)
-* # [puppetlabs/pdk-templates](https://github.com/puppetlabs/pdk-templates)
 * # [puppetlabs/puppetlabs-dropsonde](https://github.com/puppetlabs/puppetlabs-dropsonde)
 * # [puppetlabs/vmfloaty](https://github.com/puppetlabs/vmfloaty)
