@@ -25,6 +25,7 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
 * # [puppetlabs/puppetlabs-dropsonde](https://github.com/puppetlabs/puppetlabs-dropsonde)
 * # [puppetlabs/puppetlabs-exec](https://github.com/puppetlabs/puppetlabs-exec)
 * # [puppetlabs/puppetlabs-facter_task](https://github.com/puppetlabs/puppetlabs-facter_task)
+    * [Release prep v1.3.0](https://github.com/puppetlabs/puppetlabs-facter_task/pull/199)
 * # [puppetlabs/puppetlabs-firewall](https://github.com/puppetlabs/puppetlabs-firewall)
 * # [puppetlabs/puppetlabs-iis](https://github.com/puppetlabs/puppetlabs-iis)
 * # [puppetlabs/puppetlabs-inifile](https://github.com/puppetlabs/puppetlabs-inifile)
