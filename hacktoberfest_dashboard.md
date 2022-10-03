@@ -30,6 +30,7 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
 * # [puppetlabs/puppetlabs-firewall](https://github.com/puppetlabs/puppetlabs-firewall)
 * # [puppetlabs/puppetlabs-iis](https://github.com/puppetlabs/puppetlabs-iis)
 * # [puppetlabs/puppetlabs-inifile](https://github.com/puppetlabs/puppetlabs-inifile)
+    * [Release prep v5.4.0](https://github.com/puppetlabs/puppetlabs-inifile/pull/487)
 * # [puppetlabs/puppetlabs-java](https://github.com/puppetlabs/puppetlabs-java)
 * # [puppetlabs/puppetlabs-java_ks](https://github.com/puppetlabs/puppetlabs-java_ks)
     * [Release prep v4.4.0](https://github.com/puppetlabs/puppetlabs-java_ks/pull/413)
