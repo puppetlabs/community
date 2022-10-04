@@ -11,6 +11,7 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
 * # [puppetlabs/pdk](https://github.com/puppetlabs/pdk)
 * # [puppetlabs/pdk-docker](https://github.com/puppetlabs/pdk-docker)
 * # [puppetlabs/pdk-templates](https://github.com/puppetlabs/pdk-templates)
+    * [(CONT-19) Removal of puppet-module-gems](https://github.com/puppetlabs/pdk-templates/pull/481)
 * # [puppetlabs/pdksync](https://github.com/puppetlabs/pdksync)
 * # [puppetlabs/provision](https://github.com/puppetlabs/provision)
 * # [puppetlabs/puppet-editor-services](https://github.com/puppetlabs/puppet-editor-services)
