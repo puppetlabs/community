@@ -41,6 +41,7 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
     * [pdksync - (PDKSync) Removal of puppet_module_gems](https://github.com/puppetlabs/puppetlabs-ntp/pull/654)
 * # [puppetlabs/puppetlabs-package](https://github.com/puppetlabs/puppetlabs-package)
 * # [puppetlabs/puppetlabs-postgresql](https://github.com/puppetlabs/puppetlabs-postgresql)
+    * [Rewrite dependency installation using native Puppet](https://github.com/puppetlabs/puppetlabs-postgresql/pull/1374)
     * [pg_hba_rule does not properly verify address parameter](https://github.com/puppetlabs/puppetlabs-postgresql/pull/1372)
 * # [puppetlabs/puppetlabs-puppet_conf](https://github.com/puppetlabs/puppetlabs-puppet_conf)
 * # [puppetlabs/puppetlabs-reboot](https://github.com/puppetlabs/puppetlabs-reboot)
