@@ -1,7 +1,7 @@
 name: Update Hacktoberfest dashboard
 on:
   schedule:
-    - cron: "5 * * * *"
+    - cron: "5 */3 * * *"
   workflow_dispatch:
 jobs:
   hacktoberfest:
