@@ -20,6 +20,7 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
 * # [puppetlabs/puppetlabs-accounts](https://github.com/puppetlabs/puppetlabs-accounts)
 * # [puppetlabs/puppetlabs-acl](https://github.com/puppetlabs/puppetlabs-acl)
 * # [puppetlabs/puppetlabs-apache](https://github.com/puppetlabs/puppetlabs-apache)
+    * [Drop Apache 2.2 support](https://github.com/puppetlabs/puppetlabs-apache/pull/2329)
     * [Update vhost_proxypass.pp](https://github.com/puppetlabs/puppetlabs-apache/pull/2327)
 * # [puppetlabs/puppetlabs-concat](https://github.com/puppetlabs/puppetlabs-concat)
 * # [puppetlabs/puppetlabs-docker](https://github.com/puppetlabs/puppetlabs-docker)
