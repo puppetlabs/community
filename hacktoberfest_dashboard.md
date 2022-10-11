@@ -45,7 +45,6 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
 * # [puppetlabs/puppetlabs-package](https://github.com/puppetlabs/puppetlabs-package)
 * # [puppetlabs/puppetlabs-postgresql](https://github.com/puppetlabs/puppetlabs-postgresql)
     * [pg_hba_rule: Validate userinput in postgresql::server](https://github.com/puppetlabs/puppetlabs-postgresql/pull/1376)
-    * [pg_hba_rule: Move `type` datatype to own type](https://github.com/puppetlabs/puppetlabs-postgresql/pull/1375)
     * [Rewrite dependency installation using native Puppet](https://github.com/puppetlabs/puppetlabs-postgresql/pull/1374)
 * # [puppetlabs/puppetlabs-puppet_conf](https://github.com/puppetlabs/puppetlabs-puppet_conf)
 * # [puppetlabs/puppetlabs-reboot](https://github.com/puppetlabs/puppetlabs-reboot)
