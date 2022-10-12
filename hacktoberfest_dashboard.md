@@ -57,6 +57,7 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
 * # [puppetlabs/puppetlabs-service](https://github.com/puppetlabs/puppetlabs-service)
 * # [puppetlabs/puppetlabs-sqlserver](https://github.com/puppetlabs/puppetlabs-sqlserver)
 * # [puppetlabs/puppetlabs-stdlib](https://github.com/puppetlabs/puppetlabs-stdlib)
+    * [(CONT-200) Fix require relative paths](https://github.com/puppetlabs/puppetlabs-stdlib/pull/1275)
     * [facter: do not use dummy package instantiation on windows](https://github.com/puppetlabs/puppetlabs-stdlib/pull/1268)
 * # [puppetlabs/puppetlabs-tomcat](https://github.com/puppetlabs/puppetlabs-tomcat)
 * # [puppetlabs/puppetlabs-wsus_client](https://github.com/puppetlabs/puppetlabs-wsus_client)
