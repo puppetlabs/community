@@ -21,6 +21,8 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
 * # [puppetlabs/puppetlabs-accounts](https://github.com/puppetlabs/puppetlabs-accounts)
 * # [puppetlabs/puppetlabs-acl](https://github.com/puppetlabs/puppetlabs-acl)
 * # [puppetlabs/puppetlabs-apache](https://github.com/puppetlabs/puppetlabs-apache)
+    * [add maxrequestworkers parameter for mpm_worker module](https://github.com/puppetlabs/puppetlabs-apache/pull/2331)
+    * [fix rewrite rules being ignored](https://github.com/puppetlabs/puppetlabs-apache/pull/2330)
     * [Drop Apache 2.2 support](https://github.com/puppetlabs/puppetlabs-apache/pull/2329)
     * [Update vhost_proxypass.pp](https://github.com/puppetlabs/puppetlabs-apache/pull/2327)
 * # [puppetlabs/puppetlabs-concat](https://github.com/puppetlabs/puppetlabs-concat)
