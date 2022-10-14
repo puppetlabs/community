@@ -32,6 +32,7 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
     * [Update vhost_proxypass.pp](https://github.com/puppetlabs/puppetlabs-apache/pull/2327)
 * # [puppetlabs/puppetlabs-concat](https://github.com/puppetlabs/puppetlabs-concat)
 * # [puppetlabs/puppetlabs-docker](https://github.com/puppetlabs/puppetlabs-docker)
+    * [Made the function more flexible and canonical](https://github.com/puppetlabs/puppetlabs-docker/pull/864)
     * [(maint) Hardening manifests and tasks](https://github.com/puppetlabs/puppetlabs-docker/pull/863)
     * [pdksync - (PDKSync) Removal of puppet_module_gems](https://github.com/puppetlabs/puppetlabs-docker/pull/861)
 * # [puppetlabs/puppetlabs-dropsonde](https://github.com/puppetlabs/puppetlabs-dropsonde)
