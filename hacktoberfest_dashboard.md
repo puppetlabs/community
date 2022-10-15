@@ -68,6 +68,7 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
     * [Determine root_home without shelling out](https://github.com/puppetlabs/puppetlabs-stdlib/pull/1278)
     * [facter: do not use dummy package instantiation on windows](https://github.com/puppetlabs/puppetlabs-stdlib/pull/1268)
 * # [puppetlabs/puppetlabs-tomcat](https://github.com/puppetlabs/puppetlabs-tomcat)
+    * [Exclude name in resources](https://github.com/puppetlabs/puppetlabs-tomcat/pull/501)
 * # [puppetlabs/puppetlabs-wsus_client](https://github.com/puppetlabs/puppetlabs-wsus_client)
 * # [puppetlabs/puppetlabs_spec_helper](https://github.com/puppetlabs/puppetlabs_spec_helper)
     * [Update puppet-lint requirement from ~> 2.0 to >= 2, < 4](https://github.com/puppetlabs/puppetlabs_spec_helper/pull/355)
