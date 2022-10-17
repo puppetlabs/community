@@ -63,7 +63,6 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
 * # [puppetlabs/puppetlabs-service](https://github.com/puppetlabs/puppetlabs-service)
 * # [puppetlabs/puppetlabs-sqlserver](https://github.com/puppetlabs/puppetlabs-sqlserver)
 * # [puppetlabs/puppetlabs-stdlib](https://github.com/puppetlabs/puppetlabs-stdlib)
-    * [Drop Puppet < 3.6 support in package_provider fact](https://github.com/puppetlabs/puppetlabs-stdlib/pull/1280)
     * [Correct bcrypt salt regex](https://github.com/puppetlabs/puppetlabs-stdlib/pull/1279)
     * [Determine root_home without shelling out](https://github.com/puppetlabs/puppetlabs-stdlib/pull/1278)
     * [facter: do not use dummy package instantiation on windows](https://github.com/puppetlabs/puppetlabs-stdlib/pull/1268)
