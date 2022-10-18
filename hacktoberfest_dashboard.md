@@ -20,6 +20,7 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
     * [(MAINT) Bump ruby version](https://github.com/puppetlabs/puppet-strings/pull/326)
 * # [puppetlabs/puppet-vscode](https://github.com/puppetlabs/puppet-vscode)
 * # [puppetlabs/puppetlabs-accounts](https://github.com/puppetlabs/puppetlabs-accounts)
+    * [Update bash_profile so that it identifies itself as "Puppet Managed"](https://github.com/puppetlabs/puppetlabs-accounts/pull/426)
 * # [puppetlabs/puppetlabs-acl](https://github.com/puppetlabs/puppetlabs-acl)
 * # [puppetlabs/puppetlabs-apache](https://github.com/puppetlabs/puppetlabs-apache)
     * [Automatically enable mod_http2 if needed](https://github.com/puppetlabs/puppetlabs-apache/pull/2337)
