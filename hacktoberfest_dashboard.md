@@ -52,6 +52,7 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
 * # [puppetlabs/puppetlabs-mysql](https://github.com/puppetlabs/puppetlabs-mysql)
 * # [puppetlabs/puppetlabs-ntp](https://github.com/puppetlabs/puppetlabs-ntp)
 * # [puppetlabs/puppetlabs-package](https://github.com/puppetlabs/puppetlabs-package)
+    * [(MAINT) Remove references to beaker](https://github.com/puppetlabs/puppetlabs-package/pull/293)
 * # [puppetlabs/puppetlabs-postgresql](https://github.com/puppetlabs/puppetlabs-postgresql)
     * [pg_hba_rule: Validate userinput in postgresql::server](https://github.com/puppetlabs/puppetlabs-postgresql/pull/1376)
     * [Rewrite dependency installation using native Puppet](https://github.com/puppetlabs/puppetlabs-postgresql/pull/1374)
