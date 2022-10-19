@@ -46,7 +46,6 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
     * [(CONT-173) - Updating deprecated facter instances](https://github.com/puppetlabs/puppetlabs-java/pull/531)
 * # [puppetlabs/puppetlabs-java_ks](https://github.com/puppetlabs/puppetlabs-java_ks)
 * # [puppetlabs/puppetlabs-kubernetes](https://github.com/puppetlabs/puppetlabs-kubernetes)
-    * [(CONT-217) Correct Kubernetes etcd_data_dir spec tests](https://github.com/puppetlabs/puppetlabs-kubernetes/pull/582)
 * # [puppetlabs/puppetlabs-motd](https://github.com/puppetlabs/puppetlabs-motd)
     * [Update rubocop-rspec requirement from = 2.0.1 to 2.4.0](https://github.com/puppetlabs/puppetlabs-motd/pull/455)
     * [Update rubocop-performance requirement from = 1.9.1 to 1.10.2](https://github.com/puppetlabs/puppetlabs-motd/pull/454)
