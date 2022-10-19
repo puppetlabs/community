@@ -63,6 +63,7 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
 * # [puppetlabs/puppetlabs-service](https://github.com/puppetlabs/puppetlabs-service)
 * # [puppetlabs/puppetlabs-sqlserver](https://github.com/puppetlabs/puppetlabs-sqlserver)
 * # [puppetlabs/puppetlabs-stdlib](https://github.com/puppetlabs/puppetlabs-stdlib)
+    * [Add Stdlib::Ensure::Package type](https://github.com/puppetlabs/puppetlabs-stdlib/pull/1281)
     * [Correct bcrypt salt regex](https://github.com/puppetlabs/puppetlabs-stdlib/pull/1279)
     * [facter: do not use dummy package instantiation on windows](https://github.com/puppetlabs/puppetlabs-stdlib/pull/1268)
 * # [puppetlabs/puppetlabs-tomcat](https://github.com/puppetlabs/puppetlabs-tomcat)
