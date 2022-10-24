@@ -65,7 +65,6 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
     * [Exclude name in resources](https://github.com/puppetlabs/puppetlabs-tomcat/pull/501)
 * # [puppetlabs/puppetlabs-wsus_client](https://github.com/puppetlabs/puppetlabs-wsus_client)
 * # [puppetlabs/puppetlabs_spec_helper](https://github.com/puppetlabs/puppetlabs_spec_helper)
-    * [Update puppet-lint requirement from ~> 2.0 to >= 2, < 4](https://github.com/puppetlabs/puppetlabs_spec_helper/pull/355)
 * # [puppetlabs/puppet_litmus](https://github.com/puppetlabs/puppet_litmus)
 * # [puppetlabs/ruby-pwsh](https://github.com/puppetlabs/ruby-pwsh)
 * # [puppetlabs/vmfloaty](https://github.com/puppetlabs/vmfloaty)
