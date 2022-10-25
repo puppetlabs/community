@@ -16,7 +16,6 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
 * # [puppetlabs/puppet-editor-services](https://github.com/puppetlabs/puppet-editor-services)
 * # [puppetlabs/puppet-modulebuilder](https://github.com/puppetlabs/puppet-modulebuilder)
 * # [puppetlabs/puppet-strings](https://github.com/puppetlabs/puppet-strings)
-    * [(GH-332) Bump gem version to 3.0.1](https://github.com/puppetlabs/puppet-strings/pull/334)
 * # [puppetlabs/puppet-vscode](https://github.com/puppetlabs/puppet-vscode)
 * # [puppetlabs/puppetlabs-accounts](https://github.com/puppetlabs/puppetlabs-accounts)
 * # [puppetlabs/puppetlabs-acl](https://github.com/puppetlabs/puppetlabs-acl)
