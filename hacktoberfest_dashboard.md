@@ -20,6 +20,7 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
 * # [puppetlabs/puppetlabs-accounts](https://github.com/puppetlabs/puppetlabs-accounts)
 * # [puppetlabs/puppetlabs-acl](https://github.com/puppetlabs/puppetlabs-acl)
 * # [puppetlabs/puppetlabs-apache](https://github.com/puppetlabs/puppetlabs-apache)
+    * [remove _module from apache::mod::unique_id name.](https://github.com/puppetlabs/puppetlabs-apache/pull/2339)
     * [Update EL8+ and Debian SSL defaults](https://github.com/puppetlabs/puppetlabs-apache/pull/2336)
     * [Fix RedHat + PHP 8 libphp file](https://github.com/puppetlabs/puppetlabs-apache/pull/2333)
     * [add maxrequestworkers parameter for mpm_worker module](https://github.com/puppetlabs/puppetlabs-apache/pull/2331)
