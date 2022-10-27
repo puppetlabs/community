@@ -68,5 +68,7 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
 * # [puppetlabs/puppetlabs-wsus_client](https://github.com/puppetlabs/puppetlabs-wsus_client)
 * # [puppetlabs/puppetlabs_spec_helper](https://github.com/puppetlabs/puppetlabs_spec_helper)
 * # [puppetlabs/puppet_litmus](https://github.com/puppetlabs/puppet_litmus)
+    * [(MAINT) Remove Windows Server 2012R2](https://github.com/puppetlabs/puppet_litmus/pull/462)
 * # [puppetlabs/ruby-pwsh](https://github.com/puppetlabs/ruby-pwsh)
 * # [puppetlabs/vmfloaty](https://github.com/puppetlabs/vmfloaty)
+    * [Update rspec requirement from ~> 3.11.0 to ~> 3.12.0](https://github.com/puppetlabs/vmfloaty/pull/166)
