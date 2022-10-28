@@ -58,6 +58,7 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
 * # [puppetlabs/puppetlabs-registry](https://github.com/puppetlabs/puppetlabs-registry)
 * # [puppetlabs/puppetlabs-satellite_pe_tools](https://github.com/puppetlabs/puppetlabs-satellite_pe_tools)
 * # [puppetlabs/puppetlabs-scheduled_task](https://github.com/puppetlabs/puppetlabs-scheduled_task)
+    * [Add description and tests](https://github.com/puppetlabs/puppetlabs-scheduled_task/pull/220)
 * # [puppetlabs/puppetlabs-service](https://github.com/puppetlabs/puppetlabs-service)
 * # [puppetlabs/puppetlabs-sqlserver](https://github.com/puppetlabs/puppetlabs-sqlserver)
 * # [puppetlabs/puppetlabs-stdlib](https://github.com/puppetlabs/puppetlabs-stdlib)
