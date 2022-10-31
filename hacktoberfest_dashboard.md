@@ -45,7 +45,6 @@ The following projects are participating in [Hacktoberfest](http://hacktoberfest
 * # [puppetlabs/puppetlabs-ntp](https://github.com/puppetlabs/puppetlabs-ntp)
 * # [puppetlabs/puppetlabs-package](https://github.com/puppetlabs/puppetlabs-package)
 * # [puppetlabs/puppetlabs-postgresql](https://github.com/puppetlabs/puppetlabs-postgresql)
-    * [Rewrite dependency installation using native Puppet](https://github.com/puppetlabs/puppetlabs-postgresql/pull/1374)
 * # [puppetlabs/puppetlabs-puppet_conf](https://github.com/puppetlabs/puppetlabs-puppet_conf)
 * # [puppetlabs/puppetlabs-reboot](https://github.com/puppetlabs/puppetlabs-reboot)
 * # [puppetlabs/puppetlabs-registry](https://github.com/puppetlabs/puppetlabs-registry)
