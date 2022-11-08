@@ -225,7 +225,6 @@ on how to resolve problems.
 * [puppetlabs-puppet-quest-guide](https://github.com/puppetlabs/puppet-quest-guide/blob/-/CODEOWNERS)
 * [puppetlabs-lein-release-4digit-version](https://github.com/puppetlabs/lein-release-4digit-version/blob/-/CODEOWNERS)
 * [puppetlabs-puppet-validator](https://github.com/puppetlabs/puppet-validator/blob/-/CODEOWNERS)
-* [puppetlabs-beaker-pe](https://github.com/puppetlabs/beaker-pe/blob/-/CODEOWNERS)
 * [puppetlabs-prosvc-preview_report](https://github.com/puppetlabs/prosvc-preview_report/blob/-/CODEOWNERS)
 * [puppetlabs-orchestrator_client-ruby](https://github.com/puppetlabs/orchestrator_client-ruby/blob/-/CODEOWNERS)
 * [puppetlabs-pl-build-tools-vanagon](https://github.com/puppetlabs/pl-build-tools-vanagon/blob/-/CODEOWNERS)
