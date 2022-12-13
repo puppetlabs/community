@@ -305,6 +305,7 @@ on how to resolve problems.
 * [puppetlabs-kubernetes-plugin](https://github.com/puppetlabs/kubernetes-plugin/blob/-/CODEOWNERS)
 * [puppetlabs-pds-integration-control-repo](https://github.com/puppetlabs/pds-integration-control-repo/blob/-/CODEOWNERS)
 * [puppetlabs-security-mend-vanagon-action](https://github.com/puppetlabs/security-mend-vanagon-action/blob/-/CODEOWNERS)
+* [puppetlabs-WaveDemo](https://github.com/puppetlabs/WaveDemo/blob/-/CODEOWNERS)
 
 </details>
 
@@ -426,7 +427,6 @@ we no longer own.
 * [puppetlabs-cem_linux](https://forge.puppet.com/puppetlabs/cem_linux)
 * [puppetlabs-cem_windows](https://forge.puppet.com/puppetlabs/cem_windows)
 * [puppetlabs-sccm](https://forge.puppet.com/puppetlabs/sccm)
-* [puppetlabs-rsan](https://forge.puppet.com/puppetlabs/rsan)
 * [puppetlabs-change_window](https://forge.puppet.com/puppetlabs/change_window)
 
 </details>
