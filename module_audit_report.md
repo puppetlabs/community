@@ -35,6 +35,7 @@ have them added.
 </summary>
 
 * [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
+* [puppetlabs/puppetlabs-dns](https://github.com/puppetlabs/puppetlabs-dns)
 * [puppetlabs/netdev_stdlib](https://github.com/puppetlabs/netdev_stdlib)
 * [puppetlabs/ps-sox](https://github.com/puppetlabs/ps-sox)
 * [puppetlabs/pltraining-userprefs](https://github.com/puppetlabs/pltraining-userprefs)
