@@ -46,6 +46,7 @@ have them added.
 * [puppetlabs/puppetlabs-node_encrypt](https://github.com/puppetlabs/puppetlabs-node_encrypt)
 * [puppetlabs/puppetlabs-wordpress_app](https://github.com/puppetlabs/puppetlabs-wordpress_app)
 * [puppetlabs/puppetlabs-app_modeling](https://github.com/puppetlabs/puppetlabs-app_modeling)
+* [puppetlabs/puppetlabs-freeradius](https://github.com/puppetlabs/puppetlabs-freeradius)
 * [puppetlabs/cisco-network-puppet-module](https://github.com/puppetlabs/cisco-network-puppet-module)
 * [puppetlabs/puppetlabs-windows_puppet_certificates](https://github.com/puppetlabs/puppetlabs-windows_puppet_certificates)
 * [puppetlabs/vmware-vcenter](https://github.com/puppetlabs/vmware-vcenter)
