@@ -235,7 +235,6 @@ on how to resolve problems.
 * [puppetlabs-best-practices](https://github.com/puppetlabs/best-practices/blob/-/CODEOWNERS)
 * [puppetlabs-ultipro-soap-python](https://github.com/puppetlabs/ultipro-soap-python/blob/-/CODEOWNERS)
 * [puppetlabs-aws_resource_reaper](https://github.com/puppetlabs/aws_resource_reaper/blob/-/CODEOWNERS)
-* [puppetlabs-beaker-vmpooler](https://github.com/puppetlabs/beaker-vmpooler/blob/-/CODEOWNERS)
 * [puppetlabs-puppet-agent-bootstrap](https://github.com/puppetlabs/puppet-agent-bootstrap/blob/-/CODEOWNERS)
 * [puppetlabs-puppet-lint-i18n](https://github.com/puppetlabs/puppet-lint-i18n/blob/-/CODEOWNERS)
 * [puppetlabs-puppet-classroom-manager](https://github.com/puppetlabs/puppet-classroom-manager/blob/-/CODEOWNERS)
