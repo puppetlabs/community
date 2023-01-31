@@ -322,6 +322,7 @@ The following Forge modules should be badged as Supported.
 </summary>
 
 * [puppetlabs-exec](https://forge.puppet.com/puppetlabs/exec)
+* [puppetlabs-mount_iso](https://forge.puppet.com/puppetlabs/mount_iso)
 * [puppetlabs-yaml](https://forge.puppet.com/puppetlabs/yaml)
 * [puppetlabs-bolt_shim](https://forge.puppet.com/puppetlabs/bolt_shim)
 * [puppetlabs-azure_inventory](https://forge.puppet.com/puppetlabs/azure_inventory)
@@ -361,7 +362,6 @@ Forge pages should be badged as `Adoptable`.
 * [puppetlabs-razor](https://forge.puppet.com/puppetlabs/razor)
 * [puppetlabs-sqlite](https://forge.puppet.com/puppetlabs/sqlite)
 * [puppetlabs-cd4pe](https://forge.puppet.com/puppetlabs/cd4pe)
-* [puppetlabs-mount_iso](https://forge.puppet.com/puppetlabs/mount_iso)
 * [puppetlabs-inventory](https://forge.puppet.com/puppetlabs/inventory)
 * [puppetlabs-openstack](https://forge.puppet.com/puppetlabs/openstack)
 * [puppetlabs-dummy_service](https://forge.puppet.com/puppetlabs/dummy_service)
