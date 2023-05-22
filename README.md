@@ -1,15 +1,22 @@
 # 👋 Welcome!
-  We’re using GitHub Discussions as a place to connect with other members of our community. We hope that you:
+
+We’re using Discussions as a place to connect with other members of our community. We hope that you:
   * Ask questions you’re wondering about.
-  * Share ideas.
+  * Help solve problems other folks are having.
   * Engage with other community members.
-  * Welcome others and are open-minded. Remember that this is a community we
-  build together 💪.
+  * Welcome others and are open-minded. Remember that this is a community we build together 💪.
+
+Got an idea or suggestion about any of our products that doesn't quite fit into a bug report? Take a look at the idea forums. Here are some suggestions to help make your ideas more likely to be implemented:
+  * ✅ Make your suggestion as complete and actionable as you can.
+  * 💬 Share your ideas with peers so that we can see community demand for them.
+  * 👍 Engage with other ideas and provide constructive feedback.
+ 
+Remember that as much as we'd like to, we cannot take every suggestion or build every new idea. Focusing on doing fewer things better is how we build the tools that you love.
 
 ## Get started with the _Discussions_ tab above.
 
 ## Project-specific discussions
-   In addition to this forum, we're using GitHub Discussions for some of our most popular open-source projects. If you're specifically interested in any of these, we'd love for you to come join us!
+In addition to this forum,some individual open-source projects have their own discussion boards. If you're specifically interested in any of these, we'd love for you to come join us!
    * [Bolt](https://github.com/puppetlabs/bolt/discussions)
    * [Puppet VSCode extension](https://github.com/puppetlabs/puppet-vscode/discussions)
 
