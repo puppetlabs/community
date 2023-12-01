@@ -1,0 +1,19 @@
+# Puppet Community Trusted Contributors
+
+The following GitHub users have outside collaborator status on one or more
+repositories. This generally means that the user has Trusted Contributor status,
+although some are here for historical reasons.
+
+⚠️ We will soon tighten up access and outside contributors will either be removed
+or inducted into the Trusted Contributors program.
+
+<% collaborators.each do |name, repos| -%>
+<details>
+<summary><strong><a href="https://github.com/<%= name %>"><%= name %></a></strong></summary>
+
+<% repos.each do |repo| -%>
+* [<%= repo.name %>](<%= repo[:html_url] %>)
+<% end -%>
+
+</details>
+<% end -%>

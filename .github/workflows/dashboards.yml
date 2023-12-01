@@ -1,0 +1,29 @@
+name: Update dashboards
+on:
+  workflow_dispatch:
+  schedule:
+  - cron:  '0 2 * * 4'
+jobs:
+  hacktoberfest:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7.6
+    - name: Update dashboard
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+        bundle exec rake contributors
+        bundle exec rake housekeeping
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v9
+      with:
+        add: 'hacktoberfest_dashboard.md'
