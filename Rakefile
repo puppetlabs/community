@@ -7,7 +7,7 @@ require "octokit"
 def github_client(page_size = 100)
   return @singleton_client if @singleton_client
 
-  token ||= ENV["GITHUB_TOKEN"] || `git config --global github.token`.chomp
+  token ||= ENV["GH_TOKEN"] || `git config --global github.token`.chomp
 
   if token.empty?
     puts("You need to generate a GitHub token:")
