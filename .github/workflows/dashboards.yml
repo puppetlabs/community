@@ -1,10 +1,10 @@
-name: Update dashboards
+name: Update weekly status dashboards
 on:
   workflow_dispatch:
   schedule:
   - cron:  '0 2 * * 4'
 jobs:
-  hacktoberfest:
+  dashboards:
     runs-on: ubuntu-latest
     steps:
     - name: Check out repo
