@@ -1,0 +1,112 @@
+# Repository Housekeeping Audit
+
+Puppet's Open Source Stewards group conducts a regular audit of our public GitHub
+namespace and repositories that do not meet our standards and policies. This
+report contains repositories which are out of compliance and should be either
+removed or corrected. For example, we require `LICENSE` files and valid `CODEOWNERS`.
+
+We strongly prefer the Apache 2.0 license. Please reach out to the Open Source
+Stewards if you have questions or would like to use a different license.
+
+This report helps to keep these files current, maintained, and correct. The most
+common issues we see with `CODEOWNERS` files are malformed owner assignments and
+incomplete coverage. The owners assignment should be `@puppetlabs/<team name>`.
+
+We prefer team assignments, but you can also use an individual assignment if needed
+as long as you make sure to keep it current. To ensure complete code coverage, we
+recommend that you place a wildcard match (such as `* @puppetlabs/community-maintainers`)
+as your first rule in the `CODEOWNERS` file.
+
+If a repository is no longer useful then remove it rather than working to make it
+compliant.
+
+* If anyone else might find practical use or learning opportunities, then bin
+  the repository into the [Toy Chest](http://github.com/puppetlabs-toy-chest/)
+  to mark it as adoptable.
+* If the repository has no use to anyone, then simply delete it.
+
+See `{not yet published}` for details about our housekeeping standards.
+
+----
+
+<% if malformed -%>
+## GitHub: Invalid `CODEOWNERS` files
+
+<details>
+<summary>
+The following GitHub repositories have problems with their `CODEOWNERS` files. Click
+through to inspect the errors using GitHub's interface and it will offer suggestions
+on how to resolve problems.
+</summary>
+
+<% malformed.each do |repo| -%>
+* [<%= repo.full_name %>](<%= repo.html_url %>/blob/-/CODEOWNERS)
+  * <%= repo.description %>
+<% end -%>
+</details>
+<% end -%>
+
+<% if coverage -%>
+## GitHub: Incomplete `CODEOWNERS` codepath coverage
+
+<details>
+<summary>
+The following GitHub repositories have unowned files.
+</summary>
+
+<% coverage.each do |repo| -%>
+* [<%= repo.full_name %>](<%= repo.html_url %>)
+    * <%= repo.description %>
+<% end -%>
+</details>
+<% end -%>
+
+<% if missing -%>
+## GitHub: Repositories without `CODEOWNERS`
+
+<details>
+<summary>
+The following GitHub repositories have no CODEOWNERS.
+</summary>
+
+<% missing.each do |repo| -%>
+* [<%= repo.full_name %>](<%= repo.html_url %>)
+    * <%= repo.description %>
+<% end -%>
+</details>
+<% end -%>
+
+<% if userowned -%>
+## GitHub: Repositories with code owned by users
+
+<details>
+<summary>
+The following GitHub repositories have code paths owned by users instead of
+teams. This may not be a problem, but it does introduce organizational risk.
+</summary>
+
+<% userowned.each do |repo| -%>
+* [<%= repo.full_name %>](<%= repo.html_url %>)
+<% repo.codeowner_users.each do |user| -%>
+    * <%= user %>
+<% end -%>
+<% end -%>
+</details>
+<% end -%>
+
+<% if nolicense -%>
+## GitHub: No `LICENSE` file
+
+<details>
+<summary>
+The following GitHub repositories have no `LICENSE` file. To reduce confusion for
+our customers and community, and to reduce our legal risk, all publicly accessible
+repos should have a license.
+</summary>
+
+<% nolicense.each do |repo| -%>
+* [<%= repo.full_name %>](<%= repo.html_url %>)
+    * <%= repo.description %>
+<% end -%>
+</details>
+<% end -%>

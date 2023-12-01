@@ -1,0 +1,14 @@
+ # Open Hacktoberfest Pull Requests
+
+The following projects are participating in [Hacktoberfest](http://hacktoberfest.com).
+
+*Puppet employees*: if you'd like to add a project to this list, just add the
+`hacktoberfest` topic to your repository.
+
+<% all_pull_requests.each do |repo, pulls| -%>
+* # [<%= repo %>](https://github.com/<%= repo %>)
+<% pulls.each do |pr| -%>
+  * [<%= pr[:title] %>](<%= pr[:html_url] %>)
+<% end -%>
+<% end -%>
+

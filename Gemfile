@@ -1,5 +1,7 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'octokit'
-gem 'rake'
-gem 'pry'
+gem "octokit"
+gem "rake"
+gem "pry"
+gem "globby"
+gem "faraday-retry"
