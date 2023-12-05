@@ -21,7 +21,7 @@ Share your thoughs, ideas, and questions. Help each other solve problems. If you
 
 ## Reporting dashboards
 
-See the [`dashboards`](dashboards/) directory for various reporting dashboards. Most are there to help us improve our own OSS housekeeping, but you're welcome to observe. And some of the boards are for you; for example during the month of October the [Hacktoberfest board](dashboards/hacktoberfest.md) will populate with a list of our OSS repos participating and provide a list of pull requests that our engineers should prioritize so you get credit for them.
+See the [`dashboards`](dashboards/) directory for various reporting dashboards. Most are there to help us improve our own OSS housekeeping, but you're welcome to observe. And some of the boards are for you; for example during the month of October the [Hacktoberfest board](dashboards/hacktoberfest.md) will populate with a list of our OSS repos participating and provide a list of pull requests that our engineers should prioritize so you get credit for them. These dashboards are generated weekly.
 
 
 ## Project-specific discussions
