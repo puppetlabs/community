@@ -13,7 +13,16 @@ Got an idea or suggestion about any of our products that doesn't quite fit into 
  
 Remember that as much as we'd like to, we cannot take every suggestion or build every new idea. Focusing on doing fewer things better is how we build the tools that you love.
 
+
 ## Get started with the _Discussions_ tab above.
+
+Share your thoughs, ideas, and questions. Help each other solve problems. If you'd like other ways to engage, see the "connect with us box on https://www.puppet.com/community.
+
+
+## Reporting dashboards
+
+See the [`dashboards`](dashboards/) directory for various reporting dashboards. Most are there to help us improve our own OSS housekeeping, but you're welcome to observe. And some of the boards are for you; for example during the month of October the [Hacktoberfest board](dashboards/hacktoberfest.md) will populate with a list of our OSS repos participating and provide a list of pull requests that our engineers should prioritize so you get credit for them.
+
 
 ## Project-specific discussions
 In addition to this forum,some individual open-source projects have their own discussion boards. If you're specifically interested in any of these, we'd love for you to come join us!
