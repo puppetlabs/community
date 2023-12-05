@@ -41,7 +41,8 @@ task(:housekeeping) do
         next if rule.start_with?("#")
         rules << rule
 
-        teams, usernames = assignees.partition { |assignee| assignee.include?("/") }
+        # team/user names are downcased internally even if the display name is capitalized
+        teams, usernames = assignees.map{|a| a.downcase }.partition { |a| a.include?("/") }
         mismatch = (teams - owners)
         errors << "No teams matched rule: `#{rule}`" if teams.empty?
         errors << "The team(s) `#{mismatch.join("`,`")}` appear to be invalid for rule: `#{rule}`" unless mismatch.empty?
