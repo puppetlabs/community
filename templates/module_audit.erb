@@ -1,0 +1,189 @@
+# Module Housekeeping Audit
+
+Puppet's Open Source Stewards group conducts a regular audit of our public GitHub
+namespace and our Puppet Forge namespace for modules that do not meet our standards
+and policies. This report contains module content which is out of compliance and
+should be either removed or corrected.
+
+Each section below describes expectations for a check and suggestions for remediating
+the failure. Expand the list to see all the content that failed the check.
+
+If a module is no longer useful then remove it rather than working to make it
+compliant.
+
+* If anyone else might find practical use or learning opportunities, then bin
+  the repository into the [Toy Chest](http://github.com/puppetlabs-toy-chest/)
+  to mark it as adoptable.
+* If the module has no use to anyone, then simply delete it and deprecate on the Forge.
+
+See `{not yet published}` for details about our housekeeping standards.
+
+----
+
+<% if missing_module_topic.any? -%>
+## GitHub: Module repository missing `module` topic
+
+<details>
+<summary>
+Module repositories should be indicated with the `module` topic. The following
+repositories were detected as Puppet modules, but are missing that topic.
+</summary>
+
+<% missing_module_topic.each do |repo| -%>
+* [<%= repo.full_name %>](<%= repo.html_url %>)
+<% end -%>
+</details>
+<% end -%>
+
+
+<% if incomplete_topics.any? -%>
+## GitHub: Module repositories missing support tier topic
+
+<details>
+<summary>
+Modules in the Puppetlabs namespace have different support expectations. Each module
+repository should have a topic identifying which support tier it falls into. The
+following GitHub repositories are missing their support tier topics and should
+have them added.
+</summary>
+
+<% incomplete_topics.each do |repo| -%>
+* [<%= repo.full_name %>](<%= repo.html_url %>)
+<% end -%>
+</details>
+<% end -%>
+
+
+<% if unmarked_preamble.any? -%>
+## GitHub: Module repositories missing README preamble
+
+<details>
+<summary>
+Each unsupported module in our namespace  should have a properly formatted `README`
+preamble explaining what kind of support a user can expect when using that module.
+
+The following GitHub repositories should have a preamble added to their `README`.
+</summary>
+
+<% unmarked_preamble.each do |repo| -%>
+* [<%= repo.full_name %>](<%= repo.html_url %>)
+<% end -%>
+</details>
+<% end -%>
+
+<% if unpublished_modules.any? -%>
+## GitHub: Unpublished module repositories
+
+<details>
+<summary>
+These repositories appear to contain Puppet modules that don't seem to be published
+to the Forge. Check to see if any can be archived or moved to other locations. Note
+that this often indicates a poorly formatted `source` field in the metadata, which
+is how we correlate modules between the Forge and GitHub.
+</summary>
+
+<% unpublished_modules.each do |repo| -%>
+* [<%= repo.full_name %>](<%= repo.html_url %>)
+<% end -%>
+</details>
+<% end -%>
+
+----
+
+<% if badge_supported.any? -%>
+## Forge: Add Supported badge
+
+<details>
+<summary>
+Forge module pages should match the topics on their corresponding repositories.
+The following Forge modules should be badged as Supported.
+</summary>
+
+<% badge_supported.each do |mod| -%>
+* [<%= mod.slug %>](https://forge.puppet.com/puppetlabs/<%= mod.name %>)
+<% end -%>
+</details>
+<% end -%>
+
+
+<% if badge_unsupported.any? -%>
+## Forge: Remove Supported badge
+
+<details>
+<summary>
+Forge module pages should match the topics on their corresponding repositories.
+The following Forge modules should have the Supported badge removed.
+</summary>
+
+<% badge_unsupported.each do |mod| -%>
+* [<%= mod.slug %>](https://forge.puppet.com/puppetlabs/<%= mod.name %>)
+<% end -%>
+</details>
+<% end -%>
+
+
+<% if badge_adoptable.any? -%>
+## Forge: Add Adoptable badge
+<details>
+<summary>
+The repositories for these modules have been archived into the Toy Chest, so their
+Forge pages should be badged as `Adoptable`.
+</summary>
+
+<% badge_adoptable.each do |mod| -%>
+* [<%= mod.slug %>](https://forge.puppet.com/puppetlabs/<%= mod.name %>)
+<% end -%>
+</details>
+<% end -%>
+
+<% if module_deprecated.any? -%>
+## Forge: Module should be deprecated
+<details>
+<summary>
+The repositories for these modules have been archived, but not put into the Toy Chest.
+They may have already been adopted, or they may just be EOL. In either case, the
+the module should be marked as deprecated, with a replacement if there is one.
+</summary>
+
+<% module_deprecated.each do |mod| -%>
+* [<%= mod.slug %>](https://forge.puppet.com/puppetlabs/<%= mod.name %>)
+<% end -%>
+</details>
+<% end -%>
+
+<% if source_field_problem.any? -%>
+## Forge: Source field problem
+
+<details>
+<summary>
+Our standards for the `source` key in `metadata.json` is to point to the HTML url
+of the GitHub repository containing module source. The following Forge modules do
+not match that expectation. Either the field could not be parsed, or it does not
+point to a valid public repo within the org. Sometimes this happens when another
+developer takes ownership of a module and the Forge page isn't updated to match.
+
+Correct the field for any modules we own, and deprecate as appropriate any modules
+we no longer own.
+</summary>
+
+<% source_field_problem.each do |mod| -%>
+* [<%= mod.slug %>](https://forge.puppet.com/puppetlabs/<%= mod.name %>)
+<% end -%>
+</details>
+<% end -%>
+
+<% if old_issues_url.any? -%>
+## Forge: Out of date issues URL
+
+<details>
+<summary>
+Since we've integrated Jira servers and migrated to public GitHub issues, all our
+modules will eventually need to be republished with the correct issues URL. This
+list is the modules that have not been updated yet.
+</summary>
+
+<% old_issues_url.each do |mod| -%>
+* [<%= mod.slug %>](https://forge.puppet.com/puppetlabs/<%= mod.name %>)
+<% end -%>
+</details>
+<% end -%>

@@ -23,6 +23,7 @@ jobs:
         bundle install --jobs 4 --retry 3
         bundle exec rake contributors
         bundle exec rake housekeeping
+        bundle exec rake modules
     - name: Commit changes
       uses: EndBug/add-and-commit@v9
       with:
