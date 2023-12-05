@@ -50,8 +50,17 @@ task(:modules) do
         # if we get here, then there's a repo matching this module.
         unpublished_modules.delete_if {|item| item.name == repo.name }
       rescue Octokit::NotFound => e
-        # if there's no module at that url
-        source_field_problem << mod
+        # there's no module at that url, is it binned?
+        conn = Net::HTTP.new('github.com', 443)
+        conn.use_ssl = true
+        # don't use source directly as it may be specified in old-skool ssh url format
+        resp = conn.request_head("https://github.com/puppetlabs/#{match[1]}")
+
+        if resp['location']&.start_with?('https://github.com/puppetlabs-toy-chest/')
+          badge_adoptable << mod
+        else
+          source_field_problem << mod
+        end
         next
       end
     else
@@ -60,16 +69,9 @@ task(:modules) do
       next
     end
 
+    # if we get here, we've already checked the Toy Chest
     if repo.archived
-      conn = Net::HTTP.new('github.com', 443)
-      conn.use_ssl = true
-      resp = conn.request_head(repo.html_url)
-
-      if resp['location']&.start_with?('https://github.com/puppetlabs-toy-chest/')
-        badge_adoptable << mod
-      else
-        module_deprecated << mod
-      end
+      module_deprecated << mod
       # no need for the rest of the checks
       next
     end
