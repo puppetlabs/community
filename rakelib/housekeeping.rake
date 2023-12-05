@@ -43,8 +43,8 @@ task(:housekeeping) do
 
         teams, usernames = assignees.partition { |assignee| assignee.include?("/") }
         mismatch = (teams - owners)
-        errors << "No teams matched rule: #{rule}" if teams.empty?
-        errors << "The team(s) #{mismatch.join(",")} appear to be invalid for rule: #{rule}" unless mismatch.empty?
+        errors << "No teams matched rule: `#{rule}`" if teams.empty?
+        errors << "The team(s) `#{mismatch.join("`,`")}` appear to be invalid for rule: `#{rule}`" unless mismatch.empty?
 
         users.concat(usernames)
       end
@@ -52,6 +52,7 @@ task(:housekeeping) do
       source = Globby::GlObject.new(files, dirs)
       misses = Globby.reject(rules, source)
       unless misses.empty?
+        repo[:codeowner_misses] = misses
         coverage << repo
       end
 

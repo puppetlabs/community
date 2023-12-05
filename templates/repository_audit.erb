@@ -29,7 +29,7 @@ See `{not yet published}` for details about our housekeeping standards.
 
 ----
 
-<% if malformed -%>
+<% if malformed.any? -%>
 ## GitHub: Invalid `CODEOWNERS` files
 
 <details>
@@ -41,12 +41,14 @@ on how to resolve problems.
 
 <% malformed.each do |repo| -%>
 * [<%= repo.full_name %>](<%= repo.html_url %>/blob/-/CODEOWNERS)
-  * <%= repo.description %>
+<% repo.codeowner_errors.each do |msg| -%>
+    * <%= msg %>
+<% end -%>
 <% end -%>
 </details>
 <% end -%>
 
-<% if coverage -%>
+<% if coverage.any? -%>
 ## GitHub: Incomplete `CODEOWNERS` codepath coverage
 
 <details>
@@ -55,13 +57,17 @@ The following GitHub repositories have unowned files.
 </summary>
 
 <% coverage.each do |repo| -%>
-* [<%= repo.full_name %>](<%= repo.html_url %>)
-    * <%= repo.description %>
+<details>
+<summary>
+<a href="<%= repo.html_url %>"><%= repo.full_name %></a>
+</summary>
+<pre><code><%= repo.codeowner_misses.join("\n") %></pre></code>
+</details>
 <% end -%>
 </details>
 <% end -%>
 
-<% if missing -%>
+<% if missing.any? -%>
 ## GitHub: Repositories without `CODEOWNERS`
 
 <details>
@@ -76,7 +82,7 @@ The following GitHub repositories have no CODEOWNERS.
 </details>
 <% end -%>
 
-<% if userowned -%>
+<% if userowned.any? -%>
 ## GitHub: Repositories with code owned by users
 
 <details>
@@ -94,7 +100,7 @@ teams. This may not be a problem, but it does introduce organizational risk.
 </details>
 <% end -%>
 
-<% if nolicense -%>
+<% if nolicense.any? -%>
 ## GitHub: No `LICENSE` file
 
 <details>
