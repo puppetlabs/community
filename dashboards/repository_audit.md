@@ -46,8 +46,6 @@ on how to resolve problems.
     * No teams matched rule: `*`
 * [puppetlabs/clamps](https://github.com/puppetlabs/clamps/blob/-/CODEOWNERS)
     * The team(s) `@puppetlabs/slv` appear to be invalid for rule: `*`
-* [puppetlabs/distelli-common](https://github.com/puppetlabs/distelli-common/blob/-/CODEOWNERS)
-    * The team(s) `@puppetlabs/CD4PE` appear to be invalid for rule: `*`
 * [puppetlabs/gogrpc](https://github.com/puppetlabs/gogrpc/blob/-/CODEOWNERS)
     * No teams matched rule: `dig`
 * [puppetlabs/homebrew-puppet](https://github.com/puppetlabs/homebrew-puppet/blob/-/CODEOWNERS)
@@ -68,12 +66,8 @@ on how to resolve problems.
     * No teams matched rule: `*`
 * [puppetlabs/puppetdb-cli](https://github.com/puppetlabs/puppetdb-cli/blob/-/CODEOWNERS)
     * The team(s) `@puppetlabs/night-s-watch` appear to be invalid for rule: `*`
-* [puppetlabs/puppetlabs-cd4pe_tests](https://github.com/puppetlabs/puppetlabs-cd4pe_tests/blob/-/CODEOWNERS)
-    * The team(s) `@puppetlabs/CD4PE` appear to be invalid for rule: `*`
 * [puppetlabs/puppetlabs-pe_quick_data](https://github.com/puppetlabs/puppetlabs-pe_quick_data/blob/-/CODEOWNERS)
     * No teams matched rule: `*`
-* [puppetlabs/puppetlabs-servicenow_change_requests](https://github.com/puppetlabs/puppetlabs-servicenow_change_requests/blob/-/CODEOWNERS)
-    * The team(s) `@puppetlabs/PIE` appear to be invalid for rule: `*`
 * [puppetlabs/puppetserver-ca-cli](https://github.com/puppetlabs/puppetserver-ca-cli/blob/-/CODEOWNERS)
     * The team(s) `@puppetlabs/puppetserver-maintainers` appear to be invalid for rule: `*`
 * [puppetlabs/puppetserver-helm-chart](https://github.com/puppetlabs/puppetserver-helm-chart/blob/-/CODEOWNERS)
@@ -130,9 +124,11 @@ The following GitHub repositories have no CODEOWNERS.
 * [puppetlabs/puppet-waylon](https://github.com/puppetlabs/puppet-waylon)
     * A Puppet module to deploy Waylon instances.
 * [puppetlabs/puppetlabs-puppet_authorization](https://github.com/puppetlabs/puppetlabs-puppet_authorization)
-    *
+    * 
 * [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
     * Puppet Labs SSH Public Keys
+* [puppetlabs/release-engineering-repo-standards](https://github.com/puppetlabs/release-engineering-repo-standards)
+    * Standards and workflows for release engineering repos
 </details>
 
 ## GitHub: Repositories with code owned by users
@@ -146,23 +142,23 @@ teams. This may not be a problem, but it does introduce organizational risk.
 * [puppetlabs/aws-hol-repo](https://github.com/puppetlabs/aws-hol-repo)
     * @cs-arch
 * [puppetlabs/aws_resource_reaper](https://github.com/puppetlabs/aws_resource_reaper)
-    * @ShawonC
+    * @shawonc
 * [puppetlabs/bolt-waypoint-plugin](https://github.com/puppetlabs/bolt-waypoint-plugin)
     * @lucywyman
 * [puppetlabs/cpp-hocon](https://github.com/puppetlabs/cpp-hocon)
-    * @MikaelSmith
-    * @Magisus
+    * @mikaelsmith
+    * @magisus
 * [puppetlabs/forge-ruby](https://github.com/puppetlabs/forge-ruby)
     * @bastelfreak
 * [puppetlabs/homebrew-puppet](https://github.com/puppetlabs/homebrew-puppet)
-    * @MikaelSmith
+    * @mikaelsmith
 * [puppetlabs/influxdb](https://github.com/puppetlabs/influxdb)
     * @bastelfreak
 * [puppetlabs/pe_patch](https://github.com/puppetlabs/pe_patch)
     * @albatrossflavour
 * [puppetlabs/posh-bolt](https://github.com/puppetlabs/posh-bolt)
-    * @McDonaldSeanp
-    * @RandomNoun7
+    * @mcdonaldseanp
+    * @randomnoun7
 * [puppetlabs/prosvc-preview_report](https://github.com/puppetlabs/prosvc-preview_report)
     * @cwcowellshah
 * [puppetlabs/puppet-chocolatey-packages](https://github.com/puppetlabs/puppet-chocolatey-packages)
@@ -207,7 +203,7 @@ teams. This may not be a problem, but it does introduce organizational risk.
     * @bastelfreak
     * @deric
     * @ekohl
-    * @SimonHoenscheid
+    * @simonhoenscheid
     * @smortex
 * [puppetlabs/puppetlabs-puppetdb](https://github.com/puppetlabs/puppetlabs-puppetdb)
     * @bastelfreak
@@ -237,7 +233,7 @@ teams. This may not be a problem, but it does introduce organizational risk.
 * [puppetlabs/puppetlabs_spec_helper](https://github.com/puppetlabs/puppetlabs_spec_helper)
     * @bastelfreak
 * [puppetlabs/puppetserver-helm-chart](https://github.com/puppetlabs/puppetserver-helm-chart)
-    * @Xtigyro
+    * @xtigyro
     * @slconley
     * @raphink
     * @davidphay
@@ -268,21 +264,21 @@ repos should have a license.
 * [puppetlabs/build-data](https://github.com/puppetlabs/build-data)
     * source of additional information pertaining to build automation
 * [puppetlabs/cat-github-actions](https://github.com/puppetlabs/cat-github-actions)
-    *
+    * 
 * [puppetlabs/cdpe-test-control-repo](https://github.com/puppetlabs/cdpe-test-control-repo)
     * Master repo for CDPE acceptance tests control repo's thats mirrored to our other VCS providers
 * [puppetlabs/cem_workflows](https://github.com/puppetlabs/cem_workflows)
-    *
+    * 
 * [puppetlabs/cisco_ios](https://github.com/puppetlabs/cisco_ios)
     * Cisco IOS Catalyst module
 * [puppetlabs/clamps](https://github.com/puppetlabs/clamps)
-    *
+    * 
 * [puppetlabs/clojars-puppetlabs-jenkins](https://github.com/puppetlabs/clojars-puppetlabs-jenkins)
-    *
+    * 
 * [puppetlabs/cloud-chaos-webinar](https://github.com/puppetlabs/cloud-chaos-webinar)
-    *
+    * 
 * [puppetlabs/courseware-lms-lab-downloads](https://github.com/puppetlabs/courseware-lms-lab-downloads)
-    *
+    * 
 * [puppetlabs/dataops-pipeline-tools](https://github.com/puppetlabs/dataops-pipeline-tools)
     * Functions that are used regularly in data pipeline jobs
 * [puppetlabs/diagrams-net-libraries](https://github.com/puppetlabs/diagrams-net-libraries)
@@ -292,7 +288,7 @@ repos should have a license.
 * [puppetlabs/forge-standards](https://github.com/puppetlabs/forge-standards)
     * This repository consists of forge automations
 * [puppetlabs/foss-license-report](https://github.com/puppetlabs/foss-license-report)
-    *
+    * 
 * [puppetlabs/gettingstartedwb](https://github.com/puppetlabs/gettingstartedwb)
     * Repo for Getting Started with Bolt workshop
 * [puppetlabs/go-cd4pe-client](https://github.com/puppetlabs/go-cd4pe-client)
@@ -302,51 +298,49 @@ repos should have a license.
 * [puppetlabs/infinitory](https://github.com/puppetlabs/infinitory)
     * SRE host, role, and service inventory
 * [puppetlabs/influxdb](https://github.com/puppetlabs/influxdb)
-    *
+    * 
 * [puppetlabs/kmo-cd4pe-scripts](https://github.com/puppetlabs/kmo-cd4pe-scripts)
     * Utility scripts for provisioning CD4PE in Instruqt
 * [puppetlabs/kmo-relay_workflows](https://github.com/puppetlabs/kmo-relay_workflows)
     * relay workflows and steps for KMO
 * [puppetlabs/learndot_api](https://github.com/puppetlabs/learndot_api)
-    *
-* [puppetlabs/May-The-Source-Be-With-You](https://github.com/puppetlabs/May-The-Source-Be-With-You)
-    * 💻 “May the Source Be With You” is a virtual hackathon focused on improvements to our developer tooling ecosystem. May 4th, 2023
+    * 
 * [puppetlabs/nssm](https://github.com/puppetlabs/nssm)
     * Puppet fork of the NSSM source code from https://git.nssm.cc/nssm/nssm.git
 * [puppetlabs/openssl-fips](https://github.com/puppetlabs/openssl-fips)
-    *
+    * 
 * [puppetlabs/pct-test-template-01](https://github.com/puppetlabs/pct-test-template-01)
-    *
+    * 
 * [puppetlabs/pct-test-template-02](https://github.com/puppetlabs/pct-test-template-02)
-    *
+    * 
 * [puppetlabs/pdk-docker](https://github.com/puppetlabs/pdk-docker)
     * Official Puppet Development Kit (PDK) Docker Image
 * [puppetlabs/pdk-test](https://github.com/puppetlabs/pdk-test)
-    *
+    * 
 * [puppetlabs/pe-sdk-go](https://github.com/puppetlabs/pe-sdk-go)
-    *
+    * 
 * [puppetlabs/peadm-bolt-project](https://github.com/puppetlabs/peadm-bolt-project)
     * Bolt project for working with the puppetlabs/pe_xl module
 * [puppetlabs/pe_tech_check](https://github.com/puppetlabs/pe_tech_check)
     * A repo containing tasks and scripts for the PE Tech Check service
 * [puppetlabs/phoenix-github-actions](https://github.com/puppetlabs/phoenix-github-actions)
-    *
+    * 
 * [puppetlabs/pltraining-apache](https://github.com/puppetlabs/pltraining-apache)
-    *
+    * 
 * [puppetlabs/pmc_miller](https://github.com/puppetlabs/pmc_miller)
-    *
+    * 
 * [puppetlabs/preupgrade_check](https://github.com/puppetlabs/preupgrade_check)
     * A Bolt plan to check for common issues before a Puppet Enterprise upgrade
 * [puppetlabs/prm-test-tool-01](https://github.com/puppetlabs/prm-test-tool-01)
-    *
+    * 
 * [puppetlabs/prm-test-tool-02](https://github.com/puppetlabs/prm-test-tool-02)
-    *
+    * 
 * [puppetlabs/prosvc-preview_report](https://github.com/puppetlabs/prosvc-preview_report)
     * A Catalog Preview Report HTML Generator
 * [puppetlabs/prtg_push](https://github.com/puppetlabs/prtg_push)
     * A Puppet module to provide PRTG HTTP push sensors
 * [puppetlabs/puppet-approved-modules](https://github.com/puppetlabs/puppet-approved-modules)
-    *
+    * 
 * [puppetlabs/puppet-classify](https://github.com/puppetlabs/puppet-classify)
     * A ruby library to interface with the classifier service
 * [puppetlabs/puppet-data-service](https://github.com/puppetlabs/puppet-data-service)
@@ -356,13 +350,13 @@ repos should have a license.
 * [puppetlabs/puppet-rfc](https://github.com/puppetlabs/puppet-rfc)
     * Puppet RFC Repository
 * [puppetlabs/puppet-vra_puppet_plugin_prep](https://github.com/puppetlabs/puppet-vra_puppet_plugin_prep)
-    *
+    * 
 * [puppetlabs/puppet-vro-starter_content](https://github.com/puppetlabs/puppet-vro-starter_content)
-    *
+    * 
 * [puppetlabs/puppetdb-cli](https://github.com/puppetlabs/puppetdb-cli)
     * PuppetDB CLI Tooling
 * [puppetlabs/puppetlabs-bash_task_helper](https://github.com/puppetlabs/puppetlabs-bash_task_helper)
-    *
+    * 
 * [puppetlabs/puppetlabs-cd4pe_deployments](https://github.com/puppetlabs/puppetlabs-cd4pe_deployments)
     * Puppet module for custom CD4PE deployment policies
 * [puppetlabs/puppetlabs-cd4pe_jobs](https://github.com/puppetlabs/puppetlabs-cd4pe_jobs)
@@ -380,7 +374,7 @@ repos should have a license.
 * [puppetlabs/puppetlabs-pe_status_check](https://github.com/puppetlabs/puppetlabs-pe_status_check)
     * Self Service Module for Puppet Enterprise
 * [puppetlabs/puppetlabs-puppet_authorization](https://github.com/puppetlabs/puppetlabs-puppet_authorization)
-    *
+    * 
 * [puppetlabs/puppetlabs-puppet_bolt_server](https://github.com/puppetlabs/puppetlabs-puppet_bolt_server)
     * This module installs and configures Bolt to use a local PuppetDB and PCP transport
 * [puppetlabs/puppetlabs-puppet_data_service](https://github.com/puppetlabs/puppetlabs-puppet_data_service)
@@ -394,19 +388,19 @@ repos should have a license.
 * [puppetlabs/puppetlabs-test_device](https://github.com/puppetlabs/puppetlabs-test_device)
     * a device emulator for testing purposes
 * [puppetlabs/puppet_module_metadata](https://github.com/puppetlabs/puppet_module_metadata)
-    *
+    * 
 * [puppetlabs/relaysh-docker-update-workflow](https://github.com/puppetlabs/relaysh-docker-update-workflow)
-    *
+    * 
 * [puppetlabs/support-tasks](https://github.com/puppetlabs/support-tasks)
     * Module for tasks in the support kb
 * [puppetlabs/TA-puppet-alert-actions](https://github.com/puppetlabs/TA-puppet-alert-actions)
     * Alert Actions isolated from Puppet Report Viewer addon
 * [puppetlabs/TA-puppet-report-viewer](https://github.com/puppetlabs/TA-puppet-report-viewer)
-    *
+    * 
 * [puppetlabs/tig-demo](https://github.com/puppetlabs/tig-demo)
     * A demo using Bolt to set up a TIG stack
 * [puppetlabs/ultipro-soap-python](https://github.com/puppetlabs/ultipro-soap-python)
     * Python wrapper for the UltiPro SOAP API
 * [puppetlabs/winrm_security](https://github.com/puppetlabs/winrm_security)
-    *
+    * 
 </details>
