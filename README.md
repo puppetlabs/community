@@ -27,7 +27,7 @@ Some products, like Puppet Enterprise itself, are developed internally. These no
 
 ### 💡 Sharing ideas and product suggestions
 
-Got an idea or suggestion about any of our products that doesn't quite fit into a bug report? Take a look at the idea forums. Here are some suggestions to help make your ideas more likely to be implemented:
+Got an idea or suggestion about any of our products that doesn't quite fit into a bug report? Take a look at the _Ideas_ forums in the Discussions area. Here are some suggestions to help make your ideas more likely to be implemented:
   * ✅ Make your suggestion as complete and actionable as you can.
   * 💬 Share your ideas with peers so that we can see community demand for them.
   * 👍 Engage with other ideas and provide constructive feedback.
