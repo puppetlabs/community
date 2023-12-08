@@ -39,9 +39,4 @@ Remember that as much as we'd like to, we cannot take every suggestion or build 
 See the [`dashboards`](dashboards/) directory for various reporting dashboards. Most are there to help us improve our own OSS housekeeping, but you're welcome to observe. And some of the boards are for you; for example during the month of October the [Hacktoberfest board](dashboards/hacktoberfest.md) will populate with a list of our OSS repos participating and provide a list of pull requests that our engineers should prioritize so you get credit for them. These dashboards are generated weekly.
 
 
-## Project-specific discussions
-In addition to this forum,some individual open-source projects have their own discussion boards. If you're specifically interested in any of these, we'd love for you to come join us!
-   * [Bolt](https://github.com/puppetlabs/bolt/discussions)
-   * [Puppet VSCode extension](https://github.com/puppetlabs/puppet-vscode/discussions)
-
-Please remember that our [community guidelines](https://puppet.com/community/community-guidelines) apply to all community spaces, including this one.
+❤️ Please remember that our [community guidelines](https://puppet.com/community/community-guidelines) apply to all community spaces, including this one.
