@@ -50,8 +50,6 @@ on how to resolve problems.
     * No teams matched rule: `dig`
 * [puppetlabs/homebrew-puppet](https://github.com/puppetlabs/homebrew-puppet/blob/-/CODEOWNERS)
     * No teams matched rule: `*`
-* [puppetlabs/kmo-cd4pe-scripts](https://github.com/puppetlabs/kmo-cd4pe-scripts/blob/-/CODEOWNERS)
-    * No teams matched rule: `team-teched`
 * [puppetlabs/master_manipulator](https://github.com/puppetlabs/master_manipulator/blob/-/CODEOWNERS)
     * The team(s) `@puppetlabs/slv` appear to be invalid for rule: `*`
 * [puppetlabs/pe-sdk-go](https://github.com/puppetlabs/pe-sdk-go/blob/-/CODEOWNERS)
@@ -97,15 +95,6 @@ Makefile
 README.md
 buildit.sh</pre></code>
 </details>
-<details>
-<summary>
-<a href="https://github.com/puppetlabs/kmo-cd4pe-scripts">puppetlabs/kmo-cd4pe-scripts</a>
-</summary>
-<pre><code>.gitignore
-CODEOWNERS
-README.md
-lib/patch_k8s_hosts.sh</pre></code>
-</details>
 </details>
 
 ## GitHub: Repositories without `CODEOWNERS`
@@ -115,6 +104,8 @@ lib/patch_k8s_hosts.sh</pre></code>
 The following GitHub repositories have no CODEOWNERS.
 </summary>
 
+* [puppetlabs/forge_issues](https://github.com/puppetlabs/forge_issues)
+    * This repository will allow public community members to file bug reports against the Puppet Forge
 * [puppetlabs/gettingstartedwb](https://github.com/puppetlabs/gettingstartedwb)
     * Repo for Getting Started with Bolt workshop
 * [puppetlabs/kmo_provision_pe](https://github.com/puppetlabs/kmo_provision_pe)

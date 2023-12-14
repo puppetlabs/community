@@ -8,14 +8,6 @@ although some are here for historical reasons.
 or inducted into the Trusted Contributors program.
 
 <details>
-<summary><strong><a href="https://github.com/CharlesMessier">CharlesMessier</a></strong></summary>
-
-* [apisprout](https://github.com/puppetlabs/apisprout)
-* [homebrew-puppet](https://github.com/puppetlabs/homebrew-puppet)
-* [vault-plugin-secrets-oauthapp](https://github.com/puppetlabs/vault-plugin-secrets-oauthapp)
-
-</details>
-<details>
 <summary><strong><a href="https://github.com/bastelfreak">bastelfreak</a></strong></summary>
 
 * [cisco_ios](https://github.com/puppetlabs/cisco_ios)
