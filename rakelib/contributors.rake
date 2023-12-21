@@ -14,6 +14,7 @@ task(:contributors) do
   collaborators = github_client.repos(@org).inject({}) do |list, repo|
     begin
       next list if repo[:archived]
+      next list if repo[:private]
 
       github_client.collaborators(repo.full_name, :affiliation => "outside").each do |collaborator|
         next if skiplist.include?(collaborator.login)
