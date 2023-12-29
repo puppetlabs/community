@@ -20,7 +20,7 @@ See `{not yet published}` for details about our housekeeping standards.
 
 ----
 
-## GitHub: Module repository missing `module` topic
+## GitHub: Module repository missing `module` topic - Completed
 
 <details>
 <summary>
@@ -28,9 +28,9 @@ Module repositories should be indicated with the `module` topic. The following
 repositories were detected as Puppet modules, but are missing that topic.
 </summary>
 
-* [puppetlabs/puppetlabs-windows_env](https://github.com/puppetlabs/puppetlabs-windows_env)
-* [puppetlabs/puppetlabs-sslcertificate](https://github.com/puppetlabs/puppetlabs-sslcertificate)
-* [puppetlabs/puppetlabs-windows_eventlog](https://github.com/puppetlabs/puppetlabs-windows_eventlog)
+* [puppetlabs/puppetlabs-windows_env](https://github.com/puppetlabs/puppetlabs-windows_env) - completed
+* [puppetlabs/puppetlabs-sslcertificate](https://github.com/puppetlabs/puppetlabs-sslcertificate) - completed
+* [puppetlabs/puppetlabs-windows_eventlog](https://github.com/puppetlabs/puppetlabs-windows_eventlog) - completed
 </details>
 
 
@@ -44,7 +44,7 @@ following GitHub repositories are missing their support tier topics and should
 have them added.
 </summary>
 
-* [puppetlabs/puppetlabs-lvm](https://github.com/puppetlabs/puppetlabs-lvm)
+* [puppetlabs/puppetlabs-lvm](https://github.com/puppetlabs/puppetlabs-lvm) - completed
 * [puppetlabs/puppetlabs-mailalias_core](https://github.com/puppetlabs/puppetlabs-mailalias_core)
 * [puppetlabs/puppetlabs-test_device](https://github.com/puppetlabs/puppetlabs-test_device)
 * [puppetlabs/netdev_stdlib](https://github.com/puppetlabs/netdev_stdlib)
