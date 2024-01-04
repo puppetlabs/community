@@ -20,18 +20,6 @@ See `{not yet published}` for details about our housekeeping standards.
 
 ----
 
-## GitHub: Module repository missing `module` topic - Completed
-
-<details>
-<summary>
-Module repositories should be indicated with the `module` topic. The following
-repositories were detected as Puppet modules, but are missing that topic.
-</summary>
-
-* [puppetlabs/puppetlabs-windows_env](https://github.com/puppetlabs/puppetlabs-windows_env) - completed
-* [puppetlabs/puppetlabs-sslcertificate](https://github.com/puppetlabs/puppetlabs-sslcertificate) - completed
-* [puppetlabs/puppetlabs-windows_eventlog](https://github.com/puppetlabs/puppetlabs-windows_eventlog) - completed
-</details>
 
 
 ## GitHub: Module repositories missing support tier topic
@@ -44,7 +32,7 @@ following GitHub repositories are missing their support tier topics and should
 have them added.
 </summary>
 
-* [puppetlabs/puppetlabs-lvm](https://github.com/puppetlabs/puppetlabs-lvm) - completed
+* [puppetlabs/puppetlabs-lvm](https://github.com/puppetlabs/puppetlabs-lvm)
 * [puppetlabs/puppetlabs-mailalias_core](https://github.com/puppetlabs/puppetlabs-mailalias_core)
 * [puppetlabs/puppetlabs-test_device](https://github.com/puppetlabs/puppetlabs-test_device)
 * [puppetlabs/netdev_stdlib](https://github.com/puppetlabs/netdev_stdlib)
@@ -192,10 +180,11 @@ The following Forge modules should be badged as Supported.
 * [puppetlabs-exec](https://forge.puppet.com/puppetlabs/exec)
 * [puppetlabs-bolt_shim](https://forge.puppet.com/puppetlabs/bolt_shim)
 * [puppetlabs-yaml](https://forge.puppet.com/puppetlabs/yaml)
-* [puppetlabs-azure_inventory](https://forge.puppet.com/puppetlabs/azure_inventory)
 * [puppetlabs-terraform](https://forge.puppet.com/puppetlabs/terraform)
+* [puppetlabs-azure_inventory](https://forge.puppet.com/puppetlabs/azure_inventory)
 * [puppetlabs-aws_inventory](https://forge.puppet.com/puppetlabs/aws_inventory)
 * [puppetlabs-vault](https://forge.puppet.com/puppetlabs/vault)
+* [puppetlabs-device_manager](https://forge.puppet.com/puppetlabs/device_manager)
 * [puppetlabs-gcloud_inventory](https://forge.puppet.com/puppetlabs/gcloud_inventory)
 * [puppetlabs-pkcs7](https://forge.puppet.com/puppetlabs/pkcs7)
 * [puppetlabs-apply_helpers](https://forge.puppet.com/puppetlabs/apply_helpers)
@@ -339,14 +328,14 @@ list is the modules that have not been updated yet.
 * [puppetlabs-zone_core](https://forge.puppet.com/puppetlabs/zone_core)
 * [puppetlabs-cd4pe](https://forge.puppet.com/puppetlabs/cd4pe)
 * [puppetlabs-sqlite](https://forge.puppet.com/puppetlabs/sqlite)
-* [puppetlabs-mount_iso](https://forge.puppet.com/puppetlabs/mount_iso)
 * [puppetlabs-dsc_lite](https://forge.puppet.com/puppetlabs/dsc_lite)
+* [puppetlabs-mount_iso](https://forge.puppet.com/puppetlabs/mount_iso)
 * [puppetlabs-netdev_stdlib](https://forge.puppet.com/puppetlabs/netdev_stdlib)
 * [puppetlabs-bolt_shim](https://forge.puppet.com/puppetlabs/bolt_shim)
 * [puppetlabs-ciscopuppet](https://forge.puppet.com/puppetlabs/ciscopuppet)
 * [puppetlabs-ruby_plugin_helper](https://forge.puppet.com/puppetlabs/ruby_plugin_helper)
-* [puppetlabs-azure_inventory](https://forge.puppet.com/puppetlabs/azure_inventory)
 * [puppetlabs-terraform](https://forge.puppet.com/puppetlabs/terraform)
+* [puppetlabs-azure_inventory](https://forge.puppet.com/puppetlabs/azure_inventory)
 * [puppetlabs-aws_inventory](https://forge.puppet.com/puppetlabs/aws_inventory)
 * [puppetlabs-vault](https://forge.puppet.com/puppetlabs/vault)
 * [puppetlabs-cd4pe_jobs](https://forge.puppet.com/puppetlabs/cd4pe_jobs)
@@ -368,9 +357,9 @@ list is the modules that have not been updated yet.
 * [puppetlabs-maillist_core](https://forge.puppet.com/puppetlabs/maillist_core)
 * [puppetlabs-influxdb](https://forge.puppet.com/puppetlabs/influxdb)
 * [puppetlabs-mco_rpc](https://forge.puppet.com/puppetlabs/mco_rpc)
+* [puppetlabs-pe_event_forwarding](https://forge.puppet.com/puppetlabs/pe_event_forwarding)
 * [puppetlabs-servicenow_reporting_integration](https://forge.puppet.com/puppetlabs/servicenow_reporting_integration)
 * [puppetlabs-servicenow_cmdb_integration](https://forge.puppet.com/puppetlabs/servicenow_cmdb_integration)
-* [puppetlabs-pe_event_forwarding](https://forge.puppet.com/puppetlabs/pe_event_forwarding)
 * [puppetlabs-macdslocal_core](https://forge.puppet.com/puppetlabs/macdslocal_core)
 * [puppetlabs-bash_task_helper](https://forge.puppet.com/puppetlabs/bash_task_helper)
 * [puppetlabs-pe_quick_data](https://forge.puppet.com/puppetlabs/pe_quick_data)

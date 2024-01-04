@@ -7,6 +7,9 @@ although some are here for historical reasons.
 ⚠️ We will soon tighten up access and outside contributors will either be removed
 or inducted into the Trusted Contributors program.
 
+Are you interested in participating in the program?
+[Read more or apply here](https://www.puppet.com/ecosystem/contribute/trusted-contributors).
+
 <details>
 <summary><strong><a href="https://github.com/bastelfreak">bastelfreak</a></strong></summary>
 
@@ -17,6 +20,7 @@ or inducted into the Trusted Contributors program.
 * [language-style-guide](https://github.com/puppetlabs/language-style-guide)
 * [provision](https://github.com/puppetlabs/provision)
 * [puppet-lint](https://github.com/puppetlabs/puppet-lint)
+* [puppet-strings](https://github.com/puppetlabs/puppet-strings)
 * [puppetlabs-accounts](https://github.com/puppetlabs/puppetlabs-accounts)
 * [puppetlabs-acl](https://github.com/puppetlabs/puppetlabs-acl)
 * [puppetlabs-apache](https://github.com/puppetlabs/puppetlabs-apache)
