@@ -1,11 +1,7 @@
 # Puppet Community Trusted Contributors
 
 The following GitHub users have outside collaborator status on one or more
-repositories. This generally means that the user has Trusted Contributor status,
-although some are here for historical reasons.
-
-⚠️ We will soon tighten up access and outside contributors will either be removed
-or inducted into the Trusted Contributors program.
+repositories, which means that the user has Trusted Contributor status,
 
 Are you interested in participating in the program?
 [Read more or apply here](https://www.puppet.com/ecosystem/contribute/trusted-contributors).
