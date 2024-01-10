@@ -42,11 +42,6 @@ These instructions assume that you're using the PDK to build and maintain your m
   unmanaged: false
 .github/workflows/release.yml:
   unmanaged: false
-
-Gemfile:
-  optional:
-    ':development':
-    - gem: 'github_changelog_generator'
 ```
 * Ensure that the `metadata.json` is correct:
     * ⚠️ All dependencies should specify proper ranges and be fully bounded.
