@@ -297,7 +297,6 @@ list is the modules that have not been updated yet.
 * [puppetlabs-reboot](https://forge.puppet.com/puppetlabs/reboot)
 * [puppetlabs-xinetd](https://forge.puppet.com/puppetlabs/xinetd)
 * [puppetlabs-motd](https://forge.puppet.com/puppetlabs/motd)
-* [puppetlabs-tomcat](https://forge.puppet.com/puppetlabs/tomcat)
 * [puppetlabs-registry](https://forge.puppet.com/puppetlabs/registry)
 * [puppetlabs-yumrepo_core](https://forge.puppet.com/puppetlabs/yumrepo_core)
 * [puppetlabs-chocolatey](https://forge.puppet.com/puppetlabs/chocolatey)

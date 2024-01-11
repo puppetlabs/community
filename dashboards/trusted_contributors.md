@@ -120,12 +120,6 @@ Are you interested in participating in the program?
 
 </details>
 <details>
-<summary><strong><a href="https://github.com/zoojar">zoojar</a></strong></summary>
-
-* [puppetlabs-cd4pe](https://github.com/puppetlabs/puppetlabs-cd4pe)
-
-</details>
-<details>
 <summary><strong><a href="https://github.com/b4ldr">b4ldr</a></strong></summary>
 
 * [puppetlabs-concat](https://github.com/puppetlabs/puppetlabs-concat)
@@ -167,6 +161,12 @@ Are you interested in participating in the program?
 <summary><strong><a href="https://github.com/biamandei">biamandei</a></strong></summary>
 
 * [puppetlabs-websphere_application_server](https://github.com/puppetlabs/puppetlabs-websphere_application_server)
+
+</details>
+<details>
+<summary><strong><a href="https://github.com/ldaneliukas">ldaneliukas</a></strong></summary>
+
+* [puppetserver-helm-chart](https://github.com/puppetlabs/puppetserver-helm-chart)
 
 </details>
 <details>

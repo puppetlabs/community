@@ -104,6 +104,8 @@ buildit.sh</pre></code>
 The following GitHub repositories have no CODEOWNERS.
 </summary>
 
+* [puppetlabs/cem_issues](https://github.com/puppetlabs/cem_issues)
+    * This repository will allow public community members to file bug reports against the CEM modules
 * [puppetlabs/forge_issues](https://github.com/puppetlabs/forge_issues)
     * This repository will allow public community members to file bug reports against the Puppet Forge
 * [puppetlabs/gettingstartedwb](https://github.com/puppetlabs/gettingstartedwb)
@@ -120,6 +122,8 @@ The following GitHub repositories have no CODEOWNERS.
     * Puppet Labs SSH Public Keys
 * [puppetlabs/release-engineering-repo-standards](https://github.com/puppetlabs/release-engineering-repo-standards)
     * Standards and workflows for release engineering repos
+* [puppetlabs/vmpooler-dns-rfc2136](https://github.com/puppetlabs/vmpooler-dns-rfc2136)
+    * 
 </details>
 
 ## GitHub: Repositories with code owned by users
@@ -258,6 +262,8 @@ repos should have a license.
     * 
 * [puppetlabs/cdpe-test-control-repo](https://github.com/puppetlabs/cdpe-test-control-repo)
     * Master repo for CDPE acceptance tests control repo's thats mirrored to our other VCS providers
+* [puppetlabs/cem_issues](https://github.com/puppetlabs/cem_issues)
+    * This repository will allow public community members to file bug reports against the CEM modules
 * [puppetlabs/cem_workflows](https://github.com/puppetlabs/cem_workflows)
     * 
 * [puppetlabs/cisco_ios](https://github.com/puppetlabs/cisco_ios)
@@ -392,6 +398,8 @@ repos should have a license.
     * A demo using Bolt to set up a TIG stack
 * [puppetlabs/ultipro-soap-python](https://github.com/puppetlabs/ultipro-soap-python)
     * Python wrapper for the UltiPro SOAP API
+* [puppetlabs/vmpooler-dns-rfc2136](https://github.com/puppetlabs/vmpooler-dns-rfc2136)
+    * 
 * [puppetlabs/winrm_security](https://github.com/puppetlabs/winrm_security)
     * 
 </details>
