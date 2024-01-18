@@ -66,8 +66,6 @@ on how to resolve problems.
     * The team(s) `@puppetlabs/night-s-watch` appear to be invalid for rule: `*`
 * [puppetlabs/puppetlabs-pe_quick_data](https://github.com/puppetlabs/puppetlabs-pe_quick_data/blob/-/CODEOWNERS)
     * No teams matched rule: `*`
-* [puppetlabs/puppetserver-ca-cli](https://github.com/puppetlabs/puppetserver-ca-cli/blob/-/CODEOWNERS)
-    * The team(s) `@puppetlabs/puppetserver-maintainers` appear to be invalid for rule: `*`
 * [puppetlabs/puppetserver-helm-chart](https://github.com/puppetlabs/puppetserver-helm-chart/blob/-/CODEOWNERS)
     * No teams matched rule: `*`
 * [puppetlabs/ref_arch_setup](https://github.com/puppetlabs/ref_arch_setup/blob/-/CODEOWNERS)
@@ -114,8 +112,6 @@ The following GitHub repositories have no CODEOWNERS.
     * Automation for the PE server in 501 renovation.
 * [puppetlabs/puppet-enterprise_issues](https://github.com/puppetlabs/puppet-enterprise_issues)
     * This repository will allow public community members to file bug reports against Puppet Enterprise
-* [puppetlabs/puppet-waylon](https://github.com/puppetlabs/puppet-waylon)
-    * A Puppet module to deploy Waylon instances.
 * [puppetlabs/puppetlabs-puppet_authorization](https://github.com/puppetlabs/puppetlabs-puppet_authorization)
     * 
 * [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
