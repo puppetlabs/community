@@ -62,8 +62,6 @@ on how to resolve problems.
     * The team(s) `@puppetlabs/platform-core` appear to be invalid for rule: `*`
 * [puppetlabs/puppet-sneakernet](https://github.com/puppetlabs/puppet-sneakernet/blob/-/CODEOWNERS)
     * No teams matched rule: `*`
-* [puppetlabs/puppetdb-cli](https://github.com/puppetlabs/puppetdb-cli/blob/-/CODEOWNERS)
-    * The team(s) `@puppetlabs/night-s-watch` appear to be invalid for rule: `*`
 * [puppetlabs/puppetlabs-pe_quick_data](https://github.com/puppetlabs/puppetlabs-pe_quick_data/blob/-/CODEOWNERS)
     * No teams matched rule: `*`
 * [puppetlabs/puppetserver-helm-chart](https://github.com/puppetlabs/puppetserver-helm-chart/blob/-/CODEOWNERS)
@@ -159,6 +157,8 @@ teams. This may not be a problem, but it does introduce organizational risk.
     * @glennsarti
 * [puppetlabs/puppet-sneakernet](https://github.com/puppetlabs/puppet-sneakernet)
     * @binford2k
+* [puppetlabs/puppet-strings](https://github.com/puppetlabs/puppet-strings)
+    * @bastelfreak
 * [puppetlabs/puppetlabs-apache](https://github.com/puppetlabs/puppetlabs-apache)
     * @bastelfreak
     * @ekohl
@@ -346,8 +346,6 @@ repos should have a license.
     * 
 * [puppetlabs/puppet-vro-starter_content](https://github.com/puppetlabs/puppet-vro-starter_content)
     * 
-* [puppetlabs/puppetdb-cli](https://github.com/puppetlabs/puppetdb-cli)
-    * PuppetDB CLI Tooling
 * [puppetlabs/puppetlabs-bash_task_helper](https://github.com/puppetlabs/puppetlabs-bash_task_helper)
     * 
 * [puppetlabs/puppetlabs-cd4pe_deployments](https://github.com/puppetlabs/puppetlabs-cd4pe_deployments)
