@@ -21,10 +21,11 @@ We have moved exclusively to GitHub Issues for reporting problems with any of ou
   * [Puppet Server](https://github.com/puppetlabs/puppetserver)
   * [Puppet Modules](https://github.com/search?q=topic%3Amodule+org%3Apuppetlabs+fork%3Atrue&type=Repositories) (take note of the support status)
 
-Some products, like Puppet Enterprise itself, are developed internally. These now have corresponding GitHub repositories that are currently only used for issue reporting.
+Some products, like Puppet Enterprise itself, are developed internally. These now have corresponding GitHub repositories that are primarily used for issue reporting.
   * [Puppet Forge](https://github.com/puppetlabs/forge_issues)
   * [Puppet Enterprise](https://github.com/puppetlabs/puppet-enterprise_issues)
   * [CEM Modules](https://github.com/puppetlabs/cem_issues)
+  * [Puppet Documentation](https://github.com/puppetlabs/puppet-docs)
 
 ### 💡 Sharing ideas and product suggestions
 
