@@ -143,6 +143,8 @@ teams. This may not be a problem, but it does introduce organizational risk.
     * @mikaelsmith
 * [puppetlabs/influxdb](https://github.com/puppetlabs/influxdb)
     * @bastelfreak
+* [puppetlabs/pdksync](https://github.com/puppetlabs/pdksync)
+    * @logicminds
 * [puppetlabs/pe_patch](https://github.com/puppetlabs/pe_patch)
     * @albatrossflavour
 * [puppetlabs/posh-bolt](https://github.com/puppetlabs/posh-bolt)
