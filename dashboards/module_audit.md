@@ -308,7 +308,6 @@ list is the modules that have not been updated yet.
 * [puppetlabs-wsus_client](https://forge.puppet.com/puppetlabs/wsus_client)
 * [puppetlabs-mount_core](https://forge.puppet.com/puppetlabs/mount_core)
 * [puppetlabs-tftp](https://forge.puppet.com/puppetlabs/tftp)
-* [puppetlabs-augeas_core](https://forge.puppet.com/puppetlabs/augeas_core)
 * [puppetlabs-dism](https://forge.puppet.com/puppetlabs/dism)
 * [puppetlabs-transition](https://forge.puppet.com/puppetlabs/transition)
 * [puppetlabs-sshkeys_core](https://forge.puppet.com/puppetlabs/sshkeys_core)

@@ -46,10 +46,13 @@ on how to resolve problems.
     * No teams matched rule: `*`
 * [puppetlabs/clamps](https://github.com/puppetlabs/clamps/blob/-/CODEOWNERS)
     * The team(s) `@puppetlabs/slv` appear to be invalid for rule: `*`
+* [puppetlabs/cloud-chaos-webinar](https://github.com/puppetlabs/cloud-chaos-webinar/blob/-/CODEOWNERS)
+    * The team(s) `@puppetlabs/marketing` appear to be invalid for rule: `*`
 * [puppetlabs/gogrpc](https://github.com/puppetlabs/gogrpc/blob/-/CODEOWNERS)
     * No teams matched rule: `dig`
 * [puppetlabs/homebrew-puppet](https://github.com/puppetlabs/homebrew-puppet/blob/-/CODEOWNERS)
     * No teams matched rule: `*`
+    * The team(s) `@puppetlabs/wash` appear to be invalid for rule: `*/wash.*`
 * [puppetlabs/master_manipulator](https://github.com/puppetlabs/master_manipulator/blob/-/CODEOWNERS)
     * The team(s) `@puppetlabs/slv` appear to be invalid for rule: `*`
 * [puppetlabs/pe-sdk-go](https://github.com/puppetlabs/pe-sdk-go/blob/-/CODEOWNERS)
@@ -72,6 +75,8 @@ on how to resolve problems.
     * No teams matched rule: `*`
 * [puppetlabs/ultipro-soap-python](https://github.com/puppetlabs/ultipro-soap-python/blob/-/CODEOWNERS)
     * The team(s) `@puppetlabs/bizappdev` appear to be invalid for rule: `*`
+* [puppetlabs/WaveDemo](https://github.com/puppetlabs/WaveDemo/blob/-/CODEOWNERS)
+    * The team(s) `@puppetlabs/marketing` appear to be invalid for rule: `*`
 </details>
 
 ## GitHub: Incomplete `CODEOWNERS` codepath coverage
