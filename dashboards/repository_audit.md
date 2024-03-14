@@ -48,8 +48,6 @@ on how to resolve problems.
     * The team(s) `@puppetlabs/slv` appear to be invalid for rule: `*`
 * [puppetlabs/cloud-chaos-webinar](https://github.com/puppetlabs/cloud-chaos-webinar/blob/-/CODEOWNERS)
     * The team(s) `@puppetlabs/marketing` appear to be invalid for rule: `*`
-* [puppetlabs/gogrpc](https://github.com/puppetlabs/gogrpc/blob/-/CODEOWNERS)
-    * No teams matched rule: `dig`
 * [puppetlabs/homebrew-puppet](https://github.com/puppetlabs/homebrew-puppet/blob/-/CODEOWNERS)
     * No teams matched rule: `*`
     * The team(s) `@puppetlabs/wash` appear to be invalid for rule: `*/wash.*`
@@ -73,30 +71,8 @@ on how to resolve problems.
     * The team(s) `@puppetlabs/slv` appear to be invalid for rule: `*`
 * [puppetlabs/se_control_2020](https://github.com/puppetlabs/se_control_2020/blob/-/CODEOWNERS)
     * No teams matched rule: `*`
-* [puppetlabs/ultipro-soap-python](https://github.com/puppetlabs/ultipro-soap-python/blob/-/CODEOWNERS)
-    * The team(s) `@puppetlabs/bizappdev` appear to be invalid for rule: `*`
-* [puppetlabs/WaveDemo](https://github.com/puppetlabs/WaveDemo/blob/-/CODEOWNERS)
-    * The team(s) `@puppetlabs/marketing` appear to be invalid for rule: `*`
 </details>
 
-## GitHub: Incomplete `CODEOWNERS` codepath coverage
-
-<details>
-<summary>
-The following GitHub repositories have unowned files.
-</summary>
-
-<details>
-<summary>
-<a href="https://github.com/puppetlabs/gogrpc">puppetlabs/gogrpc</a>
-</summary>
-<pre><code>CODEOWNERS
-Dockerfile
-Makefile
-README.md
-buildit.sh</pre></code>
-</details>
-</details>
 
 ## GitHub: Repositories without `CODEOWNERS`
 
@@ -121,8 +97,6 @@ The following GitHub repositories have no CODEOWNERS.
     * Puppet Labs SSH Public Keys
 * [puppetlabs/release-engineering-repo-standards](https://github.com/puppetlabs/release-engineering-repo-standards)
     * Standards and workflows for release engineering repos
-* [puppetlabs/vmpooler-dns-rfc2136](https://github.com/puppetlabs/vmpooler-dns-rfc2136)
-    * 
 </details>
 
 ## GitHub: Repositories with code owned by users
@@ -293,16 +267,12 @@ repos should have a license.
     * Repo for Getting Started with Bolt workshop
 * [puppetlabs/go-cd4pe-client](https://github.com/puppetlabs/go-cd4pe-client)
     * A CD4PE client generated from swagger
-* [puppetlabs/gogrpc](https://github.com/puppetlabs/gogrpc)
-    * A Docker container used to build golang projects using GRPC code
 * [puppetlabs/infinitory](https://github.com/puppetlabs/infinitory)
     * SRE host, role, and service inventory
 * [puppetlabs/influxdb](https://github.com/puppetlabs/influxdb)
     * 
 * [puppetlabs/kmo-cd4pe-scripts](https://github.com/puppetlabs/kmo-cd4pe-scripts)
     * Utility scripts for provisioning CD4PE in Instruqt
-* [puppetlabs/kmo-relay_workflows](https://github.com/puppetlabs/kmo-relay_workflows)
-    * relay workflows and steps for KMO
 * [puppetlabs/learndot_api](https://github.com/puppetlabs/learndot_api)
     * 
 * [puppetlabs/nssm](https://github.com/puppetlabs/nssm)
@@ -397,10 +367,6 @@ repos should have a license.
     * 
 * [puppetlabs/tig-demo](https://github.com/puppetlabs/tig-demo)
     * A demo using Bolt to set up a TIG stack
-* [puppetlabs/ultipro-soap-python](https://github.com/puppetlabs/ultipro-soap-python)
-    * Python wrapper for the UltiPro SOAP API
-* [puppetlabs/vmpooler-dns-rfc2136](https://github.com/puppetlabs/vmpooler-dns-rfc2136)
-    * 
 * [puppetlabs/winrm_security](https://github.com/puppetlabs/winrm_security)
     * 
 </details>
