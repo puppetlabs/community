@@ -89,6 +89,14 @@ The following GitHub repositories have no CODEOWNERS.
     * Repo for Getting Started with Bolt workshop
 * [puppetlabs/kmo_provision_pe](https://github.com/puppetlabs/kmo_provision_pe)
     * Automation for the PE server in 501 renovation.
+* [puppetlabs/pe_501_control_repo_lab_2](https://github.com/puppetlabs/pe_501_control_repo_lab_2)
+    * The control repo for PE 501 Lab 2
+* [puppetlabs/pe_501_hello_world_lab_1](https://github.com/puppetlabs/pe_501_hello_world_lab_1)
+    * The "Hello World" module for PE 501 Lab 1
+* [puppetlabs/pe_501_hello_world_lab_2](https://github.com/puppetlabs/pe_501_hello_world_lab_2)
+    * The "Hello World" module for PE 501 Lab 2
+* [puppetlabs/pe_501_hello_world_lab_3](https://github.com/puppetlabs/pe_501_hello_world_lab_3)
+    * The "Hello World" module for PE 501 Lab 3
 * [puppetlabs/puppet-enterprise_issues](https://github.com/puppetlabs/puppet-enterprise_issues)
     * This repository will allow public community members to file bug reports against Puppet Enterprise
 * [puppetlabs/puppetlabs-puppet_authorization](https://github.com/puppetlabs/puppetlabs-puppet_authorization)
