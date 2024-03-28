@@ -89,6 +89,8 @@ The following GitHub repositories have no CODEOWNERS.
     * Repo for Getting Started with Bolt workshop
 * [puppetlabs/kmo_provision_pe](https://github.com/puppetlabs/kmo_provision_pe)
     * Automation for the PE server in 501 renovation.
+* [puppetlabs/pe_501_control_repo_lab_1](https://github.com/puppetlabs/pe_501_control_repo_lab_1)
+    * The control repo for PE 501 Lab 2
 * [puppetlabs/pe_501_control_repo_lab_2](https://github.com/puppetlabs/pe_501_control_repo_lab_2)
     * The control repo for PE 501 Lab 2
 * [puppetlabs/pe_501_hello_world_lab_1](https://github.com/puppetlabs/pe_501_hello_world_lab_1)
@@ -148,6 +150,8 @@ teams. This may not be a problem, but it does introduce organizational risk.
     * @binford2k
 * [puppetlabs/puppet-strings](https://github.com/puppetlabs/puppet-strings)
     * @bastelfreak
+* [puppetlabs/puppetlabs-accounts](https://github.com/puppetlabs/puppetlabs-accounts)
+    * @bastelfreak
 * [puppetlabs/puppetlabs-apache](https://github.com/puppetlabs/puppetlabs-apache)
     * @bastelfreak
     * @ekohl
@@ -161,6 +165,8 @@ teams. This may not be a problem, but it does introduce organizational risk.
     * @bastelfreak
     * @ekohl
     * @smortex
+* [puppetlabs/puppetlabs-java](https://github.com/puppetlabs/puppetlabs-java)
+    * @bastelfreak
 * [puppetlabs/puppetlabs-kubernetes](https://github.com/puppetlabs/puppetlabs-kubernetes)
     * @bastelfreak
     * @deric
