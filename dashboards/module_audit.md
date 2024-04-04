@@ -88,6 +88,7 @@ The following GitHub repositories should have a preamble added to their `README`
 * [puppetlabs/puppetlabs-change_window](https://github.com/puppetlabs/puppetlabs-change_window)
 * [puppetlabs/puppetlabs-data-entitlement](https://github.com/puppetlabs/puppetlabs-data-entitlement)
 * [puppetlabs/puppetlabs-puppet_operations_appliance](https://github.com/puppetlabs/puppetlabs-puppet_operations_appliance)
+* [puppetlabs/xzscanner](https://github.com/puppetlabs/xzscanner)
 </details>
 
 ## GitHub: Unpublished module repositories
@@ -357,4 +358,5 @@ list is the modules that have not been updated yet.
 * [puppetlabs-pe_quick_data](https://forge.puppet.com/puppetlabs/pe_quick_data)
 * [puppetlabs-cem_linux](https://forge.puppet.com/puppetlabs/cem_linux)
 * [puppetlabs-cd4peadm](https://forge.puppet.com/puppetlabs/cd4peadm)
+* [puppetlabs-xzscanner](https://forge.puppet.com/puppetlabs/xzscanner)
 </details>

@@ -107,6 +107,8 @@ The following GitHub repositories have no CODEOWNERS.
     * Puppet Labs SSH Public Keys
 * [puppetlabs/release-engineering-repo-standards](https://github.com/puppetlabs/release-engineering-repo-standards)
     * Standards and workflows for release engineering repos
+* [puppetlabs/xzscanner](https://github.com/puppetlabs/xzscanner)
+    * A quick orchestrated check for compromised xz in your infra
 </details>
 
 ## GitHub: Repositories with code owned by users
