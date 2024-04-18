@@ -134,12 +134,6 @@ Are you interested in participating in the program?
 
 </details>
 <details>
-<summary><strong><a href="https://github.com/WhatsARanjit">WhatsARanjit</a></strong></summary>
-
-* [puppetlabs-node_manager](https://github.com/puppetlabs/puppetlabs-node_manager)
-
-</details>
-<details>
 <summary><strong><a href="https://github.com/kreeuwijk">kreeuwijk</a></strong></summary>
 
 * [puppetlabs-patching_as_code](https://github.com/puppetlabs/puppetlabs-patching_as_code)

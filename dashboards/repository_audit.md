@@ -101,6 +101,8 @@ The following GitHub repositories have no CODEOWNERS.
     * The "Hello World" module for PE 501 Lab 3
 * [puppetlabs/puppet-enterprise_issues](https://github.com/puppetlabs/puppet-enterprise_issues)
     * This repository will allow public community members to file bug reports against Puppet Enterprise
+* [puppetlabs/puppetlabs-hocon](https://github.com/puppetlabs/puppetlabs-hocon)
+    * Puppet module for managing settings in HOCON-style configuration files
 * [puppetlabs/puppetlabs-puppet_authorization](https://github.com/puppetlabs/puppetlabs-puppet_authorization)
     * 
 * [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
@@ -377,7 +379,7 @@ repos should have a license.
     * 
 * [puppetlabs/support-tasks](https://github.com/puppetlabs/support-tasks)
     * Module for tasks in the support kb
-* [puppetlabs/TA-puppet-alert-actions](https://github.com/puppetlabs/TA-puppet-alert-actions)
+* [puppetlabs/TA-puppet-alert-orchestrator](https://github.com/puppetlabs/TA-puppet-alert-orchestrator)
     * Alert Actions isolated from Puppet Report Viewer addon
 * [puppetlabs/TA-puppet-report-viewer](https://github.com/puppetlabs/TA-puppet-report-viewer)
     * 

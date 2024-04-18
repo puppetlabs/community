@@ -61,6 +61,7 @@ The following GitHub repositories should have a preamble added to their `README`
 
 * [puppetlabs/puppetlabs-puppetdb](https://github.com/puppetlabs/puppetlabs-puppetdb)
 * [puppetlabs/puppetlabs-xinetd](https://github.com/puppetlabs/puppetlabs-xinetd)
+* [puppetlabs/puppetlabs-hocon](https://github.com/puppetlabs/puppetlabs-hocon)
 * [puppetlabs/puppetlabs-puppet_authorization](https://github.com/puppetlabs/puppetlabs-puppet_authorization)
 * [puppetlabs/puppetlabs-rsync](https://github.com/puppetlabs/puppetlabs-rsync)
 * [puppetlabs/puppetlabs-transition](https://github.com/puppetlabs/puppetlabs-transition)
@@ -145,7 +146,6 @@ is how we correlate modules between the Forge and GitHub.
 * [puppetlabs/puppetlabs-hue](https://github.com/puppetlabs/puppetlabs-hue)
 * [puppetlabs/puppetlabs-lidar](https://github.com/puppetlabs/puppetlabs-lidar)
 * [puppetlabs/puppetlabs-minimum_version](https://github.com/puppetlabs/puppetlabs-minimum_version)
-* [puppetlabs/puppetlabs-node_manager](https://github.com/puppetlabs/puppetlabs-node_manager)
 * [puppetlabs/puppetlabs-pam_tools](https://github.com/puppetlabs/puppetlabs-pam_tools)
 * [puppetlabs/puppetlabs-pecdm](https://github.com/puppetlabs/puppetlabs-pecdm)
 * [puppetlabs/puppetlabs-provision](https://github.com/puppetlabs/puppetlabs-provision)
@@ -253,7 +253,6 @@ They may have already been adopted, or they may just be EOL. In either case, the
 the module should be marked as deprecated, with a replacement if there is one.
 </summary>
 
-* [puppetlabs-hocon](https://forge.puppet.com/puppetlabs/hocon)
 * [puppetlabs-windows_puppet_certificates](https://forge.puppet.com/puppetlabs/windows_puppet_certificates)
 </details>
 
@@ -292,7 +291,6 @@ list is the modules that have not been updated yet.
 * [puppetlabs-concat](https://forge.puppet.com/puppetlabs/concat)
 * [puppetlabs-ntp](https://forge.puppet.com/puppetlabs/ntp)
 * [puppetlabs-vcsrepo](https://forge.puppet.com/puppetlabs/vcsrepo)
-* [puppetlabs-java](https://forge.puppet.com/puppetlabs/java)
 * [puppetlabs-powershell](https://forge.puppet.com/puppetlabs/powershell)
 * [puppetlabs-mysql](https://forge.puppet.com/puppetlabs/mysql)
 * [puppetlabs-puppetserver_gem](https://forge.puppet.com/puppetlabs/puppetserver_gem)
@@ -331,8 +329,8 @@ list is the modules that have not been updated yet.
 * [puppetlabs-terraform](https://forge.puppet.com/puppetlabs/terraform)
 * [puppetlabs-azure_inventory](https://forge.puppet.com/puppetlabs/azure_inventory)
 * [puppetlabs-aws_inventory](https://forge.puppet.com/puppetlabs/aws_inventory)
-* [puppetlabs-vault](https://forge.puppet.com/puppetlabs/vault)
 * [puppetlabs-cd4pe_jobs](https://forge.puppet.com/puppetlabs/cd4pe_jobs)
+* [puppetlabs-vault](https://forge.puppet.com/puppetlabs/vault)
 * [puppetlabs-gcloud_inventory](https://forge.puppet.com/puppetlabs/gcloud_inventory)
 * [puppetlabs-cisco_ios](https://forge.puppet.com/puppetlabs/cisco_ios)
 * [puppetlabs-rook](https://forge.puppet.com/puppetlabs/rook)
@@ -347,8 +345,8 @@ list is the modules that have not been updated yet.
 * [puppetlabs-docker_ucp](https://forge.puppet.com/puppetlabs/docker_ucp)
 * [puppetlabs-awsdemo_profiles](https://forge.puppet.com/puppetlabs/awsdemo_profiles)
 * [puppetlabs-docker_ddc](https://forge.puppet.com/puppetlabs/docker_ddc)
-* [puppetlabs-azure_agent](https://forge.puppet.com/puppetlabs/azure_agent)
 * [puppetlabs-influxdb](https://forge.puppet.com/puppetlabs/influxdb)
+* [puppetlabs-azure_agent](https://forge.puppet.com/puppetlabs/azure_agent)
 * [puppetlabs-maillist_core](https://forge.puppet.com/puppetlabs/maillist_core)
 * [puppetlabs-servicenow_reporting_integration](https://forge.puppet.com/puppetlabs/servicenow_reporting_integration)
 * [puppetlabs-mco_rpc](https://forge.puppet.com/puppetlabs/mco_rpc)
