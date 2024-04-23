@@ -34,6 +34,7 @@ task(:contributors) do
   # Update the Commonroom tags
   uri = URI.parse("https://api.commonroom.io/community/v1/members/tags")
   http = Net::HTTP.new(uri.host, uri.port)
+  http.use_ssl = true
   request = Net::HTTP::Post.new(uri)
   request.content_type = 'application/json'
   request['Authorization'] = "Bearer #{ENV['COMMONROOM_TOKEN']}"
