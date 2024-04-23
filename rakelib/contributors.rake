@@ -1,5 +1,9 @@
 desc("Sychronize trusted contributor dashboard")
 task(:contributors) do
+  require 'net/http'
+  require 'uri'
+  require 'json'
+
   skiplist = [
     "pdk-bot",
     "puppet-chocolatey-bot",
@@ -27,9 +31,22 @@ task(:contributors) do
     end
   end
 
+  # Update the Commonroom tags
+  uri = URI.parse("https://api.commonroom.io/community/v1/members/tags")
+  http = Net::HTTP.new(uri.host, uri.port)
+  request = Net::HTTP::Post.new(uri)
+  request.content_type = 'application/json'
+  request['Authorization'] = "Bearer #{ENV['COMMONROOM_TOKEN']}"
+
+  collaborators.each do |login, repos|
+    request.body = {socialType: 'github', value: login, tags: 'Trusted Contributor'}.to_json
+    http.request(request)
+  end
+
   outfile = ENV["OUTPUT"] || "dashboards/trusted_contributors.md"
   template = File.read("templates/trusted_contributors.erb")
 
   content = ERB.new(template, trim_mode: "-").result(binding)
   File.write(outfile, content)
 end
+
