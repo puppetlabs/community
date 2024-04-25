@@ -73,6 +73,31 @@ on how to resolve problems.
     * No teams matched rule: `*`
 </details>
 
+## GitHub: Incomplete `CODEOWNERS` codepath coverage
+
+<details>
+<summary>
+The following GitHub repositories have unowned files.
+</summary>
+
+<details>
+<summary>
+<a href="https://github.com/puppetlabs/puppetfile-check">puppetlabs/puppetfile-check</a>
+</summary>
+<pre><code>.github/workflows/ci.yml
+.gitignore
+.gitlab-ci.yml
+CODEOWNERS
+Gemfile
+LICENSE
+Puppetfile
+README.md
+environment.conf
+scripts/codecheck.rb
+scripts/no_config_version.sh
+tests/Puppetfile</pre></code>
+</details>
+</details>
 
 ## GitHub: Repositories without `CODEOWNERS`
 
@@ -103,6 +128,8 @@ The following GitHub repositories have no CODEOWNERS.
     * This repository will allow public community members to file bug reports against Puppet Enterprise
 * [puppetlabs/puppetlabs-hocon](https://github.com/puppetlabs/puppetlabs-hocon)
     * Puppet module for managing settings in HOCON-style configuration files
+* [puppetlabs/puppetlabs-node_manager](https://github.com/puppetlabs/puppetlabs-node_manager)
+    * Create and manage PE node groups as resources.
 * [puppetlabs/puppetlabs-puppet_authorization](https://github.com/puppetlabs/puppetlabs-puppet_authorization)
     * 
 * [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
