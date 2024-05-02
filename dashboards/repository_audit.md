@@ -128,8 +128,6 @@ The following GitHub repositories have no CODEOWNERS.
     * This repository will allow public community members to file bug reports against Puppet Enterprise
 * [puppetlabs/puppetlabs-hocon](https://github.com/puppetlabs/puppetlabs-hocon)
     * Puppet module for managing settings in HOCON-style configuration files
-* [puppetlabs/puppetlabs-node_manager](https://github.com/puppetlabs/puppetlabs-node_manager)
-    * Create and manage PE node groups as resources.
 * [puppetlabs/puppetlabs-puppet_authorization](https://github.com/puppetlabs/puppetlabs-puppet_authorization)
     * 
 * [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
