@@ -20,6 +20,16 @@ See `{not yet published}` for details about our housekeeping standards.
 
 ----
 
+## GitHub: Module repository missing `module` topic
+
+<details>
+<summary>
+Module repositories should be indicated with the `module` topic. The following
+repositories were detected as Puppet modules, but are missing that topic.
+</summary>
+
+* [puppetlabs/puppetlabs-complyadm](https://github.com/puppetlabs/puppetlabs-complyadm)
+</details>
 
 
 ## GitHub: Module repositories missing support tier topic
@@ -46,6 +56,7 @@ have them added.
 * [puppetlabs/puppetlabs-pam_firewall](https://github.com/puppetlabs/puppetlabs-pam_firewall)
 * [puppetlabs/puppetlabs-data-entitlement](https://github.com/puppetlabs/puppetlabs-data-entitlement)
 * [puppetlabs/puppetlabs-puppet_operations_appliance](https://github.com/puppetlabs/puppetlabs-puppet_operations_appliance)
+* [puppetlabs/puppetlabs-complyadm](https://github.com/puppetlabs/puppetlabs-complyadm)
 </details>
 
 
@@ -90,6 +101,7 @@ The following GitHub repositories should have a preamble added to their `README`
 * [puppetlabs/puppetlabs-data-entitlement](https://github.com/puppetlabs/puppetlabs-data-entitlement)
 * [puppetlabs/puppetlabs-puppet_operations_appliance](https://github.com/puppetlabs/puppetlabs-puppet_operations_appliance)
 * [puppetlabs/xzscanner](https://github.com/puppetlabs/xzscanner)
+* [puppetlabs/puppetlabs-complyadm](https://github.com/puppetlabs/puppetlabs-complyadm)
 </details>
 
 ## GitHub: Unpublished module repositories
@@ -195,6 +207,7 @@ The following Forge modules should be badged as Supported.
 * [puppetlabs-pkcs7](https://forge.puppet.com/puppetlabs/pkcs7)
 * [puppetlabs-apply_helpers](https://forge.puppet.com/puppetlabs/apply_helpers)
 * [puppetlabs-secure_env_vars](https://forge.puppet.com/puppetlabs/secure_env_vars)
+* [puppetlabs-puppet_status_check](https://forge.puppet.com/puppetlabs/puppet_status_check)
 </details>
 
 
@@ -277,6 +290,7 @@ we no longer own.
 * [puppetlabs-servicenow_change_requests](https://forge.puppet.com/puppetlabs/servicenow_change_requests)
 * [puppetlabs-minimum_version](https://forge.puppet.com/puppetlabs/minimum_version)
 * [puppetlabs-sccm](https://forge.puppet.com/puppetlabs/sccm)
+* [puppetlabs-cd4peadm](https://forge.puppet.com/puppetlabs/cd4peadm)
 </details>
 
 ## Forge: Out of date issues URL
@@ -355,7 +369,7 @@ list is the modules that have not been updated yet.
 * [puppetlabs-bash_task_helper](https://forge.puppet.com/puppetlabs/bash_task_helper)
 * [puppetlabs-macdslocal_core](https://forge.puppet.com/puppetlabs/macdslocal_core)
 * [puppetlabs-pe_quick_data](https://forge.puppet.com/puppetlabs/pe_quick_data)
-* [puppetlabs-cem_linux](https://forge.puppet.com/puppetlabs/cem_linux)
 * [puppetlabs-cd4peadm](https://forge.puppet.com/puppetlabs/cd4peadm)
 * [puppetlabs-xzscanner](https://forge.puppet.com/puppetlabs/xzscanner)
+* [puppetlabs-complyadm](https://forge.puppet.com/puppetlabs/complyadm)
 </details>

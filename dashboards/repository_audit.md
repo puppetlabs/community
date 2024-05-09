@@ -65,6 +65,8 @@ on how to resolve problems.
     * No teams matched rule: `*`
 * [puppetlabs/puppetlabs-pe_quick_data](https://github.com/puppetlabs/puppetlabs-pe_quick_data/blob/-/CODEOWNERS)
     * No teams matched rule: `*`
+* [puppetlabs/puppetlabs-puppet_status_check](https://github.com/puppetlabs/puppetlabs-puppet_status_check/blob/-/CODEOWNERS)
+    * No teams matched rule: `*`
 * [puppetlabs/puppetserver-helm-chart](https://github.com/puppetlabs/puppetserver-helm-chart/blob/-/CODEOWNERS)
     * No teams matched rule: `*`
 * [puppetlabs/ref_arch_setup](https://github.com/puppetlabs/ref_arch_setup/blob/-/CODEOWNERS)
@@ -126,8 +128,6 @@ The following GitHub repositories have no CODEOWNERS.
     * The "Hello World" module for PE 501 Lab 3
 * [puppetlabs/puppet-enterprise_issues](https://github.com/puppetlabs/puppet-enterprise_issues)
     * This repository will allow public community members to file bug reports against Puppet Enterprise
-* [puppetlabs/puppetlabs-hocon](https://github.com/puppetlabs/puppetlabs-hocon)
-    * Puppet module for managing settings in HOCON-style configuration files
 * [puppetlabs/puppetlabs-puppet_authorization](https://github.com/puppetlabs/puppetlabs-puppet_authorization)
     * 
 * [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
@@ -223,10 +223,13 @@ teams. This may not be a problem, but it does introduce organizational risk.
 * [puppetlabs/puppetlabs-puppetdb](https://github.com/puppetlabs/puppetlabs-puppetdb)
     * @bastelfreak
     * @smortex
+    * @h0tw1r3
 * [puppetlabs/puppetlabs-puppet_agent](https://github.com/puppetlabs/puppetlabs-puppet_agent)
     * @bastelfreak
 * [puppetlabs/puppetlabs-puppet_operations_appliance](https://github.com/puppetlabs/puppetlabs-puppet_operations_appliance)
     * @dylanratcliffe
+* [puppetlabs/puppetlabs-puppet_status_check](https://github.com/puppetlabs/puppetlabs-puppet_status_check)
+    * @professional-services
 * [puppetlabs/puppetlabs-rsync](https://github.com/puppetlabs/puppetlabs-rsync)
     * @kajinamit
 * [puppetlabs/puppetlabs-sccm](https://github.com/puppetlabs/puppetlabs-sccm)
@@ -392,6 +395,8 @@ repos should have a license.
     * Module to configure the Puppet Data Service (PDS)
 * [puppetlabs/puppetlabs-puppet_operations_appliance](https://github.com/puppetlabs/puppetlabs-puppet_operations_appliance)
     * Puppet Enterprise tool  to create a central place for logging, metrics and maintenance
+* [puppetlabs/puppetlabs-puppet_status_check](https://github.com/puppetlabs/puppetlabs-puppet_status_check)
+    * Self Service Module for Open Source Puppet
 * [puppetlabs/puppetlabs-release](https://github.com/puppetlabs/puppetlabs-release)
     * Repo that builds packages to add our apt and yum repositories and public signing key.
 * [puppetlabs/puppetlabs-sccm](https://github.com/puppetlabs/puppetlabs-sccm)
