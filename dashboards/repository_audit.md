@@ -128,8 +128,6 @@ The following GitHub repositories have no CODEOWNERS.
     * The "Hello World" module for PE 501 Lab 3
 * [puppetlabs/puppet-enterprise_issues](https://github.com/puppetlabs/puppet-enterprise_issues)
     * This repository will allow public community members to file bug reports against Puppet Enterprise
-* [puppetlabs/puppetlabs-puppet_authorization](https://github.com/puppetlabs/puppetlabs-puppet_authorization)
-    * 
 * [puppetlabs/puppetlabs-sshkeys](https://github.com/puppetlabs/puppetlabs-sshkeys)
     * Puppet Labs SSH Public Keys
 * [puppetlabs/release-engineering-repo-standards](https://github.com/puppetlabs/release-engineering-repo-standards)
@@ -170,8 +168,6 @@ teams. This may not be a problem, but it does introduce organizational risk.
     * @randomnoun7
 * [puppetlabs/prosvc-preview_report](https://github.com/puppetlabs/prosvc-preview_report)
     * @cwcowellshah
-* [puppetlabs/puppet-chocolatey-packages](https://github.com/puppetlabs/puppet-chocolatey-packages)
-    * @glennsarti
 * [puppetlabs/puppet-editor-syntax](https://github.com/puppetlabs/puppet-editor-syntax)
     * @jpogran
     * @glennsarti
@@ -258,6 +254,7 @@ teams. This may not be a problem, but it does introduce organizational risk.
     * @skoef
     * @nielshojen
     * @ldaneliukas
+    * @anthonysomerset
 * [puppetlabs/puppet_operational_dashboards](https://github.com/puppetlabs/puppet_operational_dashboards)
     * @bastelfreak
 * [puppetlabs/rubocop-i18n](https://github.com/puppetlabs/rubocop-i18n)

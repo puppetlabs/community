@@ -207,10 +207,19 @@ The following Forge modules should be badged as Supported.
 * [puppetlabs-pkcs7](https://forge.puppet.com/puppetlabs/pkcs7)
 * [puppetlabs-apply_helpers](https://forge.puppet.com/puppetlabs/apply_helpers)
 * [puppetlabs-secure_env_vars](https://forge.puppet.com/puppetlabs/secure_env_vars)
-* [puppetlabs-puppet_status_check](https://forge.puppet.com/puppetlabs/puppet_status_check)
 </details>
 
 
+## Forge: Remove Supported badge
+
+<details>
+<summary>
+Forge module pages should match the topics on their corresponding repositories.
+The following Forge modules should have the Supported badge removed.
+</summary>
+
+* [puppetlabs-complyadm](https://forge.puppet.com/puppetlabs/complyadm)
+</details>
 
 
 ## Forge: Add Adoptable badge
