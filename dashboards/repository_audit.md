@@ -65,8 +65,6 @@ on how to resolve problems.
     * No teams matched rule: `*`
 * [puppetlabs/puppetlabs-pe_quick_data](https://github.com/puppetlabs/puppetlabs-pe_quick_data/blob/-/CODEOWNERS)
     * No teams matched rule: `*`
-* [puppetlabs/puppetlabs-puppet_status_check](https://github.com/puppetlabs/puppetlabs-puppet_status_check/blob/-/CODEOWNERS)
-    * No teams matched rule: `*`
 * [puppetlabs/puppetserver-helm-chart](https://github.com/puppetlabs/puppetserver-helm-chart/blob/-/CODEOWNERS)
     * No teams matched rule: `*`
 * [puppetlabs/ref_arch_setup](https://github.com/puppetlabs/ref_arch_setup/blob/-/CODEOWNERS)
@@ -224,8 +222,6 @@ teams. This may not be a problem, but it does introduce organizational risk.
     * @bastelfreak
 * [puppetlabs/puppetlabs-puppet_operations_appliance](https://github.com/puppetlabs/puppetlabs-puppet_operations_appliance)
     * @dylanratcliffe
-* [puppetlabs/puppetlabs-puppet_status_check](https://github.com/puppetlabs/puppetlabs-puppet_status_check)
-    * @professional-services
 * [puppetlabs/puppetlabs-rsync](https://github.com/puppetlabs/puppetlabs-rsync)
     * @kajinamit
 * [puppetlabs/puppetlabs-sccm](https://github.com/puppetlabs/puppetlabs-sccm)
