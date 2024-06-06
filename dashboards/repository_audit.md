@@ -106,23 +106,21 @@ tests/Puppetfile</pre></code>
 The following GitHub repositories have no CODEOWNERS.
 </summary>
 
-* [puppetlabs/cem_issues](https://github.com/puppetlabs/cem_issues)
-    * This repository will allow public community members to file bug reports against the CEM modules
 * [puppetlabs/forge_issues](https://github.com/puppetlabs/forge_issues)
     * This repository will allow public community members to file bug reports against the Puppet Forge
 * [puppetlabs/gettingstartedwb](https://github.com/puppetlabs/gettingstartedwb)
     * Repo for Getting Started with Bolt workshop
 * [puppetlabs/kmo_provision_pe](https://github.com/puppetlabs/kmo_provision_pe)
     * Automation for the PE server in 501 renovation.
-* [puppetlabs/pe_501_control_repo_lab_1](https://github.com/puppetlabs/pe_501_control_repo_lab_1)
+* [puppetlabs/pe_502_control_repo_lab_1](https://github.com/puppetlabs/pe_502_control_repo_lab_1)
     * The control repo for PE 501 Lab 2
-* [puppetlabs/pe_501_control_repo_lab_2](https://github.com/puppetlabs/pe_501_control_repo_lab_2)
+* [puppetlabs/pe_502_control_repo_lab_2](https://github.com/puppetlabs/pe_502_control_repo_lab_2)
     * The control repo for PE 501 Lab 2
-* [puppetlabs/pe_501_hello_world_lab_1](https://github.com/puppetlabs/pe_501_hello_world_lab_1)
+* [puppetlabs/pe_502_hello_world_lab_1](https://github.com/puppetlabs/pe_502_hello_world_lab_1)
     * The "Hello World" module for PE 501 Lab 1
-* [puppetlabs/pe_501_hello_world_lab_2](https://github.com/puppetlabs/pe_501_hello_world_lab_2)
+* [puppetlabs/pe_502_hello_world_lab_2](https://github.com/puppetlabs/pe_502_hello_world_lab_2)
     * The "Hello World" module for PE 501 Lab 2
-* [puppetlabs/pe_501_hello_world_lab_3](https://github.com/puppetlabs/pe_501_hello_world_lab_3)
+* [puppetlabs/pe_502_hello_world_lab_3](https://github.com/puppetlabs/pe_502_hello_world_lab_3)
     * The "Hello World" module for PE 501 Lab 3
 * [puppetlabs/puppet-enterprise_issues](https://github.com/puppetlabs/puppet-enterprise_issues)
     * This repository will allow public community members to file bug reports against Puppet Enterprise
@@ -130,6 +128,8 @@ The following GitHub repositories have no CODEOWNERS.
     * Puppet Labs SSH Public Keys
 * [puppetlabs/release-engineering-repo-standards](https://github.com/puppetlabs/release-engineering-repo-standards)
     * Standards and workflows for release engineering repos
+* [puppetlabs/sce_issues](https://github.com/puppetlabs/sce_issues)
+    * This repository will allow public community members to file bug reports against the SCE modules
 * [puppetlabs/xzscanner](https://github.com/puppetlabs/xzscanner)
     * A quick orchestrated check for compromised xz in your infra
 </details>
@@ -278,8 +278,6 @@ repos should have a license.
     * 
 * [puppetlabs/cdpe-test-control-repo](https://github.com/puppetlabs/cdpe-test-control-repo)
     * Master repo for CDPE acceptance tests control repo's thats mirrored to our other VCS providers
-* [puppetlabs/cem_issues](https://github.com/puppetlabs/cem_issues)
-    * This repository will allow public community members to file bug reports against the CEM modules
 * [puppetlabs/cem_workflows](https://github.com/puppetlabs/cem_workflows)
     * 
 * [puppetlabs/cisco_ios](https://github.com/puppetlabs/cisco_ios)
@@ -400,6 +398,8 @@ repos should have a license.
     * 
 * [puppetlabs/relaysh-docker-update-workflow](https://github.com/puppetlabs/relaysh-docker-update-workflow)
     * 
+* [puppetlabs/sce_issues](https://github.com/puppetlabs/sce_issues)
+    * This repository will allow public community members to file bug reports against the SCE modules
 * [puppetlabs/support-tasks](https://github.com/puppetlabs/support-tasks)
     * Module for tasks in the support kb
 * [puppetlabs/TA-puppet-alert-orchestrator](https://github.com/puppetlabs/TA-puppet-alert-orchestrator)

@@ -20,16 +20,6 @@ See `{not yet published}` for details about our housekeeping standards.
 
 ----
 
-## GitHub: Module repository missing `module` topic
-
-<details>
-<summary>
-Module repositories should be indicated with the `module` topic. The following
-repositories were detected as Puppet modules, but are missing that topic.
-</summary>
-
-* [puppetlabs/puppetlabs-complyadm](https://github.com/puppetlabs/puppetlabs-complyadm)
-</details>
 
 
 ## GitHub: Module repositories missing support tier topic
@@ -56,7 +46,6 @@ have them added.
 * [puppetlabs/puppetlabs-pam_firewall](https://github.com/puppetlabs/puppetlabs-pam_firewall)
 * [puppetlabs/puppetlabs-data-entitlement](https://github.com/puppetlabs/puppetlabs-data-entitlement)
 * [puppetlabs/puppetlabs-puppet_operations_appliance](https://github.com/puppetlabs/puppetlabs-puppet_operations_appliance)
-* [puppetlabs/puppetlabs-complyadm](https://github.com/puppetlabs/puppetlabs-complyadm)
 </details>
 
 
@@ -101,7 +90,6 @@ The following GitHub repositories should have a preamble added to their `README`
 * [puppetlabs/puppetlabs-data-entitlement](https://github.com/puppetlabs/puppetlabs-data-entitlement)
 * [puppetlabs/puppetlabs-puppet_operations_appliance](https://github.com/puppetlabs/puppetlabs-puppet_operations_appliance)
 * [puppetlabs/xzscanner](https://github.com/puppetlabs/xzscanner)
-* [puppetlabs/puppetlabs-complyadm](https://github.com/puppetlabs/puppetlabs-complyadm)
 </details>
 
 ## GitHub: Unpublished module repositories
@@ -122,9 +110,9 @@ is how we correlate modules between the Forge and GitHub.
 * [puppetlabs/kmo-501-nginx](https://github.com/puppetlabs/kmo-501-nginx)
 * [puppetlabs/kmo-601-nginx](https://github.com/puppetlabs/kmo-601-nginx)
 * [puppetlabs/opv](https://github.com/puppetlabs/opv)
-* [puppetlabs/pe_501_hello_world_lab_1](https://github.com/puppetlabs/pe_501_hello_world_lab_1)
-* [puppetlabs/pe_501_hello_world_lab_2](https://github.com/puppetlabs/pe_501_hello_world_lab_2)
-* [puppetlabs/pe_501_hello_world_lab_3](https://github.com/puppetlabs/pe_501_hello_world_lab_3)
+* [puppetlabs/pe_502_hello_world_lab_1](https://github.com/puppetlabs/pe_502_hello_world_lab_1)
+* [puppetlabs/pe_502_hello_world_lab_2](https://github.com/puppetlabs/pe_502_hello_world_lab_2)
+* [puppetlabs/pe_502_hello_world_lab_3](https://github.com/puppetlabs/pe_502_hello_world_lab_3)
 * [puppetlabs/pe_patch](https://github.com/puppetlabs/pe_patch)
 * [puppetlabs/pe_support_kb_task_templates](https://github.com/puppetlabs/pe_support_kb_task_templates)
 * [puppetlabs/pe_tech_check](https://github.com/puppetlabs/pe_tech_check)
@@ -210,16 +198,6 @@ The following Forge modules should be badged as Supported.
 </details>
 
 
-## Forge: Remove Supported badge
-
-<details>
-<summary>
-Forge module pages should match the topics on their corresponding repositories.
-The following Forge modules should have the Supported badge removed.
-</summary>
-
-* [puppetlabs-complyadm](https://forge.puppet.com/puppetlabs/complyadm)
-</details>
 
 
 ## Forge: Add Adoptable badge
@@ -373,8 +351,8 @@ list is the modules that have not been updated yet.
 * [puppetlabs-azure_agent](https://forge.puppet.com/puppetlabs/azure_agent)
 * [puppetlabs-maillist_core](https://forge.puppet.com/puppetlabs/maillist_core)
 * [puppetlabs-servicenow_reporting_integration](https://forge.puppet.com/puppetlabs/servicenow_reporting_integration)
-* [puppetlabs-mco_rpc](https://forge.puppet.com/puppetlabs/mco_rpc)
 * [puppetlabs-servicenow_cmdb_integration](https://forge.puppet.com/puppetlabs/servicenow_cmdb_integration)
+* [puppetlabs-mco_rpc](https://forge.puppet.com/puppetlabs/mco_rpc)
 * [puppetlabs-bash_task_helper](https://forge.puppet.com/puppetlabs/bash_task_helper)
 * [puppetlabs-macdslocal_core](https://forge.puppet.com/puppetlabs/macdslocal_core)
 * [puppetlabs-pe_quick_data](https://forge.puppet.com/puppetlabs/pe_quick_data)
