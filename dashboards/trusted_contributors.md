@@ -10,7 +10,6 @@ Are you interested in participating in the program?
 <summary><strong><a href="https://github.com/bastelfreak">bastelfreak</a></strong></summary>
 
 * [cisco_ios](https://github.com/puppetlabs/cisco_ios)
-* [device_manager](https://github.com/puppetlabs/device_manager)
 * [forge-ruby](https://github.com/puppetlabs/forge-ruby)
 * [influxdb](https://github.com/puppetlabs/influxdb)
 * [language-style-guide](https://github.com/puppetlabs/language-style-guide)

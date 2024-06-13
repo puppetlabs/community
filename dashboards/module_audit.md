@@ -105,6 +105,7 @@ is how we correlate modules between the Forge and GitHub.
 * [puppetlabs/bolt_aws_kms](https://github.com/puppetlabs/bolt_aws_kms)
 * [puppetlabs/cisco-network-puppet-module](https://github.com/puppetlabs/cisco-network-puppet-module)
 * [puppetlabs/dellemc-powerstore](https://github.com/puppetlabs/dellemc-powerstore)
+* [puppetlabs/device_manager](https://github.com/puppetlabs/device_manager)
 * [puppetlabs/encrypted_backup](https://github.com/puppetlabs/encrypted_backup)
 * [puppetlabs/fortinet_facts](https://github.com/puppetlabs/fortinet_facts)
 * [puppetlabs/kmo-501-nginx](https://github.com/puppetlabs/kmo-501-nginx)
@@ -190,7 +191,6 @@ The following Forge modules should be badged as Supported.
 * [puppetlabs-azure_inventory](https://forge.puppet.com/puppetlabs/azure_inventory)
 * [puppetlabs-aws_inventory](https://forge.puppet.com/puppetlabs/aws_inventory)
 * [puppetlabs-vault](https://forge.puppet.com/puppetlabs/vault)
-* [puppetlabs-device_manager](https://forge.puppet.com/puppetlabs/device_manager)
 * [puppetlabs-gcloud_inventory](https://forge.puppet.com/puppetlabs/gcloud_inventory)
 * [puppetlabs-pkcs7](https://forge.puppet.com/puppetlabs/pkcs7)
 * [puppetlabs-apply_helpers](https://forge.puppet.com/puppetlabs/apply_helpers)
@@ -244,18 +244,9 @@ Forge pages should be badged as `Adoptable`.
 * [puppetlabs-mco_rpc](https://forge.puppet.com/puppetlabs/mco_rpc)
 * [puppetlabs-lumogon](https://forge.puppet.com/puppetlabs/lumogon)
 * [puppetlabs-macdslocal_core](https://forge.puppet.com/puppetlabs/macdslocal_core)
-</details>
-
-## Forge: Module should be deprecated
-<details>
-<summary>
-The repositories for these modules have been archived, but not put into the Toy Chest.
-They may have already been adopted, or they may just be EOL. In either case, the
-the module should be marked as deprecated, with a replacement if there is one.
-</summary>
-
 * [puppetlabs-windows_puppet_certificates](https://forge.puppet.com/puppetlabs/windows_puppet_certificates)
 </details>
+
 
 ## Forge: Source field problem
 
@@ -278,6 +269,7 @@ we no longer own.
 * [puppetlabs-minimum_version](https://forge.puppet.com/puppetlabs/minimum_version)
 * [puppetlabs-sccm](https://forge.puppet.com/puppetlabs/sccm)
 * [puppetlabs-cd4peadm](https://forge.puppet.com/puppetlabs/cd4peadm)
+* [puppetlabs-node_manager](https://forge.puppet.com/puppetlabs/node_manager)
 </details>
 
 ## Forge: Out of date issues URL

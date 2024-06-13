@@ -268,8 +268,6 @@ our customers and community, and to reduce our legal risk, all publicly accessib
 repos should have a license.
 </summary>
 
-* [puppetlabs/baker-round](https://github.com/puppetlabs/baker-round)
-    * A temporary location for prototype Puppet Content Templates (PCTs)
 * [puppetlabs/bolt-project](https://github.com/puppetlabs/bolt-project)
     * Example Bolt project directory
 * [puppetlabs/build-data](https://github.com/puppetlabs/build-data)
@@ -296,8 +294,6 @@ repos should have a license.
     * These are custom shape libraries for diagrams.net (formally known as draw.io) for puppet logos and icons
 * [puppetlabs/encrypted_backup](https://github.com/puppetlabs/encrypted_backup)
     * A Puppet module for simple, secure Linux backups
-* [puppetlabs/forge-standards](https://github.com/puppetlabs/forge-standards)
-    * This repository consists of forge automations
 * [puppetlabs/foss-license-report](https://github.com/puppetlabs/foss-license-report)
     * 
 * [puppetlabs/gettingstartedwb](https://github.com/puppetlabs/gettingstartedwb)
@@ -310,8 +306,6 @@ repos should have a license.
     * 
 * [puppetlabs/kmo-cd4pe-scripts](https://github.com/puppetlabs/kmo-cd4pe-scripts)
     * Utility scripts for provisioning CD4PE in Instruqt
-* [puppetlabs/learndot_api](https://github.com/puppetlabs/learndot_api)
-    * 
 * [puppetlabs/nssm](https://github.com/puppetlabs/nssm)
     * Puppet fork of the NSSM source code from https://git.nssm.cc/nssm/nssm.git
 * [puppetlabs/openssl-fips](https://github.com/puppetlabs/openssl-fips)
@@ -386,8 +380,6 @@ repos should have a license.
     * Module to configure the Puppet Data Service (PDS)
 * [puppetlabs/puppetlabs-puppet_operations_appliance](https://github.com/puppetlabs/puppetlabs-puppet_operations_appliance)
     * Puppet Enterprise tool  to create a central place for logging, metrics and maintenance
-* [puppetlabs/puppetlabs-puppet_status_check](https://github.com/puppetlabs/puppetlabs-puppet_status_check)
-    * Self Service Module for Open Source Puppet
 * [puppetlabs/puppetlabs-release](https://github.com/puppetlabs/puppetlabs-release)
     * Repo that builds packages to add our apt and yum repositories and public signing key.
 * [puppetlabs/puppetlabs-sccm](https://github.com/puppetlabs/puppetlabs-sccm)
