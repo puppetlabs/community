@@ -44,8 +44,6 @@ on how to resolve problems.
     * No teams matched rule: `lambdas/*`
 * [puppetlabs/bolt-waypoint-plugin](https://github.com/puppetlabs/bolt-waypoint-plugin/blob/-/CODEOWNERS)
     * No teams matched rule: `*`
-* [puppetlabs/clamps](https://github.com/puppetlabs/clamps/blob/-/CODEOWNERS)
-    * The team(s) `@puppetlabs/slv` appear to be invalid for rule: `*`
 * [puppetlabs/cloud-chaos-webinar](https://github.com/puppetlabs/cloud-chaos-webinar/blob/-/CODEOWNERS)
     * The team(s) `@puppetlabs/marketing` appear to be invalid for rule: `*`
 * [puppetlabs/homebrew-puppet](https://github.com/puppetlabs/homebrew-puppet/blob/-/CODEOWNERS)
@@ -280,8 +278,6 @@ repos should have a license.
     * 
 * [puppetlabs/cisco_ios](https://github.com/puppetlabs/cisco_ios)
     * Cisco IOS Catalyst module
-* [puppetlabs/clamps](https://github.com/puppetlabs/clamps)
-    * 
 * [puppetlabs/clojars-puppetlabs-jenkins](https://github.com/puppetlabs/clojars-puppetlabs-jenkins)
     * 
 * [puppetlabs/cloud-chaos-webinar](https://github.com/puppetlabs/cloud-chaos-webinar)
@@ -370,10 +366,6 @@ repos should have a license.
     * A puppet module to manage Palo-Alto devices and VM images
 * [puppetlabs/puppetlabs-pe_quick_data](https://github.com/puppetlabs/puppetlabs-pe_quick_data)
     * Bolt Tasks and Plan to quickly pull Puppet Enterprise information for SE engagement
-* [puppetlabs/puppetlabs-pe_status_check](https://github.com/puppetlabs/puppetlabs-pe_status_check)
-    * Self Service Module for Puppet Enterprise
-* [puppetlabs/puppetlabs-puppet_authorization](https://github.com/puppetlabs/puppetlabs-puppet_authorization)
-    * 
 * [puppetlabs/puppetlabs-puppet_bolt_server](https://github.com/puppetlabs/puppetlabs-puppet_bolt_server)
     * This module installs and configures Bolt to use a local PuppetDB and PCP transport
 * [puppetlabs/puppetlabs-puppet_data_service](https://github.com/puppetlabs/puppetlabs-puppet_data_service)
